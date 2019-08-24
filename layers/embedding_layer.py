@@ -4,29 +4,26 @@ import math
 
 class EmbeddingLayer(tf.keras.layers.Layer):
 
-    def __init__(self, vocab_size, hidden_size, stddev=0.01, mean=0.0):
+    def __init__(self, vocab_size, embedding_size, initializer, stddev=0.01, mean=0.0):
         super(EmbeddingLayer, self).__init__()
         self.vocab_size = vocab_size
-        self.hidden_size = hidden_size
+        self.embedding_size = embedding_size
         self.stddev = stddev
         self.mean = mean
+        self.initializer = initializer
+        if self.initializer is None:
+            self.initializer = tf.random_normal_initializer(mean=self.mean,
+                                                            stddev=self.stddev)
 
     def build(self, input_shape):
-        with tf.name_scope("embedding_layer"):
-            self.shared_weights = self.add_weight(
+        with tf.name_scope("embedding_weights"):
+            self.embedding_weights = self.add_weight(
                 "weights",
-                shape=[self.vocab_size, self.hidden_size],
+                shape=[self.vocab_size, self.embedding_size],
                 dtype="float32",
-                initializer=tf.random_normal_initializer(mean=self.mean, stddev=self.stddev)
+                initializer=self.initializer
             )
-        # tf.summary.histogram("embedding_wights", self.shared_weights, step=tf.summary.experimental.get_step())
         super(EmbeddingLayer, self).build(input_shape)
-
-    def get_config(self):
-        return {
-            "vocab_size": self.vocab_size,
-            "hidden_size": self.hidden_size,
-        }
 
     def call(self, inputs, scale=False):
         with tf.name_scope("embedding"):
@@ -34,7 +31,7 @@ class EmbeddingLayer(tf.keras.layers.Layer):
             mask = tf.cast(tf.not_equal(inputs, 0), tf.float32)
             inputs = tf.cast(inputs, tf.int32)
             # embeddings = tf.gather(self.shared_weights, inputs)
-            embeddings = tf.nn.embedding_lookup(self.shared_weights, inputs)
+            embeddings = tf.nn.embedding_lookup(self.embedding_weights, inputs)
             embeddings *= tf.expand_dims(mask, -1)
             # Scale embedding by the sqrt of the hidden size
             if scale:
@@ -45,10 +42,10 @@ class EmbeddingLayer(tf.keras.layers.Layer):
 
 class PositionEmbeddingLayer(tf.keras.layers.Layer):
 
-    def __init__(self, max_seq_len, hidden_size, trainable=True, stddev=0.02, mean=0.0):
+    def __init__(self, position_seq, pos_embedding_size, trainable=True, stddev=0.02, mean=0.0):
         super(PositionEmbeddingLayer, self).__init__()
-        self.position_seq = max_seq_len
-        self.hidden_size = hidden_size
+        self.position_seq = position_seq
+        self.pos_embedding_size = pos_embedding_size
         self.trainable = trainable
         self.stddev = stddev
         self.mean = mean
@@ -57,21 +54,14 @@ class PositionEmbeddingLayer(tf.keras.layers.Layer):
             self.position_embedding = EmbeddingLayer(self.position_seq, self.hidden_size,
                                                      stddev=self.stddev, mean=self.mean)
 
-    def get_config(self):
-        return {
-            "seq_len": self.position_seq,
-            "hidden_size": self.hidden_size,
-            "trainable": self.trainable
-        }
-
     def call(self, inputs, start=1):
         with tf.name_scope("pos_embedding"):
             if self.trainable:
-                self.batch_size = tf.shape(inputs)[0]
-                self.batch_seq = tf.shape(inputs)[1]
+                batch_size = tf.shape(inputs)[0]
+                batch_seq = tf.shape(inputs)[1]
 
-                positions = tf.reshape(tf.tile(tf.range(start, self.batch_seq + start), [self.batch_size]),
-                                       [self.batch_size, self.batch_seq])
+                positions = tf.reshape(tf.tile(tf.range(start, batch_seq + start), [batch_size]),
+                                       [batch_size, batch_seq])
 
                 positions = tf.cast(positions, tf.int32)
                 position_mask = tf.cast(tf.not_equal(inputs, 0), tf.int32)
@@ -79,7 +69,7 @@ class PositionEmbeddingLayer(tf.keras.layers.Layer):
 
                 return self.position_embedding(positions)
             else:
-                return self.get_position_sinusoid(self.seq_len)
+                return self.get_position_sinusoid(self.position_seq)
 
     @staticmethod
     def get_position_sinusoid(seq_len, hidden_size, min_timescale=1.0, max_timescale=1.0e4):

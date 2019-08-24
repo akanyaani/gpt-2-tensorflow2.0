@@ -10,8 +10,6 @@ class MultiHeadAttention(tf.keras.layers.Layer):
         self.att_dropout = att_dropout
         self.scale = scale
 
-        self.n = int(self.d_model / 256)
-
         assert d_model % self.num_heads == 0
 
         self.depth = d_model // self.num_heads
@@ -67,4 +65,4 @@ class MultiHeadAttention(tf.keras.layers.Layer):
 
         output = self.c_proj(concat_attention)  # (batch_size, seq_len_q, d_model)
 
-        return output, present, attention_weights
+        return output, present

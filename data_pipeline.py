@@ -13,56 +13,10 @@ _MIN_BOUNDARY = 8
 _BOUNDARY_SCALE = 1.1
 
 
-def _create_min_max_boundaries(
-        max_length, min_boundary=_MIN_BOUNDARY, boundary_scale=_BOUNDARY_SCALE):
-    bucket_boundaries = []
-    x = min_boundary
-    while x < max_length:
-        bucket_boundaries.append(x)
-        x = max(x + 1, int(x * boundary_scale))
-
-    # Create min and max boundary lists from the initial list.
-    buckets_min = [0] + bucket_boundaries
-    buckets_max = bucket_boundaries + [max_length + 1]
-    return buckets_min, buckets_max
-
-
-def _get_example_length(example):
-    length = tf.shape(example)[0]
-    return length
-
-
-def dynamic_batching(dataset, batch_size, max_length):
-    buckets_min, buckets_max = _create_min_max_boundaries(max_length)
-    bucket_batch_sizes = [batch_size // x for x in buckets_max]
-    bucket_batch_sizes = tf.constant(bucket_batch_sizes, dtype=tf.int64)
-
-    def example_to_bucket_id(example_input):
-        seq_length = _get_example_length(example_input)
-        conditions_c = tf.logical_and(
-            tf.less_equal(buckets_min, seq_length),
-            tf.less(seq_length, buckets_max))
-        bucket_id = tf.reduce_min(tf.where(conditions_c))
-        return bucket_id
-
-    def window_size_fn(bucket_id):
-        return bucket_batch_sizes[bucket_id]
-
-    def batching_fn(bucket_id, grouped_dataset):
-        bucket_batch_size = window_size_fn(bucket_id)
-        return grouped_dataset.padded_batch(bucket_batch_size, ([None]))
-
-    return dataset.apply(tf.data.experimental.group_by_window(
-        key_func=example_to_bucket_id,
-        reduce_func=batching_fn,
-        window_size=None,
-        window_size_func=window_size_fn))
-
-
-def load_vocab(vocab_fpath):
+def load_vocab(vocab_path):
     vocab = collections.OrderedDict()
     index = 0
-    for line in open(vocab_fpath, 'r').read().splitlines():
+    for line in open(vocab_path, 'r').read().splitlines():
         vocab[line.split()[0]] = index
         index += 1
     inv_vocab = {v: k for k, v in vocab.items()}
@@ -112,18 +66,14 @@ def make_dataset(tf_files, no_threads=NO_THREADS):
 def tf_batch_iterator(tf_records,
                       batch_size=64,
                       num_epochs=10,
-                      static_batch=True,
                       max_length=512,
-                      padded_shapes=([515]),
+                      padded_shapes=([-1]),
                       shuffle=False):
     dataset = make_dataset(tf_records)
     if shuffle:
         dataset = dataset.shuffle(buffer_size=10000)
 
-    if static_batch:
-        dataset = dataset.padded_batch(batch_size, padded_shapes=padded_shapes)
-    else:
-        dataset = dynamic_batching(dataset, batch_size, max_length)
-    # dataset = dataset.repeat(num_epochs)
+    dataset = dataset.padded_batch(batch_size, padded_shapes=padded_shapes)
+    dataset = dataset.repeat(num_epochs)
     dataset = dataset.prefetch(buffer_size=tf.data.experimental.AUTOTUNE)
     return dataset

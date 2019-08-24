@@ -1,10 +1,8 @@
-import os
 import click
 import glob
 from model import *
 from data_pipeline import tf_batch_iterator
 import tensorflow as tf
-import numpy as np
 
 
 @click.command()

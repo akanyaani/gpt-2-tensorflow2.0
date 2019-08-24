@@ -1,4 +1,3 @@
-import tensorflow as tf
 from utils.tf_utils import *
 
 
@@ -30,18 +29,8 @@ class Conv1d(tf.keras.layers.Layer):
                                     initializer=tf.constant_initializer(self.bias_init))
         super(Conv1d, self).build(input_shape)
 
-    def get_config(self):
-        return {
-            "hidden_size": self.hidden_size,
-            "output_size": self.filter_size,
-        }
-
-    def call(self, inputs, *kwargs):
-        output_shape2 = inputs.shape.as_list()[:-1] + [self.filter_size]
+    def call(self, inputs):
         output_shape = [tf.shape(inputs)[0], tf.shape(inputs)[1]] + [self.filter_size]
-        #print("----------")
-        #print(output_shape)
-        #print(output_shape2)
         inputs = tf.reshape(inputs, [-1, self.hidden_size])  # shape [batch, seq , features] => [batch*seq, features]
         outputs = tf.matmul(inputs, self.weight) + self.bias
         outputs = tf.reshape(outputs, output_shape)  # Reshape => [batch, seq, filter_size]
@@ -59,13 +48,6 @@ class FeedForward(tf.keras.layers.Layer):
 
         self.dense_layer = Conv1d(self.hidden_size, self.filter_size)
         self.output_dense_layer = Conv1d(self.filter_size, self.hidden_size)
-
-    def get_config(self):
-        return {
-            "hidden_size": self.hidden_size,
-            "output_size": self.filter_size,
-            "dropout_rate": self.dropout_rate,
-        }
 
     def call(self, x, training=False):
         output = self.dense_layer(x)

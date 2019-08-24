@@ -2,11 +2,7 @@ from layers.feed_forward import *
 from layers.attention_layer import *
 from layers.embedding_layer import *
 from layers.layer_norm import LayerNormalization
-from tensorflow.python.framework import tensor_shape
 from utils.tf_utils import *
-import time
-import gc
-import numpy as np
 
 
 class Gpt(tf.keras.Model):

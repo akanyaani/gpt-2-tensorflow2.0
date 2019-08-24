@@ -6,12 +6,6 @@ def shape_as_list_2(x):
     return [int(i) for i in tf.shape(x)]
 
 
-def shape_as_list(x):
-    static = x.shape.as_list()
-    dynamic = tf.shape(x)
-    return [dynamic[i] if s is None else s for i, s in enumerate(static)]
-
-
 def gelu(x):
     with tf.name_scope("gelu"):
         cdf = 0.5 * (1.0 + tf.tanh(

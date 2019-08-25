@@ -86,3 +86,6 @@ For distributed training on multiple gpu.
 <img src="/images/GPT-2_Graph.jpg" alt="GPT-2_Graph" height="850" width="900"/>
 
 
+**License**
+
+* [MIT](https://github.com/akanyaani/gpt-2-tensorflow2.0/blob/master/LICENSE)

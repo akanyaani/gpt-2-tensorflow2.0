@@ -1,5 +1,6 @@
 # GPT-2 Pre-training and text generation, implemented in Tensorflow2.0
 
+Originally implemented in tensorflow 1.14 by OapenAi :- ["openai/gpt-2"](https://github.com/openai/gpt-2). OpenAi GPT-2 Paper:-["Language Models are Unsupervised Multitask Learners"](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)
 
 **This repository has OpenAi GPT-2 pre-training implementation in tensorflow2.0, I am also working on text -generation using this model, 
 I will push that code after couple of days.**
@@ -14,6 +15,14 @@ I will push that code after couple of days.**
 *  sentencepiece==0.1.83
 *  tensorflow==2.0.0rc0
 *  numpy==1.16.4
+
+**Setup**
+
+```
+$ git clone https://github.com/akanyaani/gpt-2-tensorflow2.0
+$ cd gpt-2-tensorflow2.0
+$ pip install -r requirements.txt
+```
 
 You can pre-train the model using sample data availbe in repository or you can download the data using this github repo https://github.com/eukaryote31/openwebtext
 

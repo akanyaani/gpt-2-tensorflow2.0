@@ -5,12 +5,15 @@
 I will push that code after couple of days.**
 
 **Requirements**
+
 *  python >= 3.6
-*  tensorflow==2.0
-*  sentencepiece
-*  ftfy
-*  click
-*  tqdm
+*  setuptools==41.0.1
+*  ftfy==5.6
+*  tqdm==4.32.1
+*  Click==7.0
+*  sentencepiece==0.1.83
+*  tensorflow==2.0.0rc0
+*  numpy==1.16.4
 
 You can pre-train the model using sample data availbe in repository or you can download the data using this github repo https://github.com/eukaryote31/openwebtext
 

@@ -16,7 +16,7 @@ MODEL_DIR = _ROOT + "/model"
 @click.option('--num-heads', type=int, default=8, show_default=True, help="Number of heads")
 @click.option('--dff', type=int, default=3072, show_default=True, help="Filter Size")
 @click.option('--max-seq-len', type=int, default=515, show_default=True, help="Seq length")
-@click.option('--vocab-size', type=int, default=50000, show_default=True, help="Vocab size")
+@click.option('--vocab-size', type=int, default=32000, show_default=True, help="Vocab size")
 @click.option('--optimizer', type=str, default="adam", show_default=True, help="optimizer type")
 @click.option('--batch-size', type=int, default=8, show_default=True, help="optimizer type")
 @click.option('--learning-rate', type=float, default=0.001, show_default=True, help="learning rate")

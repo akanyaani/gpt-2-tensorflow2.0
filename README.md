@@ -1,7 +1,7 @@
 # GPT-2 Pre-training and text generation, implemented in Tensorflow2.0
 
 
-**This repositry has Openai GPT-2 pre-training implementation in tensorflow2.0, I am also working on text -generation using this model, 
+**This repository has OpenAi GPT-2 pre-training implementation in tensorflow2.0, I am also working on text -generation using this model, 
 I will push that code after couple of days.**
 
 **Requirements**
@@ -14,7 +14,7 @@ I will push that code after couple of days.**
 
 You can pre-train the model using sample data availbe in repository or you can download the data using this github repo https://github.com/eukaryote31/openwebtext
 
-Pre-Training model on sample data avialable in repository
+Pre-Training model on sample data available in repository
 ```
 $ python pre_process.py --help
 
@@ -59,3 +59,5 @@ For distributed training on multiple gpu.
 ```
 >> python train_model.py --distributed Ture
 ```
+
+![Decoder_Graph](/images/GPT-2_Decoder.jpg)

@@ -9,9 +9,9 @@ _ROOT = os.path.abspath(os.path.dirname(__file__))
 LOG_DIR = _ROOT + "/log"
 
 train_step_signature = [
-    tf.TensorSpec(shape=(None, None), dtype=tf.int32),
-    tf.TensorSpec(shape=(None, None), dtype=tf.int32),
-    tf.TensorSpec(shape=(None,), dtype=tf.int32)
+    tf.TensorSpec(shape=(None, None), dtype=tf.int32, name="Inputs"),
+    tf.TensorSpec(shape=(None, None), dtype=tf.int32, name="Targets"),
+    tf.TensorSpec(shape=(None), dtype=tf.int32, name="Step")
 ]
 
 
@@ -149,7 +149,7 @@ class Gpt2(tf.keras.Model):
 
             return self.train_writer, self.test_writer
 
-    # @tf.function(input_signature=train_step_signature)
+    @tf.function(input_signature=train_step_signature)
     def train_step(self, inputs, targets, step, grad_clip=True, clip_value=1.0):
 
         with tf.GradientTape() as tape:
@@ -167,8 +167,8 @@ class Gpt2(tf.keras.Model):
 
         with tf.name_scope("summary_writer"):
             with self.train_writer.as_default():
-                tf.summary.scalar("loss", loss, step=step)
-                tf.summary.scalar("accuracy", accuracy, step=step)
+                tf.summary.scalar("loss", loss, step=tf.cast(step, tf.int64))
+                tf.summary.scalar("accuracy", accuracy, step=tf.cast(step, tf.int64))
 
         return loss, accuracy
 

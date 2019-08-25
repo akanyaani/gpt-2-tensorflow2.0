@@ -61,3 +61,5 @@ For distributed training on multiple gpu.
 ```
 
 ![Decoder_Graph](/images/GPT-2_Decoder.jpg)
+![GPT-2_Graph](/images/GPT-2_Graph.jpg)
+

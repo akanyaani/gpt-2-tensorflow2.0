@@ -11,7 +11,7 @@ MODEL_DIR = _ROOT + "/model"
 
 
 @click.command()
-@click.option('--num-layers', type=int, default=1, show_default=True, help="No. of decoder layers")
+@click.option('--num-layers', type=int, default=8, show_default=True, help="No. of decoder layers")
 @click.option('--embedding-size', type=int, default=768, show_default=True, help="Embedding size")
 @click.option('--num-heads', type=int, default=8, show_default=True, help="Number of heads")
 @click.option('--dff', type=int, default=3072, show_default=True, help="Filter Size")

@@ -45,7 +45,7 @@ class PositionEmbeddingLayer(tf.keras.layers.Layer):
     def __init__(self, position_seq, pos_embedding_size, trainable=True, stddev=0.02, mean=0.0):
         super(PositionEmbeddingLayer, self).__init__()
         self.position_seq = position_seq
-        self.pos_embedding_size = pos_embedding_size
+        self.hidden_size = pos_embedding_size
         self.trainable = trainable
         self.stddev = stddev
         self.mean = mean

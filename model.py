@@ -43,7 +43,7 @@ class Gpt2(tf.keras.Model):
         self.layer_norm = LayerNormalization(self.d_model)
 
         if self.rev_embedding_projection:
-            self.output_layer = OutputLayer(self.vocab_size, proj_weights=self.embedding.shared_weights)
+            self.output_layer = OutputLayer(self.d_model, self.vocab_size, proj_weights=self.embedding.shared_weights)
         else:
             self.output_layer = OutputLayer(self.d_model, self.vocab_size)
 
@@ -149,11 +149,11 @@ class Gpt2(tf.keras.Model):
 
             return self.train_writer, self.test_writer
 
-    @tf.function(input_signature=train_step_signature)
+    # @tf.function(input_signature=train_step_signature)
     def train_step(self, inputs, targets, step, grad_clip=True, clip_value=1.0):
 
         with tf.GradientTape() as tape:
-            predictions = self(inputs, training=True)
+            predictions, _ = self(inputs, training=True)
             loss = tf.reduce_mean(self.get_loss(targets, predictions))
 
         with tf.name_scope("gradients"):
@@ -202,8 +202,8 @@ class Gpt2(tf.keras.Model):
         if self.mirrored_strategy is None:
             tf.summary.trace_on(graph=True, profiler=True)
             for (step, (inputs, targets)) in enumerate(train_dataset):
-                train_loss, train_acc = self.train_step_p(inputs, targets, step)
-                if step % 100 == 0:
+                train_loss, train_acc = self.train_step(inputs, targets, step)
+                if step % 10 == 0:
                     print('Step {} Train_Loss {:.4f} Train_Accuracy {:.4f}'.format(
                         step, train_loss, train_acc))
 
@@ -239,7 +239,7 @@ class Gpt2(tf.keras.Model):
 
 
 class OutputLayer(tf.keras.layers.Layer):
-    def __init__(self,input_dim, output_dim, proj_weights=None, kernel_initializer=None):
+    def __init__(self, input_dim, output_dim, proj_weights=None, kernel_initializer=None):
         super(OutputLayer, self).__init__()
         self.proj_weights = proj_weights
         self.input_dim = input_dim
@@ -283,7 +283,7 @@ class DecoderLayer(tf.keras.layers.Layer):
         self.layer_norm2 = LayerNormalization(self.d_model)
 
     def call(self, x, training, mask, past=None):
-        out, present, _ = self.mha(self.layer_norm1(x), mask, past)  # (batch_size, input_seq_len, d_model)
+        out, present = self.mha(self.layer_norm1(x), mask, past)  # (batch_size, input_seq_len, d_model)
         with tf.name_scope("residual_conn"):
             x = x + out
         out = self.feed_forward(self.layer_norm2(x), training)  # (batch_size, input_seq_len, d_model)

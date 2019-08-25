@@ -16,6 +16,16 @@ You can pre-train the model using sample data availbe in repository or you can d
 
 Pre-Training model on sample data avialable in repository
 ```
+$ python pre_process.py --help
+
+Options:
+  --data-dir TEXT        training data path  [default: /data/scraped]
+  --vocab-size INTEGER   byte pair vocab size  [default: 32000]
+  --min-seq-len INTEGER  minimum sequence length  [default: 15]
+  --max-seq-len INTEGER  minimum sequence length  [default: 512]
+  --help                 Show this message and exit.
+  
+  
 >> python pre_process.py
 ```
 
@@ -40,6 +50,7 @@ Options:
   --learning-rate FLOAT     learning rate  [default: 0.001]
   --distributed BOOLEAN     distributed training  [default: False]
   --help                    Show this message and exit.
+  
   
 >> python train_model.py
 ```

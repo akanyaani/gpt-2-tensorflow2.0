@@ -22,9 +22,29 @@ Pre-Training model on sample data avialable in repository
 Pre-Training model on openwebtext or any other data
 
 ```
->> python pre_process.py --data-dir data_directory
+>> python pre_process.py --data-dir=data_directory
 ```
 
 ```
+$ python train_model.py --help
+
+Options:
+  --num-layers INTEGER      No. of decoder layers  [default: 8]
+  --embedding-size INTEGER  Embedding size  [default: 768]
+  --num-heads INTEGER       Number of heads  [default: 8]
+  --dff INTEGER             Filter Size  [default: 3072]
+  --max-seq-len INTEGER     Seq length  [default: 515]
+  --vocab-size INTEGER      Vocab size  [default: 50000]
+  --optimizer TEXT          optimizer type  [default: adam]
+  --batch-size INTEGER      optimizer type  [default: 8]
+  --learning-rate FLOAT     learning rate  [default: 0.001]
+  --distributed BOOLEAN     distributed training  [default: False]
+  --help                    Show this message and exit.
+  
 >> python train_model.py
+```
+
+For distributed training on multiple gpu.
+```
+>> python train_model.py --distributed Ture
 ```

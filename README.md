@@ -63,3 +63,6 @@ For distributed training on multiple gpu.
 ![Decoder_Graph](/images/GPT-2_Decoder.jpg){:height="500" width="250"}
 ![GPT-2_Graph](/images/GPT-2_Graph.jpg){:height="500" width="250"}
 
+<img src="/images/GPT-2_Decoder.jpg" alt="Decoder Graph" width="25"/>
+
+

@@ -62,7 +62,7 @@ For distributed training on multiple gpu.
 **Computation Graph of GPT-2 Model.**
 
                                               Decoder Graph
-<img src="/images/GPT-2_Decoder.jpg" alt="Decoder Graph" height="900" width="750"/>
+<img src="/images/GPT-2_Decoder.jpg" alt="Decoder Graph" height="100" width="750"/>
                          
                                               GPT-2 Graph
 <img src="/images/GPT-2_Graph.jpg" alt="GPT-2_Graph" height="850" width="900"/>

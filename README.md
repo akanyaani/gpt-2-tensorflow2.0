@@ -44,7 +44,7 @@ Options:
   --num-heads INTEGER       Number of heads  [default: 8]
   --dff INTEGER             Filter Size  [default: 3072]
   --max-seq-len INTEGER     Seq length  [default: 515]
-  --vocab-size INTEGER      Vocab size  [default: 50000]
+  --vocab-size INTEGER      Vocab size  [default: 32000]
   --optimizer TEXT          optimizer type  [default: adam]
   --batch-size INTEGER      optimizer type  [default: 8]
   --learning-rate FLOAT     learning rate  [default: 0.001]

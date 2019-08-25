@@ -1,6 +1,6 @@
 import click
 import glob
-from model import *
+from gpt2_model import *
 from data_pipeline import input_fn
 import tensorflow as tf
 import os

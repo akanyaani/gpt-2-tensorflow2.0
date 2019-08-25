@@ -29,7 +29,7 @@ def attention_mask(size):
         [0., 0., 1., 1.],
         [0., 0., 0., 1.],
         [0., 0., 0., 0.]]
-        
+
     """
     with tf.name_scope("attention_mask"):
         mask = 1 - tf.linalg.band_part(tf.ones((size, size)), -1, 0)

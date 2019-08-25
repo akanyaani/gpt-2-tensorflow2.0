@@ -14,7 +14,7 @@ I will push that code after couple of days.**
 
 You can pre-train the model using sample data availbe in repository or you can download the data using this github repo https://github.com/eukaryote31/openwebtext
 
-Pre-Training model on sample data avialable in repositry
+Pre-Training model on sample data avialable in repository
 ```
 >> python pre_process.py
 ```

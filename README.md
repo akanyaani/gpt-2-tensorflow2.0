@@ -60,7 +60,7 @@ For distributed training on multiple gpu.
 >> python train_model.py --distributed Ture
 ```
 **Computation Graph of GPT-2 Model.**
-<img src="/images/GPT-2_Decoder.jpg" alt="Decoder Graph" height="500" width="250"/>
-<img src="/images/GPT-2_Graph.jpg" alt="GPT-2_Graph" height="500" width="250"/>
+<img src="/images/GPT-2_Decoder.jpg" alt="Decoder Graph" height="500" width="500"/>
+<img src="/images/GPT-2_Graph.jpg" alt="GPT-2_Graph" height="500" width="500"/>
 
 

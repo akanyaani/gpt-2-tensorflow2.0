@@ -15,6 +15,14 @@ I will push that code after couple of days.**
 *  tensorflow==2.0.0rc0
 *  numpy==1.16.4
 
+**Setup**
+
+```
+$ git clone https://github.com/akanyaani/gpt-2-tensorflow2.0
+$ cd gpt-2-tensorflow2.0
+$ pip install -r requirements.txt
+```
+
 You can pre-train the model using sample data availbe in repository or you can download the data using this github repo https://github.com/eukaryote31/openwebtext
 
 Pre-Training model on sample data available in repository

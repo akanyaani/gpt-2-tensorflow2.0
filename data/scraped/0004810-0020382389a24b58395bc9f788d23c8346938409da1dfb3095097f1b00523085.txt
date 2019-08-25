@@ -1,0 +1,71 @@
+The blockchain space has been innovating at an incredible pace over the past year. The total number of initial coin offerings (ICOs) was probably less than 10. If someone had told you that insurance company AIG was conducting a multi-country smart contract test, you’d have thought they were crazy. Certainly, the idea of putting an Arkansas chicken farm on a blockchain would have seemed ludicrous. The question of when blockchains would hit the mainstream was a legitimate one.
+
+Ethereum was under $10 and Bitcoin was under $650 a year ago. You know what has happened since then. Bitcoin is above $4,500, Ethereum is above $300, and ICOs have surpassed early stage VC funding.
+
+So what accounts for the intensity? While there are elements of frenzy/bubble, I think the story is much bigger than that. Legendary venture capitalist Fred Wilson wrote of the emerging blockchain space last year:
+
+I believe that business model innovation is more disruptive that technological innovation. Incumbents can adapt to and adopt new technological changes (web to mobile) way easier than they can adapt to and adopt new business models (selling software to free ad-supported software). So this new protocol-based business model feels like one of these “changes of venue” as my partner Brad likes to call them. And that smells like a big investable macro trend to me.
+
+Over the past year, the earliest students and practitioners of blockchains and decentralized systems recognized the real innovation, the so-called “killer app” of the blockchain era: the ICO (or the more SEC-friendly version, known as a “Token Generation Event”), but not because it’s a way to raise money for an entity. This isn’t about creating a crypto-Kickstarter.
+
+Instead, the ICO (er, TGE) represents an entirely new paradigm for the funding and promotion of sustainable innovation with ever faster feedback loops, which leads to even more innovation that, in the long term, handsomely rewards the entrepreneur risk-takers as well as the earliest adopters who believe in the long-term potential of the idea.
+
+That’s a lot, so let’s think about it another way.
+
+Consider the evolutionary tree. In the beginning, there is one simple organism. Over time, as its external environment changes, it needs to adapt and mutate. Some mutations die. Some barely make it. Some thrive beyond imagination.
+
+What is true about every adaptation and mutation, however, is that the “source code” of each organism is not lost. It is leveraged by the next evolutionary step, not thrown away. Some parts may or may not be useful as the organism evolves, but it’s all still there.
+
+Each new organism has the built-in option to freely build upon everything that came before it without permission. In nature, a “fork” of the source code is a feature, not a bug.
+
+The evolution of innovation
+
+Getting back to tech: Until very recently, if you had a new business idea, you worked in a closed environment, protecting your ideas from the world and, if you needed external funding, there was a high friction (cost+time) process to go out and get it.
+
+Sharing your ideas meant putting your own survival in jeopardy. Patent offices became necessary because of the need to protect people’s innovations in this closed environment.
+
+While the pace of innovation is improved in a patent-centric system, it’s not as fast as it could be, for a few reasons.
+
+Consider what happens when a patented innovation fails in the marketplace. First, the human knowledge that was generated in the process of creating the innovation is often locked away in files (paper or digital), not readily accessible to others.
+
+Second, future innovation is thwarted by the very same patent that was intended to protect the original creator.
+
+The second-generation innovator who thinks she can do it better faces a number of barriers to innovation.
+
+What is so powerful about blockchain/decentralized/protocol-based business models with tokens is that they fix these problems.
+
+By issuing a cryptographically secure token for a given innovation, the entrepreneur simultaneously protects her own interest in the future evolution of the project and incentivizes the earliest users to go out and use or evangelize the innovation to others. As we learn in a study of protocol economics, token value appreciation is the key to driving long-term profitability. As long as people use or find value in the token, the entrepreneur is getting rewarded in a way that reflects overall market demand. This is already a big step forward since previous open source projects like Linux had to be funded via foundations and donations.
+
+Now compare the time and cost of setting up an ICO/TGE with the process of creating a patent. It is probably orders of magnitude more efficient and less expensive. (I’m going to leave aside the issue of regulation/scams, etc. although that is an important consideration as we head into this next era).
+
+Finally, blockchain-based tech enables that same kind of evolutionary forking we saw in our mutating organisms. Because the creator’s rights and value are protected cryptographically by the blockchain, she can now open source her IP on a repository like GitHub. Anyone can inspect it, use it, modify it, or clone it.
+
+You might ask, “If someone can clone it, won’t they just copy and steal it?”
+
+Yes, this is possible, but there’s actually a disincentive to do this because of network effects. If someone launches a protocol token you think has tremendous potential, you have two choices: You can buy in early and very cheap (just ask the people who obtained Bitcoin in 2009 or 2010 or those who bought Ethereum at the crowdsale.) Or you can copy it and launch your own competing network that does the exact same thing. In the second scenario, you have the burden of managing the code yourself and marketing the protocol — work that has already been done. You’re much better off just buying it and submitting pull requests to GitHub to improve the value of the protocol significantly for you, the entrepreneur, and the other early adopters.
+
+Of course, if the inital project fails and you want to start over completely, you have the option of cloning the original. This might be the case, for example, if the project has been abandoned by its creators, an internal community civil war has caused the value of the protocol token to plummet to basically zero, or the founders are total morons and are bungling the project. While the failed project may disappoint those who believed in it, at least society won’t lose the whatever good genetics it had to offer. The source code is not locked away or difficult to use. Anyone can go in and start again without permission (that’s why public blockchain people love to talk about “permissionless innovation.”)
+
+This is where we come back to the evolutionary process and how a “fork” is a feature, not bug.
+
+Imagine you are Ethereum co-creator Vitalik Buterin. You invent something really cool and everybody is excited about it. Then, in what is probably the first-ever global demonstration of how awesome your idea is, something goes horribly wrong and your protocol is shown to have a huge security flaw in that allows one person to steal a huge amount of money from everyone else.
+
+You say, “Well, we can’t just let that happen when the technology has so much potential, so I am going to rally the community to force the evolution of this protocol in a direction that punishes the guy who stole everyone’s money.” You do exactly this.
+
+However, there are a bunch of people who don’t agree with your decision. They believe that one of the core elements of your awesome protocol is that “you can never rewrite history.” So, they say, “Sorry, Vitalik, your idea for protocol evolution does not work for us. We are not willing to rewrite history, so we are going to keep chugging along the path as originally intended.”
+
+This is exactly what happened in July of last year when Ethereum did a hard fork that split it from the original chain, now known as Ethereum Classic.
+
+But here’s the magnificent part.
+
+Vitalik’s contribution is still recognized and rewarded, even by the very same people who disagree with him. Why? Because all of the tokens he had before the fork on Ethereum, he now has in the form of Ether AND Ether Classic. More recently, everyone who had Bitcoin prior to its August 1 fork now has the same amount of Bitcoin Cash (though there are plenty of people who either have not claimed it or have not been able to get it, but that’s another story.)
+
+We’re all better off with protocol-based token innovation
+
+The Ethereum Classic and Bitcoin Cash communities both believed that the future adaptation of the protocols required a different direction in order to thrive and survive. They may both be right. Like evolution, each stage is an experiment in survival and innovation.
+
+What’s exciting is that they could launch those experiments without asking anyone for permission, at relatively low cost in terms of money and time, and the original project’s innovators and early adopters automatically get a fair share of the value.
+
+This is a good thing for all of us.
+
+Jeremy Epstein is CEO of Never Stop Marketing and author of The CMO Primer for the Blockchain World. He currently works with startups in the blockchain and decentralization space, including OpenBazaar, IOTA, and Zcash.

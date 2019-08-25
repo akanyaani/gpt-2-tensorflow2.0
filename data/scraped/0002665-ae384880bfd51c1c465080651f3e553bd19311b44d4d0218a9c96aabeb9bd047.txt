@@ -1,0 +1,9 @@
+Pyrotechnic workers dangling from harnesses are busy scaling Seattle’s Space Needle this weekend to install thousands of fireworks that will launch from the 605 foot structure to ring in the New Year on Sunday night. An estimated 20,000 spectators will be at the Space Needle, with as many as 400,000 expected to watch the show from surrounding neighborhoods.
+
+GeekWire caught up with Ian Gilfillan, executive vice president of Pyro Spectaculars, Inc. to get a glimpse of the preparation and technology behind the show. “We have almost 2000 firing commands, and on each of those firing commands, is anywhere from one to as many as 100 items,” said Gilfillan.
+
+There are two computers that fire the show from locations on the Space Needle, both listening to a broadcast timecode to keep the fireworks in sync with the musical soundtrack. According to Gilfillan, this year’s music is being curated by KEXP with tributes to artists that have passed away this year.
+
+Although the Space Needle is undergoing a major renovation project, the New Year’s fireworks show will remain largely unchanged. “The show will look very much like it always has been. It’s the same size, same length, same number of shots, that sort of thing ” said Gilfillan. “One area, the halo, that we’ve been able to utilize in the past, we can’t utilize this year, simply because construction is going on and there is a tarp hung around the top of the Space Needle.”
+
+The forecast looks dry for the fireworks show on Sunday night, though a bit on the cold side, so bundle up. Based on our experience last year, New Year’s revelers should position themselves upwind to have a better view away from the fireworks smoke.

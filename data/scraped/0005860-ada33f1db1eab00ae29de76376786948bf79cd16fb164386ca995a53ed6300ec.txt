@@ -1,0 +1,3 @@
+Thanks, {{email}} has been added to our newsletter. If this is the first time you have subscribed to emails from JPIMedia Ltd, the publishers of Northumberland Gazette, please check your inbox to verify your email address.
+
+Sorry, there seem to be some issues. Please try again later.

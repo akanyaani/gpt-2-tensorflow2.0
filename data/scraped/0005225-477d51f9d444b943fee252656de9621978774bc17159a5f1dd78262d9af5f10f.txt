@@ -1,0 +1,105 @@
+If we learned anything in 2017, it’s this: Don’t believe everything you read on the internet.
+
+You may have heard, for example, that Google is preparing a new unified operating system to replace Chrome OS (the operating system that powers Chromebooks) and Android (the operating system that powers most smartphones).
+
+Facts and forecasts are often packed together to persuade you of the premise that Google intends to replace Chrome OS and Android, and soon.
+
+Let’s unpack all this, and start by separating facts from forecasts.
+
+Just the facts
+
+Google is in fact working on an open-source operating system called Fuchsia.
+
+The company first posted Fuchsia code on GitHub in August 2016.
+
+Unlike Google’s other operating systems (Chrome OS and Android), Fuchsia isn’t based on Linux, but on a kernel called Zircon. (Zircon used to be called “Magenta.”)
+
+Zircon was originally intended to serve as a “real-time OS,” meaning an embedded systems OS. However, the code also shows that Fuchsia could theoretically run on any kind of device, including internet of things appliances, traffic lights, ATMs, smartwatches, smartphones, tablets and desktops — devices powered by ARM, MIPS and Intel x86 processors.
+
+Fuchsia acquired a user interface in May. The initial screens look like a smartphone UI.
+
+Fuchsia also gained support for Apple’s Swift programming language in November, adding to the several languages already supported.
+
+The SDK used for building apps and UI on Fuchsia is Flutter, which is Google’s SDK for building Chrome OS and Android apps. The graphics engine in Flutter also appears optimized for Google’s Material Design. The early UI videos reveal a user interface obsessed with transition-heavy expansion and contraction of roundish rectangles, and a search-centric navigation.
+
+A developer wrote on GitHub that Fuchsia “isn’t a toy thing, it’s not a 20% project, it’s not a dumping ground of a dead thing we don’t care about anymore.” (“A 20% project” refers to an old Google policy of encouraging developers to spend 20% of their time exploring new innovations or possible products.)
+
+[ To comment on this story, visit Computerworld's Facebook page. ]
+
+That’s what we know about Fuchsia.
+
+We also know a thing or two about Google. We know, for example, that Google would like Chrome OS and Android to work better together.
+
+Three and a half years ago, Google announced support for Android apps running on Chrome OS devices. The capability, called App Runtime for Chrome, has been in a kind of beta limbo ever since. In practical terms, some unknown number of people are running an unknown number of Android apps on Chrome every day.
+
+At some point, Google launched a separate, unannounced initiative called Andromeda, apparently intended to get Chrome OS apps running on Android, and also get Android running on Chromebook-like devices.
+
+Reports suggest that the Andromeda project was canceled last summer.
+
+Some sharp-eyed observers have also pointed out that Google’s Pixel Launcher, the new UI for Google phones and the now-discontinued Pixel C tablet, sports UI elements similar to the nascent UI of Fuchsia.
+
+Those are the facts. Let’s take a look at the fictions.
+
+Just the forecasts
+
+From this shallow pool of facts, hopeful commentators have invented several predictions.
+
+The most widespread is that Fuchsia is the do-everything, run-everywhere, support-everything OS of everyone’s dreams.
+
+According to this set of predictions, Fuchsia will replace Android Wear, Android and Chrome OS, but run existing apps designed for those platforms. In other words, future Android phones would ship with Fuchsia instead of Android, and Chromebooks would ship with Fuchsia instead of Chrome OS.
+
+That would spell the end of Chrome OS and Android as we know them and usher in a single-platform utopia for apps that run across all devices.
+
+(Another set of predictions sees Fuchsia as a replacement for Android only. And yet another line of thinking says Fuchsia will power IoT gadgets and wearables — car dashboards and smartwatches, for example.)
+
+The fabulous-Fuchsia faction assumes the new OS will solve whatever problems they’re currently having with either Chrome OS or Android. Fuchsia is expected to end Android fragmentation, solve the problem of slow and uneven Android updates, enable developers to build single apps that run natively on both iOS and Android and boost the performance of Chromebooks.
+
+Beyond these benefits, Google is expected to move fast without breaking things.
+
+In other words, the timeline for the implementation of this Fuchsia future is assumed to be short, with Fuchsia replacing Chrome OS and Android in 2018 or soon thereafter.
+
+To be clear: The predictions around Google’s operating systems are based on wishful thinking and little more. Fuchsia is a kind of Rorschach test — people see in it whatever they want to see.
+
+Color me incredulous
+
+The replacement of Chrome OS and Android with Fuchsia implies the termination of Chrome OS and Android.
+
+This is simultaneously the most common and also the least likely prediction.
+
+Chrome OS devices are on the rise in enterprises and increasingly dominant in the education market. Chrome OS is the most Google-y of operating systems because it’s based on a cloud-first model. It’s arguably the most secure business-friendly client platform on the market, and for the same reason. A great many OEMs are happily building Chrome OS devices. Google has no incentive to take risks with Chrome OS.
+
+Android is now the world’s biggest operating system. Close to 2 billion people use Android, and the Play Store is approaching 3 million Android apps, far more than Apple’s App Store. The OS is made available to the Android Open Source Project (AOSP), from which OEMs can freely download and modify the software. Google has no incentive to take risks with Android.
+
+But wait, you might say. If Fuchsia runs either Chrome OS or Android apps flawlessly out of the box (or both), then killing off these operating systems would be fine, right?
+
+The answer is yes.
+
+But launching a new operating system of any kind that runs millions of apps written for a different operating system (based on an entirely different kernel) is a difficult feat. Creating a new operating system that’s ready for public use takes many years. And making one that runs apps from two distinct operating systems takes longer still.
+
+So even if Fuchsia is released as a general-purpose or mobile operating system, it wouldn’t replace Chrome OS or Android for many years. They would co-exist.
+
+The likelihood of Google terminating, ending support for or replacing Android in the next five years is essentially zero. The replacement of Chrome OS in that time frame is also pretty unlikely.
+
+Here’s what’s probable.
+
+Google is thinking about the future. Fuchsia is probably intended to be OS future-proofing, a platform that above all offers two features that current OSs do not:
+
+Speed. Augmented reality and virtual reality will require instant processing of incoming data, and also instant rendering of video without lag. As a real-time OS, Fuchsia could theoretically handle AR and VR better than Android. Other future applications, such as self-driving cars, will also need this attribute.
+
+Augmented reality and virtual reality will require instant processing of incoming data, and also instant rendering of video without lag. As a real-time OS, Fuchsia could theoretically handle AR and VR better than Android. Other future applications, such as self-driving cars, will also need this attribute. Modularity. Fuchsia implies a post-Linux future where specific OSs could all be built on a common codebase, which would speed up processor manufacturing and software development and provide Google with much greater flexibility to support arbitrary hardware platforms. In the past, when Google wanted to experiment with Google Glass, self-driving cars and VR camera platforms, it had to work extremely hard to build custom software. Fuchsia could make such projects faster, easier and better.
+
+Today, there are things Google operating systems do very well — namely, laptops and smartphones — and things Google operating systems don’t do very well.
+
+The most urgent are AR and VR headsets, goggles and glasses. It’s reasonable to predict that Fuchsia will appear first in such devices.
+
+You could also imagine seeing Fuchsia powering IoT and home automation devices, dashboard systems, wearables and other random smart objects.
+
+Meanwhile, Chrome OS and Android will continue to exist and evolve.
+
+If we know anything about Google, it’s that the company is comfortable maintaining multiple competing platforms.
+
+Google is also a great thrower of spaghetti against the wall (to see what sticks). We might see experimental dual-screen devices out of Google in the next few years running Fuchsia, or even budget smartphones for emerging markets.
+
+Back to the question we started with: Will Google kill Chrome OS and Android in 2018? Or in the next few years?
+
+The answer is no.

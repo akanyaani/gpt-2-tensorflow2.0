@@ -1,0 +1,9 @@
+Certificate Chain
+
+An SSL connection succeeds only if the client can trust the server. Let's take a look at how this trust model works.
+
+In Chrome, go to google.com and bring up the Developer Tools (F12 on Windows, Cmd+Option+i on Mac).
+
+Under the Security tab, click the View Certificate button to show details about the certificate.
+
+We can see that the site certificate is part of a chain. This particular chain consists of 3 certificates.

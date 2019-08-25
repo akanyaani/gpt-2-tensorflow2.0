@@ -1,0 +1,17 @@
+The Rise of the “Good Enough” Cryptocurrency
+
+Anecdotal Observations on New Money in Crypto
+
+It seems that new entrants to the cryptocurrency space are buying cryptos for the lotto ticket (yes, some people straight up called them lotto tickets buys) without regard to technical merit or decentralization.
+
+For example, ripple has experienced a tremendous short term gain.
+
+The entrants that I’ve spoke with prefer cryptocurrencies with the lowest fees and fastest transactions(read: UX), with decentralization, security, and technical merit taking a back seat. This gives rise to an interesting trend: the rise of the “good enough” cryptocurrency.
+
+From my conversations with over 100+ new entrants, it seems that the primary “good enough “ cryptocurrency features are low tx fees and low entrance price (market cap is disregarded). The low entrance price factor is likely due to the human preference for whole numbers. When using currency, the new entrants find it befuddling to use .002 BTC or .01 ETH, preferring to use 100 XRP or 20000 XRB instead. While some entrants understand that this is a cosmetic difference as BTC and ETH can be transacted in satoshi or wei instead, the vast majority of the ecosystem still uses full BTC or ETH units. To new entrants, this is confusing and unnatural, as converting fiat to crypto is hard enough, now the entrants have to convert using decimals. This cuts against adoption, as the UX is not new-entrant friendly.
+
+Same with the tx fees. Many new entrants want to move their crypto to their own addresses, either through mobile, desktop, or hardware wallets. But none of them want to pay the $25 BTC fee. Some of the new entrants even balk at the $.04 ETH fee, instead opting for fee-less cryptocurrencies such as XRP, XRB, and IOTA. These entrants buy these cryptocurrencies and get their coins stuck in the backlogs, with many opting to leave the cryptocurrencies on exchange. Still, they purchased the coins and contribute to the demand and price appreciation.
+
+I still believe that the root cause of this effect is misinformation and a steep learning curve of what makes a cryptocurrency useful (not a censor-able centralized crypto like XRP, which is like buying paypal tokens when businesses just use the paypal platform without paypal tokens). However, there will be a rise in the good enough cryptocurrencies, at least in the short term, where new entrants want the cheapest fees, lowest entrance cost, and best UX. It seems the other factors that comprise technical merit for a given cryptocurrency is given low priority.
+
+Censorship, decentralization, security? Who cares, this is good enough.

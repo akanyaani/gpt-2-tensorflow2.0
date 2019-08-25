@@ -1,0 +1,9 @@
+Submit an APK
+
+Have the APK file for an alpha, beta, or staged rollout update? Just drop it below, fill in any details you know, and we'll do the rest!
+
+NOTE: Every APK file is manually reviewed by the AndroidPolice team before being posted to the site.
+
+ERROR:
+
+SUCCESS: Your files have been uploaded, please check if there were any errors.

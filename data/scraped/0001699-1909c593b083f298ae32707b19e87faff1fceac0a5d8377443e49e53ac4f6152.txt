@@ -1,0 +1,35 @@
+Cacao plants are slated to disappear by as early as 2050 thanks to warmer temperatures and dryer weather conditions.
+
+Scientists at the University of California are teaming up with Mars company to try to save the crop before it's too late.
+
+They're exploring the possibility of using the gene-editing technology CRISPR to make crops that can survive the new challenges.
+
+Beyond the glittery glass-and-sandstone walls of the University of California's new biosciences building, rows of tiny green cacao seedlings in refrigerated greenhouses await judgment day.
+
+Under the watchful eye of Myeong-Je Cho, the director of plant genomics at an institute that's working with food and candy company Mars, the plants will be transformed. If all goes well, these tiny seedlings will soon be capable of surviving - and thriving - in the dryer, warmer climate that is sending chills through the spines of farmers across the globe.
+
+It's all thanks to a new technology called CRISPR, which allows for tiny, precise tweaks to DNA that were never possible before. These tweaks are already being used to make crops cheaper and more reliable. But their most important use may be in the developing world, where many of the plants that people rely on to avoid starvation are threatened by the impacts of climate change, including more pests and a lack of water.
+
+Cacao plants occupy a precarious position on the globe. They can only grow within a narrow strip of rainforested land roughly 20 degrees north and south of the equator, where temperature, rain, and humidity all stay relatively constant throughout the year. Over half of the world's chocolate now comes from just two countries in West Africa - Côte d'Ivoire and Ghana.
+
+But those areas won't be suitable for chocolate in the next few decades. By 2050, rising temperatures will push today's chocolate-growing regions more than 1,000 feet uphill into mountainous terrain - much of which is currently preserved for wildlife, according to the National Oceanic and Atmospheric Administration.
+
+Mars, the $35 billion corporation best known for Snickers, is aware of these problems and others presented by climate change.
+
+In September, the company pledged $1 billion as part of an effort called "Sustainability in a Generation," which aims to reduce the carbon footprint of its business and supply chain by more than 60% by 2050.
+
+"We're trying to go all in here," Barry Parkin, Mars' chief sustainability officer, told Business Insider. "There are obviously commitments the world is leaning into but, frankly, we don't think we're getting there fast enough collectively."
+
+Its initiative with Cho at UC Berkeley is another arm of that efforts. If all goes as planned, they could develop cacao plants that don't wilt or rot at their current elevations, doing away with the need to relocate farms or find another approach.
+
+Jennifer Doudna, the UC Berkeley geneticist who invented CRISPR, is overseeing the collaboration with Mars. Although her tool has received more attention for its potential to eradicate human diseases and make so-called "designer babies," Doudna thinks its most profound applications won't be on humans but rather on the food they eat.
+
+An avid tomato gardener, Doudna thinks her tool can benefit everyone from large food companies like Mars to individual hobbyists like herself.
+
+"Personally, I'd love a tomato plant with fruit that stayed on the vine longer," Doudna told Business Insider.
+
+The research lab she oversees at UC Berkeley is called the Innovative Genomics Institute. Many of the efforts by graduate students there focus on using CRISPR to benefit small-holder farmers in the developing world. One such project aims to protect cassava - a key crop that prevents millions of people from starving each year - from climate change by tweaking its DNA to produce less of a dangerous toxin that it makes in hotter temperatures.
+
+Doudna founded a company called Caribou Biosciences to put CRISPR into practice, and has also licensed the technology to agricultural company DuPont Pioneer for use in crops like corn and mushrooms.
+
+Regardless of which crop the public sees CRISPR successfully used in first, the technology will be a key tool in a growing arsenal of techniques we'll need if we plan to continue eating things like chocolate as the planet warms.

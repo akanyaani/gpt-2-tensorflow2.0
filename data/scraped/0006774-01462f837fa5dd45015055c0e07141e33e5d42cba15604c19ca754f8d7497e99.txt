@@ -1,0 +1,51 @@
+VeChain is a Singapore based company, who is trying to solve many real-world problems with IOT devices such as RFID Chips, NFC, Sensors and ID tags by leveraging Blockchain to solve the problem of counterfeits and product traceability across supply chains and logistics namely in: Luxury Goods, Wines, Agriculture, Automobile, Transportation, Pharmaceuticals, Logistics and Audit Services. They have working products on most of these categories.
+
+If we take one example, counterfeit products on luxury brands is a huge problem and hurting brand reputation. Currently it is estimated to be $461 billion worth, according to Organisation for Economic Co-operation and Development. VeChain is making it easy to identify counterfeit products by using RFID’s with Blockchain.
+
+If you are not familiar with RFID technology or if you want to know about why this could be a game changer, this Forbes article is a must read. With current advances in chip technology, RFID’s cost just a few cents. And storing relevant information from these RFID’s on the blockchain makes it immutable. With this perfect combination, VeChain is poised to explode.
+
+1. Working product which solves a real-world problems.
+
+Unlike many ICO’s who has nothing more than a white paper, roadmap and ideas to solve a problem which doesn’t exist, VeChain has a working product. The VeChain team and the VeChain blockchain platform has been running for more than two years. Currently they are working on 3rd generation sensor. They also have IP on this.
+
+2. Partnerships
+
+VeChain has some great genuine partnerships with reputable companies.
+
+VeChain has been chosen for their incubator program by Price Water Cooper and working closely with them.
+
+VeChain is mandated to be the blockchain technology partner of the government of Gui’an to plan, design and implement. The head of Chinese Central Government, Premier Li Keqiang after inspection of the new plans of Guian, said “In Gui’an, I have seen the hope of Guizhou, the hope of West China.”
+
+https://cdn.vechain.com/vechain_national_government_partnership_guian_release.pdf
+
+https://cdn.vechain.com/vechain_national_government_partnership_guian_release.pdf VeChain has partnership with Liaoning Academy of Agricultural to develop a proprietary blockchain agricultural cloud platform. The development of such system not only means increase VEN use within the academies locations themselves, but provide an ample amount of data, connections, and credibility to push into Liaoning or any geographical region looking to enable smart agriculture.
+
+30% of all wine imported into china goes through Shanghai Waigaoqiao Direct Imported Goods sales center Ltd. (DIG). VeChain has built liquor tracing platform for DIG. Each bottle contains a smart chip, which contains data such as logistics, sales, winery etc. This information will be stored on the blockchain so the customers can simply scan the NFC smart chip to view the whole lifecycle of the product to verify the authenticity. According to Mordor Intelligence, the global Wine market is valued at $304bn and is expected to reach $380bn by 2022. China is expected to overtake the UK as the second most valuable wine market by 2020.
+
+VeChain officially established a cooperative relationship with Jiangsu Printed Electronics which is funded by the “Father of Global Flexible Electronics”, Professor Zhang Xiachang.
+
+Partnership with Renault
+
+Partnership with Kuehne & Nagel (since 2016) – A German logistics corporation based in Switzerland, one of the leading global freight forwarders with more than 1,300 offices in 108 countries and over 70,000 employees.
+
+3. Team
+
+VeChain has extremely strong team. They have about 150 employees. Their CEO Sunny Lu is a fluent English speaker, who has a wealth of experience in IT and Information Security across luxury retails brands. His most recent role was at Louis Vuitton China as CIO and IS&T Director.
+
+4. Rebrand, Marketing and Master Nodes
+
+Similar to NEO they are also doing a rebranding from VEN to VET and doing lot of PR and major announcements are scheduled for Jan 2018. They are also moving to master nodes.
+
+5. Utility token
+
+Businesses has to buy these utility tokens from the market and won't be supplied from reserved pools. This will create serious demand for the tokens. Also it has a max supply.
+
+6. Thumbs up from Roger Ver
+
+7. Mobile Apps
+
+Has both IOS and Android app in the market place.
+
+8. Last but not the least “Transparency”.
+
+Very few ICO’s publish their financials and VeChain is one of them. Here is their financial report.

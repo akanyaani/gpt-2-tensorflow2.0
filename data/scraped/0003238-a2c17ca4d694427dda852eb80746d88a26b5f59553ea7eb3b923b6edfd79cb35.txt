@@ -1,0 +1,101 @@
+This is chapter 5 in The Blockchain Economy serialised book. For the index please go here.
+
+A book titled The Blockchain Economy should not really have a chapter devoted to Blockchain killers. If they succeed, I will need a new title – maybe something like The Decentralization Economy or The Value Exchange Economy or maybe even The Directed Acyclic Graph Economy (ok the last one is certainly too nerdy).
+
+Bitcoin is the first use case for Blockchain technology. The serious doubts about Bitcoin as a currency and payment rail (while everybody celebrates Bitcoin as a store of value alternative to gold) have led to three types of alternative being proposed:
+
+Alt 1. A new currency, also based on Blockchain, but faster & cheaper. These include Bitcoin Cash (BCH) and Litecoin (LTC). The problem with all these alternatives is that they have not yet been tested at scale. If Blockchain is the fundamental problem, any Blockchain based coin will eventually hit the same problems. However if Bitcoin does not get its scaling act together soon, one of these alternatives might replace Bitcoin.
+
+Alt 2. Multi Layer solutions for Bitcoin. These include technologies such as Segwit, Lightning Network, Sidechains, MimbleWimble and Schnorr Signatures, many of which are still under development/in testing. We will cover these in the next chapter.
+
+Alt 3. An alternative to Blockchain. The basic idea is that Blockchain based verification is too expensive and slow so we need a fundamentally different technology. This chapter looks at two non-Blockchain based approaches – Tangle from IOTA and Hashgraph – that both share a technical approach known as Directed Acyclic Graph (DAG).
+
+Alt 2 and Alt 3 are both at the “bleeding edge” of technology (where there is still technology risk). Money is made at the intersection between bleeding edge and “leading edge” (where it is accepted wisdom that the technology will change the world). If you wait until leading edge you may be too late. If you invest at the bleeding edge stage you face risk that it simply won’t work at scale. Classic advice to investors is to be both contrarian and right (a lot harder to do than to say). Another way to say this is that investors need to be both early and right. You need to assess which wave to ride. This chapter is designed to help you figure out if the DAG wave is worth riding.
+
+Directed Acyclic Graph (DAG) for Tamper Proof Distributed Ledger.
+
+Technically, both IOTA/Tangle and Hashgraph are a form of Directed Acyclic Graph (DAG). The objective of both DAG and Blockchain technology is the same – to create a Tamper Proof Distributed Ledger.
+
+We will look at the commercial aspects later, but it is important to demystify the technology which all too often gets pitched along these lines:
+
+Blockchain verification is too slow/expensive to compete with credit card rails or handle micropayments. True.
+
+Our technology was built by geniuses and don’t try understanding it unless you have a PHD in Computer Science. This encourages naive investors and is mostly hype.
+
+The most basic thing for a non-technical person to to understand is that Graph does not mean charts or other visuals. Graph is just a way of describing a network with many nodes (aka edges) and links between those nodes (aka vertices). Techies talk about edges and vertices but nodes and links are more understandable for non-technical folk. You can visualise the nodes as balls and links as lines between those nodes. Almost everything can be modelled as a network (aka graph) with nodes and links between nodes. That includes a payment network. In that sense the Bitcoin Blockchain and Visa are both graphs/networks.
+
+A DAG – Directed Acyclic Graph – has similar properties to a Blockchain in that in both cases the nodes are directed from earlier to later in a sequence.
+
+IOTA Tangle – the case for and against
+
+IOTA is currently No 6 on CoinMarketCap with a valuation of over $12 billion. The elevator pitch is Crypto + Internet Of Things (IOT). They aim to be the data marketplace for data streaming from IOT devices. The basic idea is that the data from those devices should be liberated from siloed systems so that device owners can profit from “their data”. The elevator pitch is clearly resonating.
+
+The basic facts are:
+
+IOTA calls it a Tangle, but it is basically a DAG.
+
+IOTA does not have miners. The transaction is verified at the edge/node. Like Blockchain, the verification users a cryptographic puzzle that needs to solved. The difference is that the verification/puzzle solving is done at the edge/node. That sounds good because decentralization is good.
+
+Enterprise validation comes from these companies in the IOTA pilot – Microsoft, Deutsche Telekom, and Fujitsu. Anybody who knows the enterprise space does not place much weight on big name validation because enterprises hedge their bets with lots of small pilot investments. For example, look at all the members of Enterprise Ethereum Alliance.
+
+The case against IOTA is simple – maybe it is fast and cheap, but maybe it is not secure. In the social media age, fast and cheap ruled. The Facebook mantra – move fast and break things – guided thousands of startups. In the value exchange era, when real hard-earned assets change hands, the old enterprise mantra is “test, test and test again” and “it will be ready when it is ready”. Get it wrong in the social media age and a photo lands in the wrong place. Get it wrong in the value exchange era and criminal gangs will find ways to steal millions.
+
+In August, researchers from MIT and Boston University reported a “serious vulnerability”.
+
+That was not the end of the matter. Doubts continue to circulate for example in this post on HackerNoon. Read it if you want to understand the technical issues. For a non-technical person, the IOTA reaction to this security flaw being exposed was damming. Sergey Ivancheglo, Iota’s cofounder, said that the flaws were in fact deliberate; that they were inserted as ‘copy protection’, to prevent copycat projects, and to allow the Iota team to compromise those projects if they sprang up. That was a standing joke in the enterprise software world when a bug was discovered, but nobody would have issued that as a press release! This shows a disturbing lack of judgement and is the kind of reputational issue that can kill a project.
+
+Getting developer adoption in the open source community is critical. That is how Bitcoin and Ethereum grew. This reaction on HackerNoon is a problem for IOTA:
+
+“It’s an admission of hostile intent towards the open-source community, akin to publishing a recipe but leaving out a critical step, rendering the resulting dish poisonous to anyone who eats it. It’s also very revealing of Iota’s attitude towards open source; they do not release code open source because they want to make it freely available to all and advance the state of the art, but rather because it serves their purposes in gaining adoption for their own deployment of that code.”
+
+Hashgraph for Enterprise Permissioned Distributed Ledgers
+
+The technology used by IOTA and Hashgraph is fundamentally the same. There are nuances of course, but that is like describing the difference between two different RDBMSs.
+
+The deciding factor maybe commercial, where Hashgraph and IOTA have taken fundamentally different approaches
+
+Hashgraph looks like an enterprise technology solution. They have proprietary, patented technology. This is the opposite of the open source + speculative coin ICO method of financing (which is what IOTA uses). The proprietary, patented technology approach is perfectly suited to enterprise permissioned networks. That is a big market and Hashgraph is really an alternative to solutions such as Ripple or R3 or Hyperledger. One can imagine a big inter-enterprise network such as SWIFT looking at Hashgraph DAG as an alternative to enterprise Blockchain solutions.
+
+What really differentiates a private permissioned system from a public permissionless is the incentives built into the network. A private permissioned system does not need an external incentive system. The node is owned by a corporation that has a business model
+
+There are many other DAG contenders to replace Blockchain.
+
+These include Byteball and DAGCoin. Hashgraph and IOTA are simply better known. Both reference DAG in their pitch. If DAG replaces Blockchain this is a race to claim the DAG platform winner’s slot. Or DAG may become another footnote in tech history.
+
+Blockchain based Proof Of Work proponents use a typical incumbent defence:
+
+“it may be expensive & slow, but it works and we are working on the scaling”.
+
+That would be a totally inadequate response if the DAG alternative to Blockchain was proven at scale (which it is not). In next week’s chapter we will look at the Bitcoin Blockchain scaling technology in the pipeline.
+
+Image Source.
+
+Bernard Lunn is a Fintech deal-maker, author, adviser and thought-leader.
+
+You can reach out directly to discuss our advisory services by sending an email to julia at dailyfintech dot com
+
+Get fresh daily insights from an amazing team of Fintech thought leaders around the world. Ride the Fintech wave by reading us daily in your email.
+
+Share this: Facebook
+
+Reddit
+
+LinkedIn
+
+Twitter
+
+Email
+
+More
+
+Print
+
+Tumblr
+
+
+
+Pinterest
+
+
+
+Like this: Like Loading...

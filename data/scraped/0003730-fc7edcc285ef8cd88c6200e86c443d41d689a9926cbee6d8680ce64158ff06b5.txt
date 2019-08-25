@@ -1,0 +1,63 @@
+Tinder Experiments II: Guys, unless you are really hot you are probably better off not wasting your time on Tinder — a quantitative socio-economic study worst-online-dater Follow Mar 25, 2015 · 8 min read
+
+by Worst-Online-Dater
+
+Abstract (TL;DR)
+
+This study was conducted to quantify the Tinder socio-economic prospects for males based on the percentage of females that will “like” them. Female Tinder usage data was collected and statistically analyzed to determine the inequality in the Tinder economy. It was determined that the bottom 80% of men (in terms of attractiveness) are competing for the bottom 22% of women and the top 78% of women are competing for the top 20% of men. The Gini coefficient for the Tinder economy based on “like” percentages was calculated to be 0.58. This means that the Tinder economy has more inequality than 95.1% of all the world’s national economies. In addition, it was determined that a man of average attractiveness would be “liked” by approximately 0.87% (1 in 115) of women on Tinder. Also, a formula was derived to estimate a man’s attractiveness level based on the percentage of “likes” he receives on Tinder:
+
+attractiveness%=16.8*ln(like%)+52.3
+
+To calculate your attractiveness% click here.
+
+Introduction
+
+In my previous post we learned that in Tinder there is a big difference in the number of “likes” an attractive guy receives versus an unattractive guy (duh). I wanted to understand this trend in more quantitative terms (also, I like pretty graphs). To do this, I decided to treat Tinder as an economy and study it as an economist (socio-economist) would. Since I wasn’t getting any hot Tinder dates I had plenty of time to do the math (so you don’t have to).
+
+The Tinder Economy
+
+First, let’s define the Tinder economy. The wealth of an economy is quantified in terms its currency. In most of the world the currency is money (or goats). In Tinder the currency is “likes”. The more “likes” you get the more wealth you have in the Tinder ecosystem.
+
+Wealth in Tinder is not distributed equally. Attractive guys have more wealth in the Tinder economy (get more “likes”) than unattractive guys do. This isn’t surprising since a large portion of the ecosystem is based on physical appearance. An unequal wealth distribution is to be expected, but there is a more interesting question: What is the degree of this unequal wealth distribution and how does this inequality compare to other economies? To answer that question we are first going to need some data (and a nerd to analyze it).
+
+Tinder doesn't supply any statistics or analytics about member usage so I had to collect this data myself. The most important data I needed was the percent of men that these females tended to “like”. I collected this data by interviewing females who had “liked” a fake Tinder profile I set up. I asked them each several questions about their Tinder usage while they thought they were talking to an attractive male who was interested in them. Lying in this way is ethically questionable at best (and highly entertaining), but, unfortunately I had no other way to get the required data.
+
+Caveats (skip this section if you just want to see the results)
+
+At this point I would be remiss to not mention a few caveats about these data. First, the sample size is small (only 27 females were interviewed). Second, all data is self reported. The females who responded to my questions could have lied about the percentage of guys they “like” in order to impress me (fake super hot Tinder me) or make themselves seem more selective. This self reporting bias will definitely introduce error into the analysis, but there is evidence to suggest the data I collected have some validity. For instance, a recent New York Times article stated that in an experiment females on average swiped a 14% “like” rate. This compares vary favorably with the data I collected that shows a 12% average “like” rate.
+
+Additionally, I am only accounting for the percentage of “likes” and not the actual men they “like”. I have to assume that in general females find the same men attractive. I think this is the biggest flaw in this analysis, but currently there is no other way to analyze the data. There are also two reasons to believe that useful trends can be determined from these data even with this flaw. First, in my previous post we saw that attractive men did equally as well across all female age groups, independent of the age of the male, so to some extent all women have similar tastes in terms of physical attractiveness. Second, most women can agree if a guy is really attractive or really unattractive. Women are more likely to disagree on the attractiveness of men in the middle of the economy. As we will see, the “wealth” in the middle and bottom portion of the Tinder economy is lower than the “wealth” of the “wealthiest” (in terms of “likes”). Therefore, even if the error introduced by this flaw is significant it shouldn't greatly affect the overall trend.
+
+Ok, enough talk. (Stop — Data time)
+
+The Data
+
+As I stated previously the average female “likes” 12% of men on Tinder. This doesn't mean though that most males will get “liked” back by 12% of all the women they “like” on Tinder. This would only be the case if “likes” were equally distributed. In reality, the bottom 80% of men are fighting over the bottom 22% of women and the top 78% of women are fighting over the top 20% of men. We can see this trend in Figure 1. The area in blue represents the situations where women are more likely to “like” the men. The area in pink represents the situations where men are more likely to “like” women. The curve doesn’t go down linearly, but instead drops quickly after the top 20% of men. Comparing the blue area and the pink area we can see that for a random female/male Tinder interaction the male is likely to “like” the female 6.2 times more often than the female “likes” the male.
+
+Figure 1.
+
+We can also see that the wealth distribution for males in the Tinder economy is quite large. Most females only “like” the most attractive guys. So how can we compare the Tinder economy to other economies? Economists use two main metrics to compare the wealth distribution of economies: The Lorenz curve and the Gini coefficient.
+
+The Lorenz curve (Wikipedia link) is a graph showing the proportion of overall income or wealth assumed by the bottom x% of the people. If the wealth was equally distributed the graph would show a 45 degree line. The amount the curve bends below the 45 degree line shows the extent of wealth inequality. Figure 2 shows the Lorenz curve for the Tinder economy compared to the curve for the U.S. income distribution from a few years ago.
+
+Figure 2.
+
+The Lorenz curve for the Tinder economy is lower than the curve for the US economy. This means that the inequality in Tinder wealth distribution is larger than the inequality of income in the US economy. One way economists quantify this difference is by comparing the Gini coefficient for different economies.
+
+The Gini coefficient (Wikipedia link) is a number between 0 and 1, where 0 corresponds with perfect equality where everyone has the same income (damn commies) and 1 corresponds with perfect inequality where one person has all the income and everyone else has zero income (let them eat cake). The United States currently has one of the higher Gini coefficients (most income inequality) of all of the world’s biggest economies at a value of 0.41. The Tinder Gini coefficient is even higher at 0.58. This may not seem like a big difference but it is actually huge. Figure 3 compares the income Gini coefficient distribution for 162 nations and adds the Tinder economy to the list. The United States Gini coefficient is higher than 62% of the world’s countries. The Tinder economy has a higher Gini coefficient than 95.1% of the countries in the world. The only countries that have a higher Gini coefficient than Tinder are Angola, Haiti, Botswana, Namibia, Comoros, South Africa, Equatorial Guinea, and Seychelles (which I had never heard of before).
+
+Figure 3.
+
+What it all means
+
+From this data (and some data collected for the previous post) we can make an estimate as to the percentage of females on Tinder that are likely to “like” a male based on his attractiveness. This graph is shown as Figure 4. Note that the y-axis is in log scale and the curve is fairly linear. This means the curve has a high correlation to an exponential fit. Therefore, you can gauge your attractiveness level if you “like” all girls and keep track of the percentage of girls that “like” you back with a simple equation:
+
+attractiveness%=16.8*ln(like%)+52.3
+
+Figure 4.
+
+According to my last post, the most attractive men will be liked by only approximately 20% of all the females on Tinder. This number is low due to a combination of factors including females that don’t regularly use the site, fake profiles, intimidation, and some variation in what the pickiest women find attractive. In the grand scheme of things, a 20% success rate can actually lead to a large number of matches very quickly. So attractive guys can do pretty well using Tinder (congratulations).
+
+Unfortunately, this percentage decreases rapidly as you go down the attractiveness scale. According to this analysis a man of average attractiveness can only expect to be liked by slightly less than 1% of females (0.87%). This equates to 1 “like” for every 115 females. The good news is that if you are only getting liked by a few girls on Tinder you shouldn’t take it personally. You aren’t necessarily unattractive. You can be of above average attractiveness and still only get liked by a few percent of women on Tinder. The bad news is that if you aren’t in the very upper echelons of Tinder wealth (i.e. attractiveness) you aren’t likely to have much success using Tinder. You would probably be better off just going to a bar or joining some coed recreational sports team.
+
+On the other hand, it doesn’t take much effort to swipe right… (So you are saying I have a 1 in 115 chance?)

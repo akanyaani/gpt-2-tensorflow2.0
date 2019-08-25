@@ -1,0 +1,3 @@
+Access Denied
+
+Your access to the NCBI website at www.ncbi.nlm.nih.gov has been temporarily blocked due to a possible misuse/abuse situation involving your site. This is not an indication of a security issue such as a virus or attack. It could be something as simple as a run away script or learning how to better use E-utilities, http://www.ncbi.nlm.nih.gov/books/NBK25497/, for more efficient work such that your work does not impact the ability of other researchers to also use our site. To restore access and understand how to better interact with our site to avoid this in the future, please have your system administrator contact info@ncbi.nlm.nih.gov.

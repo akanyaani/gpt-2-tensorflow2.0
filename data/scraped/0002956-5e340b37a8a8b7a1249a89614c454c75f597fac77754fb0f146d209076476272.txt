@@ -1,0 +1,41 @@
+If there is a “sweet spot” for blockchain, it will likely be the ability to turn insights and questions into assets. Blockchains will give you greater confidence in the integrity of the data you see. Immutable entries, consensus-driven timestamping, audit trails, and certainty about the origin of data (e.g. a sensor or a kiosk) are all areas where you will see improvement as blockchain technology becomes more mainstream.
+
+Beyond data integrity (which is a huge component), the shared data layer that blockchains will introduce creates an entirely new set of possibilities for AI capabilities and insights. Trent McConaghy, CTO of BigChainDB does a great job in explaining the benefits of decentralized/
+
+shared control, particularly as a foundation for AI. In this world, he says, you get:
+
+• More data, thus improved modelling capabilities
+
+• Qualitatively new data leading to entirely new models.
+
+The inherent immutability leads to more confidence in training and testing data and the models they produce.
+
+We are also likely to see blockchain-based technology make an impact in the cost of storing data and in the amount (and quality) of data available. Cost savings in data storage will come from the disintermediation of centralized storage providers, thus reducing the “trust tax” you pay them currently. This should also create downward pricing pressure on SaaS suppliers as they move to decentralized storage providers.
+
+You can expect to see decentralized solutions like Storj, Sia, MaidSafe, and FileCoin start to gain some initial traction in the enterprise storage space. [Disclosure: Storj was previously a client of mine.] One enterprise pilot phase rollout indicates this decentralized approach could reduce the costs of storing data by 90 percent compared to AWS.
+
+As for blockchain-driven AI, you can expect to see a three phase roll-out. First, within the existing enterprise. Then, within the ecosystem. Finally, totally open systems. The entire industry might be termed blockchains for big data (McConaghy’s words).
+
+Longer term, we will see an expansion of the concept of big data, as we move from proprietary data silos to blockchain-enabled shared data layers. In the first epoch of big data, power resided with those who owned the data. In the blockchain epoch of big data, power will reside with those who can access the most data (where public blockchains will ultimately defeat private blockchains) and who can gain the most insights most rapidly.
+
+There are two significant implications here:
+
+• Customer data will not belong to organizations, locked away in corporate databases. It will belong to each individual, represented as tokens or coins on an identity blockchain. The customer of the future will grant access to others as necessary.
+
+• Transaction data will be viewable by anyone. Anyone can access the data about the transactions that occur on a given blockchain. (For example, here are the latest Bitcoin transactions.)
+
+When data moves out of proprietary systems onto open blockchains, having the data itself is no longer a competitive advantage. Interpreting the data becomes the advantage. In a blockchain world, all competitors are looking at the same ledger (imagine you and your competitors all have the Google Sheet or Excel file).
+
+Anyone can provide an interface to that ledger. That’s relatively easy. That’s what you see here for Ethereum or zCash.
+
+And many companies will provide applications that enable a customer to interact with a protocol. This is what Jaxx or BitPay do, for Bitcoin.
+
+Yet, there are very few companies that provide a set of analytic capabilities that suck up all of this data and explain what it all means or what should be done about it. Fewer still have figured out the scalable process for doing this. This is the opportunity. Some have called it the “Data Industrialization Opportunity.”
+
+Simply put, it is the question of who can put the best AI/machine learning solution on top of open, shared, blockchain-based data layers. Whoever does that gains some degree of competitive advantage. If a Bitcoin wallet, for example, instead of being “dumb” (as it is now) is actually “smart” — in the sense that it can advise or help customers make sense of the world (based on all the data available on the blockchain) — that one will be market leader.
+
+The world’s top 50 physical mining companies are worth about $700 billion. You can expect to see blockchain-based data mining companies that will easily take us into trillions of dollars of market capitalization, although, granted, this may be many years off.
+
+This article is adapted from an excerpt of the author’s new book, The CMO Primer for the Blockchain World.
+
+Jeremy Epstein is CEO of Never Stop Marketing and author of The CMO Primer for the Blockchain World. He currently works with startups in the blockchain and decentralization space. He advises F2000 organizations on the implications of blockchain technology. Previously, he was VP of marketing at Sprinklr from Series A to “unicorn” status.

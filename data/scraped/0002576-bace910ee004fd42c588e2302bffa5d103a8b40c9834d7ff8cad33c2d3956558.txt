@@ -1,0 +1,13 @@
+Autor de la ECyT-ar
+
+Carlos Eduardo Solivérez, año 2005.
+
+Véase biografía.
+
+
+
+Funciones y fines
+
+La función de la Enciclopedia de Ciencias y Tecnologías en Argentina (ECYT-AR), iniciada el 11 de octubre de 2009, es brindar un panorama lo más amplio posible de las actividades científicas y tecnológicas realizadas en el país. Se incluyen actividades de todos los niveles, desde la divulgación por diarios y revistas hasta los centros de investigación científica y sus trabajos, desde los inventos argentinos hasta los organismos estatales nacionales y provinciales de base tecnológica, desde las acciones y planificaciones privadas hasta las estatales, desde los primeros poblamientos del actual territorio argentino hasta la actualidad. Contiene asimismo información sobre aspectos habitualmente no considerados en sitios sobre el tema, pero que forman parte esencial de el fenómeno tecnológico: la cultura argentina (en el sentido antropológico del término), la economía, el medio ambiente y sus evoluciones históricas. Aunque con similar carácter abierto y basada en el mismo software libre (MediaWiki) que Wikipedia, la orientación y contenidos de la ECYT-AR tienen carácter muy diferente. En especial: Se admiten contribuciones originales de autor identificado, lo que Wikipedia no admite, siendo la Página de Discusión de cada artículo el medio para su convalidación.
+
+Se hace uso intensivo y preferencial, en todo el texto de todos los artículo, de enlaces a páginas web y documentos allí accesibles, lo que Wikipedia limita a las secciones Fuentes y Enlaces Externos. La finalidad de esta tarea no es meramente informativa, sino aportar a la mejor comprensión de la riqueza científica y tecnológica argentina para su mejor aprovechamiento en beneficio de los más débiles y necesitados, finalidad que se discute con más profundidad en el artículo Ciencias y tecnologías ¿para quién?.

@@ -1,0 +1,33 @@
+Share 2 Shares
+
+Request Network Explained
+
+Last Updated: 1st November 2018
+
+Typically touted as PayPal 2.0, Request Network is a decentralized payment system that allows anyone to request payments from an individual or organisation. A recipient of a request can then approve payment in a cheap and secure way. Request Network is an ERC20 Token that uses the Ethereum blockchain as a decentralized and immutable ledger to store all payment information.
+
+Using Request Network’s very own example:
+
+“In the case where Bob was on Amazon and Alice was making a purchase, Amazon creates a Request on the blockchain, Alice’s phone analyses the blockchain and detects the request, sends a notification, and she agrees to pay.”
+
+In an example where PayPal could just have easily been the payment system used by Alice and Bob, the Request Network system proves to be a cheaper, faster and more secure alternative. However, Request Network far exceeds the simple use case as a Business to Consumer (B2C) payment system, it can also aims to be the backbone of the ensuing IoT revolution that is currently occurring. Once again, using Request Network’s very own example:
+
+“Consider a second scenario, in which an autonomous car connects to a smart garage contract to buy a new wheel. They negotiate by algorithm, and agree upon a payment with deposit and escrow (money blocked until delivery). To interact financially, the machines and IoT require a payment framework. These examples are not feasible today, as there is no standard format and no interconnection between them”
+
+An additional use of Request Network protocol is made clear in the above example. The potential use as a payment system in-order to facilitate for an IoT economy.
+
+Request Network as a Platform
+
+Request Network also is also a platform that developers can use to build innovative solutions in areas such as finance and accounting.
+
+For most individuals or large businesses, requesting one single payment is not enough. In most cases, the money that is requested may need to be taxed or subject to complex accounting rules. Hence, Request Network offers a platform that a developer can use in-order to build financial applications that serve a specific function. Using an example from Request Network’s whitepaper:
+
+“For example, someone could choose this module to break down their rent into 30×24 payments to the landlord, leaving this person with a fluid bank account without large end-of-month expenses.”
+
+“Taxes would be rerouted in real time to government agencies. With each payment, 20% of VAT would go to taxes and 80% to the recipient company.”
+
+The Request Network Token (REQ)
+
+The Request Network token is agnostic, meaning, it successfully facilitates for payments made in any currency whether it be in fiat or a cryptocurrency.
+
+The REQ token is only required by developers who intend to build financial applications on top of the Request Network platform. For requests made on applications built on top of the platform, an estimated fee between 0.05% and 0.5% of REQ is required in-order to fuel the transaction. This fee is partially burned.

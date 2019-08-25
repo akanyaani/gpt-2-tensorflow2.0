@@ -1,0 +1,47 @@
+Belsimtek sent us an update about their project. After ED announced that Mi-24P and F-4 Phantom II would make it in 2018, Belsimtek details the status of the project. While art isn’t ready to be displayed, they report great advancement code wise, in parallel of their work on the F/A-18C.
+
+Happy 2018, Belsimtek!
+
+Hi everyone!
+
+We are busy with F/A-18C, which is incredibly complex, but at the same time F-4 still having some love.
+
+Here is development progress of F-4 since our last update:
+
+First of all F-4E made its “maiden flight” with its test bed flight model 🙂
+
+VOR/ILS AN/ARN-127 system created
+
+IMU Internal Measurement Unit created and Gyroscope added to it
+
+LORAN receiver coding in process
+
+Auxiliary Digital Display Indicator added
+
+Digital Display Indicator added
+
+Work on DMAS started its complex system and its starting to appear piece by piece.
+
+Mi-24P update:
+
+3D model is not at the state when we are ready to flash it to tease you yet. We’ve finished modelling of hover, takeoff and general performance in the air of this helicopter. Currently team is working on Mi-24P crew AI. Mi-24P crew AI will be available as pilot or as gunner.
+
+We are aiming to implement control over AI functionality with help of AI GUI which will allow you to use only 4 buttons to give AI specific commands regarding:
+
+Heading
+
+Speed
+
+Altitude
+
+Maneuvers
+
+Hover menu
+
+Target choice
+
+Also we are working on AI crew targets detection logic. It will not be just all-seeing AI copilot/gunner, as you can see on pics below, AI behaviour will not be simplistic and during spotting its being modelled to mimic real pilots training logic for spotting targets. Things like distance, angle and illumination will be taken into account among many others.
+
+We wish you a Happy New Year!
+
+Belsimtek team

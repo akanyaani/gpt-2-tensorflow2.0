@@ -1,0 +1,17 @@
+The planes carried around 38,000 liters of kerosene (10,000 gallons), which had an energetic value of 1.6×1012 J (1,6 TJ). During the impact the liquid explosion spread over 6 floors which equals average 67.2 MJ/m2.
+
+The towers were designed to handle a theoretical fire load of 220 MJ/m2/hour. The towers were constructed to handle this amount of energy, spread during 4 hours (cumulative 880 MJ/m2). When a fire becomes hot enough almost anything starts to burn, from paint to even aluminium. An average office contains 600 MJ/m2 combustible materials.
+
+The kerosene must have burned in less than 2 minutes (estimation), meaning that the permissible fire load of the towers could have been exceeded during the time the kerosene caught fire over 6 floors. With a short fire load of maximum 2,000 MJ/m2, the overload would be approximately 920%, assuming that all the kerosene burned inside the towers. But since a part of the kerosene exploded outside the towers means that it was less. How much less?
+
+The volume of the fire ball around tower 1 during the hit was approximately 2,3x106 m3. The fire ball could freely expand since the windows were already blown out. The total volume of the affected 6 floors was 9x104 m3. This means that around 5% of the kerosene burned inside the tower. Kerosene is so inflammable that it doesn't burn up slowly. The perimeter of the explosion shows that there was no 'place' inside the building to burn this amount of kerosene.
+
+Because only 5% of the kerosene burned inside the towers, means that the fire load was not more than 240 MJ/m2 during less than 2 minutes. The towers were able to handle this amount of energy easily. They were designed on this fire load, not just for 2 minutes but during 4 hours.
+
+The heat of the fire after the impact was no problem. A kerosene fire of a few minutes doesn't develop more heat than 600 °C - 700 °C (1110 °F - 1290 °F). The steel construction was coated with a heat resistant material, designed and applied to handle this heat for at least 4 hours. Whether the main structure at the height of impact was unaffected by this first heat burst is unsure, since the thermal isolation might have been damaged by the impact.
+
+The kerosene was a spark that ignited a larger fire. Additionally, the blast of the liquid explosion blew away part of the combustible materials. That means it didn't took part in the fire.
+
+The total energetic value of the kerosene was a fraction of the energy necessary to bring the main structure in the danger zone. The kerosene plays hardly a role in the energetic balance, besides being the igniter of a much more dangerous fire - a burning office of 600 to 700 °C.
+
+The towers were designed to handle this heat and fire load. Although parts of the protective coating might have been damaged due to the impact, which made the main structure vulnerable for the heat that followed.

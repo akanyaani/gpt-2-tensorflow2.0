@@ -8,5 +8,5 @@ setup(
     license='MIT',
     author='Abhay Kumar',
     author_email='akanyaani@gmail.com',
-    description='', install_requires=['click', 'tensorflow']
+    description='', install_requires=['click', 'tqdm', 'tensorflow', 'numpy', 'ftfy', 'sentencepiece']
 )

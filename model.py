@@ -3,12 +3,22 @@ from layers.attention_layer import *
 from layers.embedding_layer import *
 from layers.layer_norm import LayerNormalization
 from utils.tf_utils import *
+import os
+
+_ROOT = os.path.abspath(os.path.dirname(__file__))
+LOG_DIR = _ROOT + "/log"
+
+train_step_signature = [
+    tf.TensorSpec(shape=(None, None), dtype=tf.int32),
+    tf.TensorSpec(shape=(None, None), dtype=tf.int32),
+    tf.TensorSpec(shape=(None,), dtype=tf.int32)
+]
 
 
-class Gpt(tf.keras.Model):
+class Gpt2(tf.keras.Model):
     def __init__(self, num_layers, d_model, num_heads, dff, max_seq_len, vocab_size,
                  optimizer="adam", learning_rate=1e-3, rev_embedding_projection=False):
-        super(Gpt, self).__init__()
+        super(Gpt2, self).__init__()
 
         self.rev_embedding_projection = rev_embedding_projection
         self.num_layers = num_layers
@@ -35,7 +45,7 @@ class Gpt(tf.keras.Model):
         if self.rev_embedding_projection:
             self.output_layer = OutputLayer(self.vocab_size, proj_weights=self.embedding.shared_weights)
         else:
-            self.output_layer = OutputLayer(self.vocab_size)
+            self.output_layer = OutputLayer(self.d_model, self.vocab_size)
 
         self.loss_object = tf.keras.losses.SparseCategoricalCrossentropy(
             from_logits=True, reduction='none')
@@ -64,26 +74,13 @@ class Gpt(tf.keras.Model):
 
         presents = []
         for decoder_layer, past in zip(self.decoder_layers, pasts):
-            hidden_states, present = decoder_layer(hidden_states, training,
-                                                   att_mask, past=past)
+            hidden_states, present = decoder_layer(hidden_states, training, att_mask, past=past)
             presents.append(present)
 
-        # hidden_states, _ = self.decoder_layers[0](hidden_states, training, att_mask, past=past)
-
         hidden_states = self.layer_norm(hidden_states)
-        """
-        with tf.name_scope("output_layer"):
-            if self.rev_embedding_projection:
-                h_flat = tf.reshape(hidden_states, [-1, self.d_model])
-                logits = tf.matmul(h_flat, self.porj_weights, transpose_b=True)
-                logits = tf.reshape(logits, [batch, sequence, self.vocab_size])
-            else:
-                logits = self.final_layer(hidden_states)
-        """
-        logits = self.output_layer(hidden_states)
-        # logits = tf.argmax(logits, axis=2)
 
-        return logits
+        logits = self.output_layer(hidden_states)
+        return logits, presents
 
     @staticmethod
     def get_padded_accuracy(labels, logits):
@@ -99,7 +96,7 @@ class Gpt(tf.keras.Model):
             accuracy = tf.reduce_sum(tf.cast(acc * weights, tf.float32)) / nonpad_seq
             return tf.cast(accuracy, tf.float32)
 
-    def creat_optimizer(self, clipvalue=1.0):
+    def creat_optimizer(self):
         optimizer = self.optimizer_t.lower()
         with tf.name_scope("optimizer"):
             if optimizer == "adam":
@@ -110,7 +107,7 @@ class Gpt(tf.keras.Model):
             elif optimizer == "rms":
                 self.optimizer = tf.keras.optimizers.RMSprop(self.learning_rate)
             else:
-                self.optimizer = tf.keras.optimizers.SGD(slef.learning_rate)
+                self.optimizer = tf.keras.optimizers.SGD(self.learning_rate)
             return self.optimizer
 
     def get_loss(self, real, pred):
@@ -152,12 +149,8 @@ class Gpt(tf.keras.Model):
 
             return self.train_writer, self.test_writer
 
-    @tf.function(input_signature=[tf.TensorSpec(shape=(None, None), dtype=tf.int32),
-                                  tf.TensorSpec(shape=(None), dtype=tf.int64)])
-    def train_step_p(self, x, step, grad_clip=True, clip_value=1.0):
-        with tf.name_scope("input_data"):
-            inputs = x[:, :-1]
-            targets = x[:, 1:]
+    @tf.function(input_signature=train_step_signature)
+    def train_step(self, inputs, targets, step, grad_clip=True, clip_value=1.0):
 
         with tf.GradientTape() as tape:
             predictions = self(inputs, training=True)
@@ -179,113 +172,86 @@ class Gpt(tf.keras.Model):
 
         return loss, accuracy
 
-    @tf.function
-    def train_step(self, dist_inputs):
-        def step_fn(x):
-            inputs = x[:, :-1]
-            targets = x[:, 1:]
+    @tf.function(input_signature=train_step_signature)
+    def distributed_train_step(self, inputs, targets, step, grad_clip=True, clip_value=1.0):
+        def step_fn(inp, tar):
             with tf.GradientTape() as tape:
                 logits = self(inputs)
-                # print("-----------------------------------------------")
-                # print(tf.shape(targets))
-                # print(tf.shape(logits))
-                # cross_entropy = tf.nn.softmax_cross_entropy_with_logits(
-                #        logits=logits, labels=targets)
-                # loss = tf.reduce_sum(cross_entropy) * (1.0 / 16)
                 cross_entropy = self.get_loss(targets, logits)
-                # cross_entropy = tf.reduce_sum(cross_entropy, axis=1)/512
                 loss = tf.reduce_mean(cross_entropy)
 
-            # print(cross_entropy)
-            # print(loss)
-            grads = tape.gradient(loss, self.trainable_variables)
-            self.optimizer.apply_gradients(list(zip(grads, self.trainable_variables)))
+            with tf.name_scope("gradients"):
+                gradients = tape.gradient(loss, self.trainable_variables)
+                if grad_clip:
+                    gradients = [(tf.clip_by_value(grad, -clip_value, clip_value))
+                                 for grad in gradients]
+                self.optimizer.apply_gradients(list(zip(gradients, self.trainable_variables)))
             return cross_entropy
 
         per_example_losses = self.mirrored_strategy.experimental_run_v2(
-            step_fn, args=(dist_inputs,))
-        print("per_example_losses---------------")
-        print(per_example_losses)
+            step_fn, args=(inputs, targets))
         mean_loss = self.mirrored_strategy.reduce(
-            tf.distribute.ReduceOp.SUM, per_example_losses, axis=0)
-        return mean_loss, 2
+            tf.distribute.ReduceOp.MEAN, per_example_losses, axis=0)
 
-    @tf.function
-    def test_step(self, x, step):
-        inputs = x[:, :-1]
-        targets = x[:, 1:]
+        with tf.name_scope("summary_writer"):
+            with self.train_writer.as_default():
+                tf.summary.scalar("loss", mean_loss, step=step)
+        return mean_loss
 
-        predictions = self(inputs, False)
-        loss = self.get_loss(targets, predictions)
-        accuracy = self.get_padded_accuracy(targets, predictions)
+    def fit(self, train_dataset):
+        if self.mirrored_strategy is None:
+            tf.summary.trace_on(graph=True, profiler=True)
+            for (step, (inputs, targets)) in enumerate(train_dataset):
+                train_loss, train_acc = self.train_step_p(inputs, targets, step)
+                if step % 100 == 0:
+                    print('Step {} Train_Loss {:.4f} Train_Accuracy {:.4f}'.format(
+                        step, train_loss, train_acc))
 
-        assert self.test_writer is not None
-        with self.test_writer.as_default():
-            tf.summary.scalar("loss", loss, step=step)
-            tf.summary.scalar("accuracy", accuracy, step=step)
+                if step == 0:
+                    with self.train_writer.as_default():
+                        tf.summary.trace_export(
+                            name="gpt-2",
+                            step=0,
+                            profiler_outdir=LOG_DIR)
 
-        return loss, accuracy
-
-    def fit(self, train_dataset, batch_size=64, steps=100000, epochs=10):
-        # with self.mirrored_strategy.scope():
-        for (step, (inputs)) in enumerate(train_dataset):
-            train_loss, train_acc = self.train_step_p(inputs, step)
-            if step % 10 == 0:
-                print('Step {} Train_Loss {:.4f} Train_Accuracy {:.4f}'.format(
-                    step, train_loss, train_acc))
-        """
-        # self.dataset = train_dataset
-        # for step in range(1, steps + 1):
-        #tf.summary.trace_on(graph=True, profiler=True)
-        for (step, (dataset)) in enumerate(train_dataset):
-            strt = time.time()
-            #train_loss, train_acc = self.train_step(dataset, step)
-            train_loss, train_acc = self.train_step(dataset)
-            print(time.time() - strt)
-            self.train_writer.flush()
-
-
-            if step == 0:
-                #tf.compat.v1.get_default_graph().finalize()
-                with self.train_writer.as_default():
-                    tf.summary.trace_export(
-                        name="gpt-2",
-                        step=0,
-                        profiler_outdir="../log")
-
-            if step % 10 == 0:
-                print('Step {} Train_Loss {:.4f} Train_Accuracy {:.4f}'.format(
-                    step, train_loss, train_acc))
-                gc.collect()
-
-
-            if step % 500 == 0:
-                test_loss, test_acc = self.test_step(inp, step)
-                self.test_writer.flush()
-                print('Step {} Test_Loss {:.4f} Test_Accuracy {:.4f}'.format(
-                    step, test_loss, test_acc))
-
-            if step % 1000 == 0:
-                ckpt_save_path = self.ckpt_manager.save()
-                print('Saving checkpoint for step {} at {}'.format(step,
-                                                                   ckpt_save_path))
-            """
+                if step % 1000 == 0:
+                    ckpt_save_path = self.ckpt_manager.save()
+                    print('Saving checkpoint for step {} at {}'.format(step,
+                                                                       ckpt_save_path))
+        else:
+            with self.mirrored_strategy.scope():
+                tf.summary.trace_on(graph=True, profiler=True)
+                for (step, (inputs)) in enumerate(train_dataset):
+                    train_loss = self.distributed_train_step(inputs, step)
+                    if step == 0:
+                        with self.train_writer.as_default():
+                            tf.summary.trace_export(
+                                name="gpt-2",
+                                step=0,
+                                profiler_outdir=LOG_DIR)
+                    if step % 100 == 0:
+                        print('Step {} Train_Loss {:.4f}'.format(
+                            step, train_loss))
+                    if step % 1000 == 0:
+                        ckpt_save_path = self.ckpt_manager.save()
+                        print('Saving checkpoint for step {} at {}'.format(step,
+                                                                           ckpt_save_path))
 
 
 class OutputLayer(tf.keras.layers.Layer):
-    def __init__(self, output_dim, proj_weights=None, kernel_initializer=None):
+    def __init__(self,input_dim, output_dim, proj_weights=None, kernel_initializer=None):
         super(OutputLayer, self).__init__()
         self.proj_weights = proj_weights
+        self.input_dim = input_dim
         self.output_dim = output_dim
         self.layer_weights = None
         self.kernel_initializer = kernel_initializer
 
     def build(self, input_shape):
         if self.proj_weights is None:
-            input_dim = tensor_shape.dimension_value(input_shape[-1])
             self.layer_weights = self.add_weight(
                 'output_layer_weights',
-                shape=[input_dim, self.output_dim],
+                shape=[self.input_dim, self.output_dim],
                 initializer=self.kernel_initializer,
                 trainable=True)
         super(OutputLayer, self).build(input_shape)

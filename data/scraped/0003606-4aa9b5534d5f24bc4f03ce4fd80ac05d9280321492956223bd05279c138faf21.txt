@@ -1,0 +1,101 @@
+Many members of our community have expressed an avid interest in further details regarding the QASH token and our vision regarding its future utilization. In addition, details have been requested regarding our aspirations for the QASH Blockchain. This post addresses both issues from a high-level perspective.
+
+QASH Use Cases
+
+Expanding on Section 4 of the QASH ICO “WhitePaper”
+
+QASH has two main functions:
+
+1. as a Crypto Token, users can pay for services on all of QUOINE’s platforms;
+
+2. as a tradable Crypto Token on the open market.
+
+In addition, the use of QASH will be made available to all financial and potentially any other industries who would like to leverage it.
+
+To provide maximum flexibility, QUOINE will not limit the usage of QASH nor the type of business entities that would like to use QASH within their business. Therefore, any company, organization or individual will be able to utilize QASH as a Crypto Token — in the same way as Bitcoin’s BTC, Ethereum’s ETH and Ripple’s XRP.
+
+As the demand for the LIQUID Platform grows, the utility of QASH will increase and will allow QASH holders to use its inherent value as a payment vehicle for all services and functions QUOINE (and its partners) will provide. This usage will provide a network effect for the mainstream adoption of QASH.
+
+Users should also note that QUOINE will offer a perpetual 5% discount when QASH is used as payment for QUOINEX and QRYPTOS services, thereby creating a natural demand.
+
+All fees paid using QASH are discounted 5%. Users that do not own QASH will have the option to automate their QASH purchases. Whenever a fee comes due, the user will have the option of having the LIQUID Platform make a QASH purchase in the open market on their behalf. Users will also have the option to over-purchase as a means of accumulating QASH. E.g. Every time a fee comes due, instead of buying 100 QASH, buy 5% more or 105 QASH. For heavy users, this will allow QASH accumulation in rough proportion to their usage.
+
+As the first ICO to receive regulatory approval from the Japanese government, we also see QASH sitting at the intersection of Finance and the Blockchain as a pro-regulation “light web” Cryptocurrency.
+
+The QASH Life Cycle
+
+Initially, QASH value will be used for services provided by the LIQUID Platform and QUOINE — to cover fees; as credit collateral, and to participate in trading strategies. QASH also becomes a base currency for trading at QUOINEX and QRYPTOS.
+
+QASH holders can use its value in return for:
+
+Transaction Fees
+
+LIQUID Platform
+
+QRYPTOS
+
+QUOINEX
+
+Prime Brokerage
+
+Direct Market Access
+
+Fiat Management
+
+Crypto / Fiat Credit
+
+Other Services
+
+System Co-location
+
+Automated Trading Strategies
+
+Trading Tools
+
+It is also important to note that QRYPTOS will be transformed into an ICO self-service platform where QASH can be leveraged as a base currency for participating ICOs. Future 3rd-Party ICOs can benefit from the security and KYC features already inherent in the platform.
+
+As an added incentive, owners of QASH will receive periodic promotions, discounted fees, preferential access to new products//services, and exclusive opportunities to invest in future ICO//Token Sales that QUOINE will help launch.
+
+As part of its evolution, QASH will start its life cycle as a ERC 20 utility token. When coupled with the power of the QASH Blockchain within the LIQUID Platform, QASH will naturally mature into a powerful Cryptocurrency.
+
+At this point, we envision the use cases for QASH to be exponentially disruptive.
+
+The QASH Blockchain
+
+By way of background, QASH and the Liquid platform project began in Q2 of 2017 as an effort to tackle one of the largest problems facing the Crypto markets — liquidity.
+
+As the team delved deeper into the problem, it became clear that solving this dilemma wasn’t just about providing a bigger balance sheet. To be sure, any solution had to address the issues associated with connecting up liquidity silos, but there were other equally important factors holding back liquidity growth. The solution had to address issues around credit provision, counterparty risk, regulatory requirements, and information leakage. The more we evaluated the problem, the clearer it became that an ERC 20 token alone would not provide sufficient functionality. Thus, was born the concept of the QASH blockchain.
+
+The QASH blockchain will serve as the backbone and the platform for QUOINE to develop its banking and financial services geared towards the new Crypto economy and in line with QUOINE’s goal of the democratization of finance. This following describes some high-level characteristics.
+
+The QASH blockchain will be built to natively support Decentralized Distributed Execution and to a great extent will be tailored to financial services, but not limited to them. As briefly discussed in the following sections, QUOINE is incorporating features and services based on best-of-breed blockchain technologies to provide an unparalleled level of versatility. The following are some of the key features of the QASH blockchain:
+
+Intelligent Agents (aka Smart Contracts) — Easy scripting embedded in blocks or stationed/distributed across nodes. This will allow for the building of Programmable Assets and for features such as time-locks and others.
+
+(aka Smart Contracts) — Easy scripting embedded in blocks or stationed/distributed across nodes. This will allow for the building of Programmable Assets and for features such as time-locks and others. Support for Erlang, Python, C++ and other programming languages (Go, Ruby). This will allow for development of sophisticated decentralized applications on the platform such as virtual asset exchanges, credit services, settlement services/distributed counterparty risk such as Continuous Linked Settlement, and other banking services, as this will serve as the base for QUOINE’s banking platform.
+
+QUOINE will look to the community and partners to develop virtual machines in support for other programming languages. Building support for well-known programming languages will allow the wider developer community to contribute to [d]apps development from day 1, as opposed to creating a new programming language (see Ethereum’s Solidity) which comes with a learning curve.
+
+Multi Asset and Decentralized Asset Transfers — with QASH being the native Cryptocurrency.
+
+— with QASH being the native Cryptocurrency. Several 100,000 Transactions per second — speed is essential and we plan for high-throughput to be available.
+
+— speed is essential and we plan for high-throughput to be available. Consensus Algorithm = Proof of Stake . Forgers, not Miners. QASH is “pre-forged” with 1,000,000,000 QASH in existence.
+
+. Forgers, not Miners. QASH is “pre-forged” with 1,000,000,000 QASH in existence. Semi-Permissioned Distributed Nodes based on KYC, AML and other controls. Anybody can generate/forge blocks as long as compliance with KYC/AML and other regulatory policies are fulfilled. This will be controlled natively on the platform.
+
+based on KYC, AML and other controls. Anybody can generate/forge blocks as long as compliance with KYC/AML and other regulatory policies are fulfilled. This will be controlled natively on the platform. Forgers participating in the validation network will be rewarded in QASH ONLY. QASH will serve as the fuel that will power the distributed execution services (Virtual Machines) and to pay for other native services such as asset transfers.
+
+External Events Awareness will allow services running on the platform to interact with external events via specialized interfaces. This feature is essential to building financial applications and products on the platform.
+
+will allow services running on the platform to interact with external events via specialized interfaces. This feature is essential to building financial applications and products on the platform. Most/all other decentralized platforms (Ethereum and others) do not provide support for external events as far as the author is aware, limiting their usability in real world financial applications.
+
+At least one other exchange has tried and does not appear to have been entirely successful at building a decentralized market maker due to various issues including limitations with current smart contract technology.
+
+Enhanced Scalability will ameliorate current concerns regarding Bitcoin and Ethereum Blockchain limitations.
+
+Serving as a bridge between Fintech and traditional finance, additional envisioned QASH Blockchain functionality includes:
+
+Seamless currency conversion (Fully exchange linked). Opt-in KYC (Traditional finance/compliance-officer friendly). Blockchain based Continuous Linked Settlement (Settlement of positions across liquidity providers). Multi-asset ledger for special-purpose value-stable assets (e.g. tokenized fiat used for settlement). An opt-in socialized loss mechanism (distributed insurance). Decentralized, trustless and non-custodial exchange-linked wallet — the user retains control and custody of their assets but a portion is locked up for settlement. Decentralized trustless lending. Lenders retains control and custody of their assets but the portion loaned is locked up for the term of contract Credit Scoring (already available in the existing platform). Trading Algos (already available in the existing platform).
+
+We hope to position the QASH Blockchain to represent the next-generation architecture in Blockchain technology.

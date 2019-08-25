@@ -1,0 +1,317 @@
+In Poland, it’s only a few hours until the end of the year, so it’s an excellent chance to make a summary of things that happened to C++! As you might guess the whole year was dominated by the finalization and publication of C++17. Yet, there are some other “big” things that happened. Let’s see the full report.
+
+Previous reports: 2016, 2015, 2014, 2013, 2012.
+
+Intro
+
+As usual, at the end of the year, I try to gather essential events that happened in the C++ world.
+
+Here are the main things for this year that got my attention:
+
+C++17 and the stable progress of the standardization
+
+Transparency of the Committee and compiler vendors
+
+Community is growing!
+
+More tools!
+
+But read on to get all of the details :)
+
+If you want to see predictions/expectations for 2018, read this post from Meeting C++ C++ in 2018.
+
+Timeline
+
+Just to have an overview:
+
+Date Event February 2nd Intel C++ Compiler v18.0 February 27th - March 4th Kona, HI, USA - ISO C++ Meeting March 7th Visual Studio 2017 (v 15.0) released March 13th LLVM/Clang 4.0 Released March C++17 finalized and sent for ISO review April 25th - 29th ACCU 2017 May 2nd GCC 7.1 May 15th - 20th C++ Now 2017 July 10th - 15th Toronto, Canada - ISO C++ Meeting August 14th GCC 7.2 & Visual Studio 2017.3 September 6th C++17 formally approved by ISO and sent for publication September 7th LLVM/Clang 5.0.0 Released September 25th Bjarne Stroustrup awarded 2017 Faraday Medal September 23rd - October 1st CppCon 2017 November 9th - 11th Meeting C++ 2017 November 14th - 15th code::dive conference in Wroclaw, PL December 4th C++17 has been published as ISO/IEC 14882:2017 December 7th Visual Studio 2017 15.5 Released
+
+C++11/14 compiler status
+
+Before we dive into the newest stuff, let’s recall what’s the status of C++11 and C++14 implementation.
+
+Just for the reference Clang (since 3.4 ), GCC (since 5.0) and Intel (version 15.0) already have full support for C++11/14.
+
+Visual Studio with frequent releases of 2017 (Compiler version 15.5 and 15.6 currently) made significant progress towards implementing the missing parts: Expression SFINAE and Two-phase name lookup. It’s not fully conformant, but very close to reach it. Read more in the VS section below.
+
+So, all in all, we can say that C++11/14 is supported in all major compilers! So you have no excuses not to use modern C++ :)
+
+C++17
+
+The new standard was the main topic for the year.
+
+In December it was published as ISO/IEC 14882:2017 Programming languages – C++. The standard was technically completed in March so at the beginning of the year we knew its full form.
+
+You can also download a free version of the last draft: N4659, 2017-03-21, PDF.
+
+Plus here are my bonus PDFs:
+
+C++17 In Detail - 50-page PDF with description of all the features.
+
+C++17 Reference Card - one-page reference card
+
+A lot of opinions were expressed about the new standard. Some developers like it, some hoped for something more. Nevertheless, it’s done now, and all we can do is to be happy and just start coding with the new techniques and utilities :)
+
+And, as it appears, it’s relatively easy to jump start into C++17, as most of the major compiler vendors implemented (or are very close) support for the new standard.
+
+See below:
+
+Compiler support for C++17
+
+Full version, and up to date can be found @cppreference: C++17 compiler support , so here I’ll focus on the most important parts:
+
+The original table has confusing/wrong versions for Visual Studio, thanks to a comment from Stephan T. Lavavej I've corrected it using data from the recent VS compiler notes.
+
+Feature Paper GCC Clang MSVC Intel New auto rules for direct-list-initialization N3922 5.0 3.8 VS 2015 17.0 static_assert with no message N3928 6 2.5 VS 2017 18.0 Nested namespace definition N4230 6 3.6 VS 2015.3 17.0 Allow constant evaluation for all non-type template arguments N4268 6 3.6 VS 2017 15.5 XX Fold Expressions N4295 6 3.6 VS 2017 15.5 XX Make exception specifications part of the type system P0012R1 7 4 VS 2017 15.5 XX Lambda capture of *this P0018R3 7 3.9 VS 2017 15.3 XX Dynamic memory allocation for over-aligned data P0035R4 7 4 VS 2017 15.5 XX Unary fold expressions and empty parameter packs P0036R0 6 3.9 VS 2017 15.5 XX __has_include in preprocessor conditionals P0061R1 5.0 Yes VS 2017 15.3 18.0 Template argument deduction for class templates P0091R3 7 5 XX XX Non-type template parameters with auto type P0127R2 7 4 XX XX Guaranteed copy elision P0135R1 7 4 VS 2017 15.6 XX Direct-list-initialization of enumerations P0138R2 7 3.9 VS 2017 15.3 18.0 Stricter expression evaluation order P0145R3 7 4 XX XX constexpr lambda expressions P0170R1 7 5 VS 2017 15.3 XX Differing begin and end types in range-based for P0184R0 6 3.9 VS 2017 18.0 [[fallthrough]] attribute P0188R1 7 3.9 VS 2017 18.0 [[nodiscard]] attribute P0189R1 7 3.9 VS 2017 15.3 18.0 [[maybe_unused]] attribute P0212R1 7 3.9 VS 2017 15.3 18.0 Structured Bindings P0217R3 7 4 VS 2017 15.3 18.0 constexpr if statements P0292R2 7 3.9 VS 2017 15.3 XX init-statements for if and switch P0305R1 7 3.9 VS 2017 15.3 18.0 Inline variables P0386R2 7 3.9 VS 2017 15.5 XX Standardization of Parallelism TS P0024R2 XX XX VS 2017 15.5* 18.0* std::string_view N3921 7 4.0 VS 2017 N/A std::filesystem P0218R1 TS TS TS N/A
+
+As you see most of the bigger features are there!
+
+The problematic parts: parallel STL and filesystem are close to being available.
+
+Intel offers their Parallel STL implementation, see: intel/parallelstl
+
+and they offered it to libstdc++ - Intel offers Parallel STL implementation to GNU libstdc++ : cpp
+
+and they offered it to libstdc++ - Intel offers Parallel STL implementation to GNU libstdc++ : cpp TS - for filesystem means that you have to use std::experimental namespace.
+
+namespace. N/A for Intel - Intel does not ship with library implementation.
+
+Visual Studio 2017.5 started to ship a few of parallel algorithms.
+
+Visual Studio Versioning (from comment by Stephan T. Lavavej): The mapping is: 2015 (and all updates) was compiler 19.0, 2017 RTM was 19.10, 2017 15.3 was 19.11, 2017 15.5 is 19.12, and 2017 15.6 will be 19.13.
+
+C++20
+
+Unfortunately, there won’t be C++18 (as I hoped in my April’s post :)).
+
+However, the committee has a stable progress towards C++20. Some features are already voted into the C++20 draft.
+
+As revealed in the paper: Feb 2017 - P0592R0 - “To boldly suggest an overall plan for C++20”. We can expect the following major features:
+
+Modules
+
+Ranges
+
+Concepts
+
+Networking
+
+So that’s the “master plan” and a guideline towards the new standard. Of course, it doesn’t mean other things like Coroutines (in fact Coroutines were recently published as TS), contracts or your favourite future feature won’t be approved.
+
+The teams behind popular compilers make massive effort to stay up to date with the standard. In most of the newest versions (like GCC, Clang, VS) you can use most (or all) of C++17… but also a few C++20 features. For example, you can try concepts-lite in GCC; modules support in Clang or MSVC, or Coroutines. Not to mention Ranges.
+
+From this point, it looks that C++20 will be a bit bigger than C++17. Still, it’s important to remember that the Committee prepares a new standard every three years. So don’t expect that they’ll wait for the publication until all features are done (like we needed to wait 10+ years for C++11).
+
+ISO C++ meetings
+
+There were three committee meetings this year - in Kona, Toronto and Albuquerque.
+
+Roughly at the beginning of the year, the committee closed work for C++17 and at the second and the third meeting they started voting features for C++20.
+
+2017-02-27 to 03-04: Kona, HI, USA
+
+During the meeting, C++17 was finalized and sent for the final ISO review.
+
+The committee now shifts to prepare C++20; you can even read some plans here Feb 2017 - P0592R0 - “To boldly suggest an overall plan for C++20”.
+
+The plan is to have at least: modules, ranges, concepts and networking
+
+Here are the trip reports:
+
+2017-07-10 to 15: Toronto, Canada
+
+The first meeting where Committee experts could vote changes into Draft C++20!
+
+For example:
+
+Concepts TS was merged into draft C++20
+
+Add designated initializers. Draft C++20 now allows code like:
+
+struct A { int x ; int y ; int z ; }; A b {. x = 1 , . z = 2 };
+
+Trip reports:
+
+2017-11-06 to 11: Albuquerque, New Mexico, USA;
+
+A primary goal of the meeting was to address the comments received from national bodies in the Modules TS’s comment ballot that ran this summer
+
+Some new features added to C++20:
+
+Trip reports
+
+Compiler Notes
+
+Current versions and most notable updates.
+
+Visual Studio
+
+Current version VS 2017 update 5 - 15.5.2 - Release notes - December 2017.
+
+Microsoft team made 5 releases of VS 2017! (or 6 if we count RTM Release :))
+
+Update: from Stephan T. Lavavej:
+
+Only 3 were significant toolset updates, though (15.0, 15.3, 15.5; the other releases contained IDE updates and the occasional compiler bugfix).
+
+With the recent version, you can even use some of the parallel algorithms. I did a quick experiment, and it seemed to work:
+
+As you can see in the image above MSVC created a pool of threads, and each thread invoked my lambda. In V15.5 the following algorithms can be invoked in parallel: all_of , any_of , for_each , for_each_n , none_of , reduce , replace , replace_if , sort .
+
+Here are some links to relevant blog posts from VC team. I like the transparency and that they share so much information with us.
+
+GCC
+
+August 14 - GCC 7.2, GCC 7 Release Series Changes
+
+Clang
+
+Current version: 5.0.1 - 21 Dec 2017, Release Notes
+
+If you wonder why LLVM moved “slowly” with versions like 3.3, 3.4, 3.5… and now rapidly went from 4.0 to 5.0 here’s the reason: the versioning scheme changed. Previously major version increased by adding “0.1”, now it’s done by adding “1.0”.
+
+Intel compiler
+
+This is a brand new section in the summary.
+
+While compilers do the primary job with our C++ code, we cannot forget about the importance of other tools.
+
+Bear in mind that parsing C++ code is a tough task. Thanks to Clang developing tools is now significantly improved and streamlined.
+
+Here are some notable tools that it’s worth to know:
+
+For Visual Studio: Clang Power Tools - Visual Studio Marketplace - image above.
+
+IDE and Productivity
+
+Code Analyzers
+
+CppDepend v2017.3 - see all of the changes here - for the whole year.
+
+version changes
+
+PVS-Studio - a tool for bug detection in the source code of programs, written in C, C++, and C#. It works in Windows and Linux environment
+
+Here’s my blog post about using all of the information PVSStudio team shares: Learning from bugs and PVS-Studio Team How to use PVS-Studio for Free
+
+
+
+Package managers
+
+We probably won’t see a standard package manager for C++ (as other languages sometimes provide), but there’s good progress with such tools. Read this article/discussion for more information: Does C++ need a universal package manager? - by (Paul Fultz II).
+
+Anyway recently I started using Conan, and it really works. Previously I had to download the components, install it, set proper links and paths in Visual Studio project. Now all I have to do is to provide an appropriate name of the library in conanfile.txt and run Conan to do all the work. The missing part: not huge list of available packages… but it’s improving.
+
+Visualizers
+
+Sourcetrail (image above). Its objective is to assist with code exploration by creating dynamic graphs that show your project from a different perspective. See my review in this post - Better code understanding with Sourcetrail.
+
+The tool is free for non-commercial use!
+
+Also, Cpp Depend offers visualization options for projects: A picture is worth a thousand words: Visualize your C/C++ Projects – CppDepend Blog
+
+Conferences
+
+I am pleased to see that more and more C++ conferences are appearing. We have at least four strong points
+
+CppCon
+
+C++Now
+
+Meeting C++
+
+ACCU
+
+But there are more: like Code::Dive, Italian CppCon or Pacific C++ - held for the first time this year!
+
+Just in case here’s the link to ISO C++ page with all registered conferences around the world: Conferences Worldwide, C++ FAQ.
+
+CppCon 2017
+
+Approaching 1200 attendees and 7 tracks
+
+The opening keynote from Bjarne Stroustrup Learning and Teaching Modern C++
+
+Near the same time Bjarne Stroustrup was awarded 2017 Faraday Medal. Congratulations!
+
+Some of the trip reports (more on my github repo)
+
+And one of ITHare reports (more on his blog)
+
+Meeting C++
+
+Schedule.
+
+This year Bjarne Stroustrup gave the opening keynote (“What C++ is and what it will become”). The closing keynote was presented by Louis Dionne (“C++ metaprogramming: evolution and future directions”).
+
+Meeting C++ 2016 Playlist
+
+Code::Dive in Wroclaw, PL
+
+November 14th & 15th, Code::Dive
+
+code::dive is non-profit, annual conference for C++ enthusiasts
+
+sponsored by NOKIA. The main idea behind the conference is to share the
+
+knowledge beyond cutting edge technologies and build networking
+
+between the people.
+
+Mostly about C++ plus other languages like Rust, Go, Python.
+
+This year I attended the conference and here’s my trip report: code::dive 2017 conference report and Adi Shavit’s code::dive Trip Report,
+
+Community
+
+Another strong point of the year: the community is growing! There are so many local C++ groups, slack channel, conferences, blogs, youtube channels… and we even have a podcast: CppCast.
+
+Maybe it’s my personal feeling - I usually track the changes and try to be active in the community - so I feel that growth and vibrancy. Still, I hope other developers can share the same opinion.
+
+I am delighted that my city - Cracow - has now its C++ group! C++ User Group Krakow - join if you’re near the city! :)
+
+Thanks to Jens Weller for giving advice how to start such community, motivation to run them and hosting groups news at Meeting C++ site. See User Groups Worldwide or a news like C++ User Group Meetings in November 2017.
+
+And congratulations for his 5th year of Meeting C++!
+
+Jens also organized r/cpp_review - C++ Library Reviews:
+
+My (Jens) motivation to start this is that with these reviews a community focused on quality in modern C++ could grow, where people are able to learn by example on various libraries. So while more experienced C++ users might be able to give better feedback on the overall design of a library
+
+Please join the C++ Slack channel: https://cpplang.now.sh/
+
+In terms of blogs I highly recommend the following:
+
+And of course set isocpp.org - Standard C++ as your main homepage :)
+
+You can also have a look at this r/cpp thread - Happy New Year r/cpp! and share your thoughts :)
+
+Books
+
+Some of the books released this year worth seeing:
+
+I am still waiting for Large-Scale C++ Volume I, John Lakos, it finally should be ready in April 2018! At code::dive John Lakos mentioned that the draft is completed. So hopefully this date won’t be shifted.
+
+Summary
+
+Wow, so many things happened!
+
+Four things that I’d like to emphasize for the year:
+
+C++17 and the stable progress of the standardization
+
+Transparency of the Committee and compiler vendors
+
+Community is growing!
+
+More tools!
+
+As I mentioned, in the beginning, the finalization of C++17 set the whole “theme” for the whole year. I like that the 3-year standardization process works and we can expect C++20 without delays. What’s more, the compiler vendors have already implemented most of the C++17 features, so it’s easy to apply new techniques to your projects. I also feel that “we’re all” creating the new language not just “they”. There are many groups or even r/cpp discussions where you can express your thoughts about the new things in the standard. I like such transparency.
+
+There are of course downsides of frequent releases. A lot of C++ code is sometimes even not in C++11 version. A lot of us struggle with the maintenance of legacy code and learning modern standard is not an easy task. During the year I’ve heard an opinion that “real C++” (that we use in most of our projects) is so different than C++ presented in the newest standard. The gap is getting bigger, and bigger and developers might be frustrated (I expressed more thoughts on that topic in my post: How To Stay Sane with Modern C++).
+
+But C++17 was only the part of events in 2017. The community is growing, list of conferences, number of active blogs (with valuable content)… and finally tools are working :) (and they become a crucial part of any development environment). It looks like being a C++ developer is getting more comfortable… a bit :)
+
+So, all in all…. it was not a bad year… right? :)
+
+Your turn

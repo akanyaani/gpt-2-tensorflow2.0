@@ -1,0 +1,61 @@
+Want to help solve world problems like finding a cure for cancer? Looking to make a global impact in 2018 with minimal effort on your part? It’s relatively easy to use your devices for scientific research by donating processing power from your various smart devices. Being a citizen scientist is easy!
+
+With almost four billion internet users and an average of three devices per user globally, there is a huge amount of untapped processing power that could be used for scientific research to help solve world problems. If even only a few of those billions offer up their processors, the results are powerful.
+
+Take, for example, Berkeley’s Open Infrastructure for Network Computing (BOINC), one of the most notable distributed computing systems for scientific research. According to BOINC, there are currently 178,417 people volunteering their unused computing power for various scientific projects (as of this writing). Further, BOINC currently estimates its 24-hour computing power average to be 23.190 PetaFLOPS. To put this in perspective, that would rank third in the latest Top500 list of fastest supercomputers.
+
+Imagine if we all donated our devices’ downtime to science. How much more quickly could we help find a cure for cancer or Alzheimer’s? Maybe it’s time we stop looking at social media for hours a day and put our devices to work to benefit humanity at large.
+
+Here’s an alphabetical list of some of the top ways scientific researchers can utilize your unused processing power via distributed computing.
+
+We still have difficulty knowing/detecting when giant asteroids may be on a direct trajectory with Earth. Asteroids@Home aims to study the various spins and shapes of the numerous asteroids within our solar system. The biggest obvious benefit here is to improve our knowledge of the giant rocks pinballing through space but also to study the origins of the solar system and more.
+
+Want to help out with climate science? Climateprediction.net is a University of Oxford project focused on climate modeling projects from geoengineering to hydrological cycles to ocean changes.
+
+3. Advanced Astrophysics: Einstein@Home
+
+When providing your computer’s idle time to Einstein@Home, you are helping to directly research gravitational waves and discover neutron stars. Four academic papers have already been submitted this year with help from data crunched by citizen scientists’ computer processing power.
+
+Folding@Home uses processing power to better understand the chemistry of proteins, develop new drugs, and untangle the relationship between protein folding and disease. Started in 2000 by Stanford researchers, they are now researching infectious diseases, cancer, and neurological diseases. These include:
+
+Breast cancer
+
+Ebola
+
+Alzheimer’s
+
+Huntington’s
+
+Parkinson’s
+
+This is a very unique case and is more or less in its own category. Golem explains itself as a “global, open sourced, decentralized supercomputer that anyone can access.” Its cryptocurrency-based system allows users to make money by providing their processing power. It also uses the same system to conduct research, compute programs, run websites, etc. With a current market capitalization of $193 million and growing, Golem will be an interesting platform to take into account.
+
+Gridcoin is an alternative to Golem that similarly offers a cryptocurrency-based reward mechanism directly built on top of the BOINC system for your volunteer computing power. This integration makes selecting the programs you want from BOINC a bit more straightforward to setup. You can now run several of the other programs listed in this article and make a minute amount of money. While the market cap is much smaller than Golem (hovering around $16 million), it is definitely worth considering. Here’s a good post describing some benefits of Gridcoin over similar platforms (iEX, SONM).
+
+Here are a few other interesting alternatives to Gridcoin and Golem to check out:
+
+7. Predict Earthquakes: MyShake
+
+Earthquakes are one of the most difficult natural hazards to accurately predict. Using advanced neural networks to analyze crowdsourced accelerometer and GPS data, MyShake is an app from Berkeley researchers that is building a crowdsourced global seismic network to more accurately predict future seismic events. If you live in a known seismic area, this is one you probably want to install. Even though scientists have continually been working on new ways and hope to eventually forecast future earthquakes, there is still much to be learned. If you want to take it a step further, you can join the Quake Catcher Network (QCN) and set up a physical sensor at your house for detection.
+
+From coming up with new potential drug discovery possibilities to predicting and designing protein structures, your computations will go to great use. Rosetta@Home has helped build 20,000 new protein drug candidates and learn new rules of protein folding for development of future medicine.
+
+9. Improve Health: World Community Grid
+
+The World Community Grid is IBM’s philanthropic initiative to use distributed network computing to help advance scientific research with issues around health, poverty, and sustainability. You can use your devices to help researchers learn more about multiple diseases and how to combat them. Here are a few of their current research projects your computing power can get to work on:
+
+Cancer
+
+Zika
+
+Tuberculosis
+
+AIDS
+
+Still looking for more? You can check the BOINC project list to easily choose from different scientific disciplines. And here’s the most comprehensive list I’ve found for all distributed computing projects.
+
+Given there are many options to choose from to use your devices for scientific research, how do you choose to use your processing power for which specific scientific research program? Find the impact that creates meaning for you and put your effort into helping solve that issue.
+
+If you’re still stuck, I highly suggest watching this video of Peter Diamandis talking about passion to get you started on your purpose-driven life.
+
+Image Credit: Mirexon / Shutterstock.com

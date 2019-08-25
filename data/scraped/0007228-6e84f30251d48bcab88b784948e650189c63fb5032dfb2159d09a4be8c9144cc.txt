@@ -1,0 +1,7 @@
+Subreddit Gender Ratios
+
+Filters Sort subreddits by: Subreddit size Male ratio Female Ratio Minimum subreddit size: Search subreddits:
+
+For a detailed description and methodology please read the notebook.
+
+-- Blake Burkhart /u/bburky

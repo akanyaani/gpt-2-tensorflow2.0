@@ -1,0 +1,45 @@
+Hopfield networks (named after the scientist John Hopfield) are a family of recurrent neural networks with bipolar thresholded neurons. Even if they are have replaced by more efficient models, they represent an excellent example of associative memory, based on the shaping of an energy surface. In the following picture, there’s the generic schema of a Hopfield network with 3 neurons:
+
+Conventionally the synaptic weights obey the following conditions:
+
+If we have N neurons, also the generic input vector must be N-dimension and bipolar (-1 and 1 values).The activation function for each neuron is hence defined as:
+
+In the previous formula the threshold for each neuron is represented by θ (a common value is 0, that implies a strong symmetry). Contrary to MLP, in this kind of networks, there’s no separation between input and output layers. Each unit can receive its input value, processes it and outputs the result. According to the original theory, it’s possible to update the network in two ways:
+
+Synchronous: all units compute their activation at the same time
+
+Asynchronous: the units compute the activations following a fixed or random sequence
+
+The first approach is less biologically plausible and most of the efforts were focused on the second strategy. At this point, it’s useful to introduce another concept, which is peculiar to this kind of networks: an energy function. We can define the energy of a Hopfield network as:
+
+If the weights are null and no input is applied, E = 0, which is the initial condition for every network. However, we need to employ this model as associative memory, therefore our task is to “reshape” the energy surface, so to store the patterns (attractors) in the local minima of E:
+
+To determine the optimal learning rule, we need to consider that a new pattern has to reduce the total energy, finding an existing or a new local minimum that can be representative of its structure. Let’s consider a network that has already stored M patterns. We can rewrite the energy (for simplicity, we can set all threshold to zero) to separate the “old” part from the one due the new pattern:
+
+In order to reduce the global energy we need to increase the absolute value of the second term. It’s easy to understand that, choosing:
+
+the second term becomes:
+
+which is always non positive and, therefore, contributes to reduce the total energy. This conclusion allows to define the learning rule for a Hopfield network (which is actually an extended Hebbian rule):
+
+One the worst drawbacks of Hopfield networks is the capacity. In fact, Hertz, Krogh and Palmer (in Introdution to Theory of Neural Computation) have proven that a bipolar network with N>>1 neurons can permanently store max 0.138N patterns (about 14%) with an error probability less than 0.36%. This means, for example, that we at least 138 neurons to store the digits 0 to 9.
+
+Let’s see a simple example written in Python (the code can be vectorized in order to improve the performances) with four basic 4×4 patterns:
+
+The code is available on this GIST:
+
+View the code on Gist.
+
+We have trained the network and proposed a corrupted pattern that has been attracted by the nearest energy local minimum where the original version has been stored:
+
+It’s also possible to implement a stochastic process based on a probability distribution obtained using the sigmoid function. In this case, each neuron (the threshold is set to null) is activated according to the probability:
+
+The parameter ϒ is related to the Boltzmann distribution is normally considered as the reciprocal of the absolute temperature. if T >> 1,ϒ is close to 0 the P is about 0.5. When T decreases,ϒ increases and P approaches to value 1. For our purposes, it’s possible to set it to 1. The process is very similar to the one already explained, with the difference that the activation of a neuron is random. Once P(n=1) has been computed, it’s possible to sample a value from a uniform distribution (for example, between 0 and 1) and check whether the value is less than P(n=1). If it is, the neuron is activated (state = 1) otherwise it’s state is set to -1. The process must be iterated for a fixed number of times or until the pattern becomes stable.
+
+For any further information, I suggest:
+
+Hertz J.A, Krogh A.S., Palmer R.G, Introduction To The Theory Of Neural Computation, Santa Fe Institute Series
+
+See also:
+
+ML Algorithms Addendum: Hebbian Learning – Giuseppe Bonaccorso Hebbian Learning is one the most famous learning theories, proposed by the Canadian psychologist Donald Hebb in 1949, many years before his results were confirmed through neuroscientific experiments.

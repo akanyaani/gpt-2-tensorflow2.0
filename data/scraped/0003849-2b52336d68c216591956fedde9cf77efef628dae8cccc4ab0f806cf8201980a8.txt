@@ -1,0 +1,5 @@
+Scrap.TF will never send you random trade offers. Only use this popup to accept them.
+
+You're not logged in! To use any of the services ScrapTF has to offer you need to sign in through Steam.
+
+Don't worry, we don't get any of your login details - only your SteamID.

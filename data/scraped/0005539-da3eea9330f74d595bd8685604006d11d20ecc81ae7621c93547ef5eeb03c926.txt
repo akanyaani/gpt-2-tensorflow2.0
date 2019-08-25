@@ -1,0 +1,65 @@
+Brian Madeux, who has Hunter syndrome, sits with his girlfriend, Marcie Humphrey, while waiting to receive the first human gene editing therapy at the UCSF Benioff Children's Hospital in Oakland, Calif.
+
+After decades of hope and high promise, this was the year scientists really showed they could doctor DNA to successfully treat diseases. Gene therapies to treat cancer and even pull off the biblical-sounding feat of helping the blind to see were approved by U.S. regulators, establishing gene manipulation as a new mode of medicine.
+
+Almost 20 years ago, a teen’s death in a gene experiment put a chill on what had been a field full of outsized expectations. Now, a series of jaw-dropping successes have renewed hopes that some one-time fixes of DNA, the chemical code that governs life, might turn out to be cures.
+
+“I am totally willing to use the ‘C’ word,” said the National Institutes of Health’s director, Dr. Francis Collins.
+
+advertisement
+
+Gene therapy aims to treat the root cause of a problem by deleting, adding or altering DNA, rather than just treating symptoms that result from the genetic flaw.
+
+The advent of gene editing — a more precise and long-lasting way to do gene therapy — may expand the number and types of diseases that can be treated. In November, California scientists tried editing a gene inside someone’s body for the first time using a tool called zinc finger nucleases for a man with a metabolic disease. It’s like a cut-and-paste operation to place a new gene in a specific spot. Tests of another editing tool called CRISPR to genetically alter human cells in the lab may start next year.
+
+“There are a few times in our lives when science astonishes us. This is one of those times,” Dr. Matthew Porteus, a Stanford University gene editing expert, told a Senate panel discussing this technology last month.
+
+It’s a common path for trail-blazing science — success initially seems within reach, setbacks send researchers back to the lab, new understandings emerge over years, and studies ultimately reveal what is safe and effective.
+
+Here is a look at what’s been achieved and what lies ahead.
+
+A string of firsts
+
+The year started with no gene therapies sold in the U.S. and only a couple elsewhere. Then the Food and Drug Administration approved the first CAR-T cell therapies, which alter a patient’s own blood cells to turn them into specialized cancer killers . They’re only for certain types of leukemia and lymphoma now, but more are in the works for other blood cancers.
+
+Last week, the FDA approved Luxturna, the first gene therapy for an inherited disease, a form of blindness. People with it can’t make a protein needed by the retina, tissue at the back of the eye that converts light into signals to the brain, enabling sight. The therapy injects a modified virus containing a corrective gene into the retina so the cells can make the protein.
+
+Children who received the treatment told what it was like to gain vision.
+
+“Oh yikes, colors. Colors are super fun,” said 13-year-old Caroline Carper of Little Rock, Arkansas. “And the sunshine is blinding.”
+
+Gene therapies also showed some promise against a variety of diseases including hemophilia , a blood clotting problem; “bubble boy” disease, where a flawed immune system leaves patients vulnerable to fatal infections, and sickle cell disease, a serious and painful blood disorder common among black people.
+
+It’s not all good news, though. The therapies don’t work for everyone. They’re shockingly expensive. And no one knows how long some results will last, though scientists say the aim is a one-time repair that gets at the root cause.
+
+“The whole promise … is to cure diseases. It’s based on the rationale of fixing the problem,” not just improving treatment, said Dr. Carl June, a University of Pennsylvania scientist who pioneered CAR-T therapy.
+
+A new frontier: gene editing
+
+In mid-November, Brian Madeux, a 44-year-old Phoenix man with a metabolic disease called Hunter syndrome, had just become the first person to try an experimental gene editing treatment.
+
+“I believe in science,” he texted The Associated Press after doctors sent viruses containing a corrective gene and an editing tool through an IV into his body. The hope is that the gene and the editing tool would enter some of his liver cells and insert the instructions needed to start making an enzyme he lacks.
+
+It’s not known yet if it worked. Sangamo Therapeutics (SGMO) is testing its therapy in several studies, and independent monitors will help decide when results are released.
+
+“It’s a pretty exciting milestone,” Collins said, because it shows a way to treat more diseases than ones that can be addressed now by altering blood cells in the lab or injecting genes into the eye.
+
+“You can imagine having a scalable approach to thousands of genetic diseases,” he said.
+
+Newsletters Sign up for Morning Rounds Your daily dose of news in health and medicine. Please enter a valid email address. Privacy Policy Leave this field empty if you're human:
+
+What’s next
+
+At the top of Collins’ list: muscular dystrophy and sickle cell.
+
+There’s been so much progress that the NIH has modified an oversight panel that just a few years ago reviewed every gene therapy experiment in the U.S. Most are considered safe enough to go ahead without the Recombinant DNA Advisory Committee’s review. The panel hasn’t even met for a year.
+
+When the panel was formed decades ago, “there was a lot of concern that a graduate student could take some of this home and create a monster in his basement,” said one panel member, Boston scientist Dr. Howard Kaufman.
+
+Those fears have eased, he said.
+
+“There’s no monsters that have materialized from this.”
+
+— Marilynn Marchione
+
+This Associated Press series was produced in partnership with the Howard Hughes Medical Institute’s Department of Science Education. The AP is solely responsible for all content.

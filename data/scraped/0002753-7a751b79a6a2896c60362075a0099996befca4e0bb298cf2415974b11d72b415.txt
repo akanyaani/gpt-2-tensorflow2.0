@@ -1,0 +1,87 @@
+https://raw.githubusercontent.com/spreadcoin-project/spreadcoin/master/src/qt/res/icons/bitcoin.png
+
+BitcoinSpread
+
+Launched 29 July 2014, 9:00 UTC, No Premine
+
+Website
+
+Reddit | Twitter
+
+
+
+Completely Decentralized Digital Currency
+
+without Pools
+
+29 July 2014, 9:00 UTC, No Premine
+
+We are officially forking off SpreadCoin on 31 January 2018, 00:00 UTC 31 January 2018, 00:00 UTC
+
+Exact block number to be confirmed at a later date!
+
+
+
+All existing SpreadCoin (SPR) holders will get 1:1 fork of the coin on the new chain.
+
+Exact block number to be confirmed at a later date!All existing SpreadCoin (SPR) holders will get 1:1 fork of the coin on the new chain.
+
+Pool Prevention
+
+Parameters
+
+Algorithm: SpreadX11
+
+Block generation: 1 minute
+
+Difficulty retargets: every block based on last 360 blocks
+
+Reward starts at approx. 6.66 coins per block
+
+Block reward is smoothly halved every 4 years
+
+Total supply: 20 mln coins
+
+No year 2106 problem
+
+White Paper
+
+Exchanges
+
+Blockchain Explorers
+
+Services
+
+Translations
+
+Truly Decentralized
+
+Compact Transactions
+
+Smooth Reward Decrease
+
+Mining
+
+Quote
+
+dumpprivkey SYourSpreadCoinAddress
+
+Quote
+
+miningprivkey=YourPrivateKey
+
+Mining Guide
+
+AMD GPU Miner
+
+Nvidia GPU Miner
+
+
+
+
+
+Win32 binary:
+
+Source:
+
+And here's a GPU miner for the NVIDIA crew. Compute 3.0 support should be easy enough, but for now it's 3.5/5.0/5.2 only.Win32 binary: https://github.com/tsiv/spreadminer/releases Source: https://github.com/tsiv/spreadminer

@@ -1,0 +1,49 @@
+Camera NX V7.3 is a Google Camera mod, which is modified to unlock most of the exclusive features of Pixel 2 for Nexus 2015 and original Pixel phones. with this updated version, you can get the Portrait mode working with Nexus 5X, Nexus 6P and Pixel 2016 phones, which was the last Pixel 2’s exclusive feature.
+
+Portrait mode was the most wanted feature for Nexus and Pixel 2016 users. I have considered that Portrait mode is a hardware limiting feature, it requires a special type of image data called PD (Pixel detector?) to enable Portrait mode, but some said Portrait mode can be active with front camera, I began to thinking that this feature should be able to work in software way which we can force to enable it on other phones. Turns out, Google uses PD data to calculate portrait effect on the Back lens while use software method on the Front lens.
+
+We need the camera.experiment2017 library to active the Pixel 2 exclusive functions. thanks to the Apk changer, the first tool which can deodex the Android 8.1 odex files. I force to enable the PD data model in the camera.experiment2017 library, which is telling camera app to enable Portrait mode. Portrait mode will replace the Lens-blur mode in the menu, it provides the face-retouching feature on both front and back camera, and it needs a human face to do the portrait effect job, it will take two burst photos, one is normal ZSL HDR+ photos, the other is applied the portrait effect. if no human face shows up, you will get one normal photo.
+
+Camera NX V7.3 is based on Google Camera 5.1.016, why not the latest 5.1.018 version? because they are the same app with different version numbers. I decide to disable the Google photos combination, as it has the black screen issue, though this issue can be solved by totally replace the original Google camera in the system, it needs the same signature and provider name. I also remove the Help and Feedback in settings, and disable the silence feedback service, to make the app launching a little faster.
+
+The new version was tested on my Nexus 5X, should work on Nexus 6P and Pixel 2016 phones too. I will also provide the modified AR Sticker and AR Core app for Nexus 5X/6P, you can use it without change phone model or add files to the system, you can use other AR sticker mod if you like. I was thinking AR Core is still in beta status, bugs like upside down photo on Nexus 5X, too many things need to be fixed in the future, so no need to make it perfect at this moment.
+
+Check the update version: Camera NX V7.4 base on Google Camera 5.2.
+
+Update 01/02/2018 V7.3.1
+
+Bug fix version
+
+1. Fix abort HDR+ process FC problem.
+
+2. Fix viewfinder flickering issue.
+
+3. Add ZSL version for Android 7.1+, the previous one should be ZSL-enhanced version.
+
+PS: Portrait mode needs a test on Android 7.1, maybe not work.
+
+ZSL-enhanced version includes Motion photos, diet smart-burst and all ZSL version features, require Android 8.0+,
+
+ZSL version contains ZSL HDR+, hybrid burst, 240 FPS slow-motion, 60FPS video ready, and other OG Pixel features. it is for Nexus 2015 running Android 7.1+, if you don’t use motion photo, you can also use this one.
+
+Bugs:
+
+1. smart-burst always mark the first photo (ZSL-enhanced version).
+
+2. Autofocus won’t work after manually focus, need lock then unlock the AF/AE lock.
+
+
+
+Download link:(update AFH link…something wrong with Google drive)
+
+camera_nx_v7.3.1_ZSL_enhanced_chromloop.com.apk
+
+camera_nx_v7.3.1_ZSL_chromloop.com.apk(fixed wrong api level)
+
+NOZSL version will come later.
+
+Optional for AR sticker:
+
+AR Core mod for Nexus 2015
+
+AR sticker mod for Nexus 2015

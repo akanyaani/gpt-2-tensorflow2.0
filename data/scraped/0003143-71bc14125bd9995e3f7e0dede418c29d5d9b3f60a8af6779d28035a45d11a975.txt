@@ -1,0 +1,21 @@
+Recent tweets (mainly server status updates) Tweets by _PYX_
+
+Pretend You're Xyzzy
+
+A Cards Against Humanity clone.
+
+This webapp is still in development. There will be bugs, but hopefully they won't affect gameplay very much.
+
+If this is your first time playing, you may wish to read the changelog and list of known issues.
+
+Your computer's IP address will always be logged when you load the game client. It is not tied in any way to your username, except possibly if a server error occurs. Gameplay results are logged permanently, but without information identifying you.
+
+Most recent update: 3 September 2018:
+
+All chat and fill-in-the-blank cards have been disabled. If you're still out of the loop, here's why.
+
+Nickname: Optional identification code: (Help)
+
+Hey, this is important: Read the privacy page for details about what gameplay information is collected and how it's shared.
+
+Pretend You're Xyzzy is a Cards Against Humanity clone, which is available at cardsagainsthumanity.com, where you can buy it or download and print it out yourself. It is distributed under a Creative Commons - Attribution - Noncommercial - Share Alike license. This web version is in no way endorsed or sponsored by cardsagainsthumanity.com. You may download the source code to this version from GitHub. For full license information, including information about included libraries, see the full license information.

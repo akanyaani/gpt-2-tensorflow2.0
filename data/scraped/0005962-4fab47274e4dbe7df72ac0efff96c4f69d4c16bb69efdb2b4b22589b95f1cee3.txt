@@ -1,0 +1,25 @@
+The Brain-State-in-a-Box is neural model proposed by Anderson, Silverstein, Ritz and Jones in 1977, that presents very strong analogies with Hopfield networks (read the previous post about them). The structure of the network is similar: recurrent, fully-connected with symmetric weights and non-null auto-recurrent connections. All neurons are bipolar (-1 and 1). If there are N neurons, it’s possible to imagine an N-dimensional hypercube:
+
+The main differences with a Hopfield network are the activation function:
+
+and the dynamics that, in this case, is synchronous. Therefore, all neurons are updated at the same time.
+
+The activation function is linear when the weighted input a(i) is bounded between -1 and 1 and saturates to -1 and 1 outside the boundaries. A stable state of the network is one of the hypercube vertices (that’s why it’s called in this way). The training rule is always an extended Hebbian based on the pre-synaptic and post-synaptic raw input:
+
+where α is the learning rate.
+
+The learning procedure is analogous to the one employed for Hopfield Networks (iteration of the weight updates until convergence), while the recovery of a pattern starting from a corrupted one is now “filtered” by the saturated activation function. When a noisy pattern is presented, all the activations are computed and the procedure is repeated until the network converges to a stable state.
+
+The example is based on the Hopfield networks one and it’s available on this GIST:
+
+View the code on Gist.
+
+However, in this case, we have created a pattern that is “inside” the box, because some of the values are between -1 and 1:
+
+For any further information, I suggest:
+
+Hertz J.A, Krogh A.S., Palmer R.G, Introduction To The Theory Of Neural Computation, Santa Fe Institute Series
+
+See also:
+
+Quickprop: an almost forgotten neural training algorithm – Giuseppe Bonaccorso Standard Back-propagation is probably the best neural training algorithm for shallow and deep networks, however, it is based on the chain rule of derivatives and an update in the first layers requires a knowledge back-propagated from the last layer.

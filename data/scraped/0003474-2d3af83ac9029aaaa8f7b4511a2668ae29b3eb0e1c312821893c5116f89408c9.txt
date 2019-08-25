@@ -1,0 +1,41 @@
+With the new 1.4.0-beta1 release, it’s now possible to author custom components for PowerShell Universal Dashboard. This enables developers to create their own components using PowerShell and even JavaScript to share with other UD users. Additionally, I will be developing some components of UD in their own stand alone component modules with the source available on GitHub.
+
+Build your own with New-UDElement
+
+New-UDElement is a new Universal Dashboard cmdlet for creating custom HTML or JavaScript components. New-UDElement can be used to simply define any HTML element with attributes and content or it can be used to develop complex React-based components for other users to use.
+
+Custom HTML
+
+Custom HTML is already possible using New-UDHtml. The downside to this cmdlet is that it accepts only a string so it because very fragile and hard to read. Now, with New-UDElement, you can define the tags in a structured manner. The second benefit is that New-UDElement generates React components so the UI can be rendered in a much more efficient manner.
+
+Here’s an example of creating a Material Design collection with New-UDElement. There is currently no cmdlet for collections in UD but one could be created with this type of code.
+
+This would look something like this in UD.
+
+Custom JavaScript
+
+All the controls in UD are currently implemented with a combination of PowerShell, C# and JavaScript. The JavaScript is written using the React ecosystem and the Babel transpiler. They are then all compiled into .NET DLLs and a compressed JavaScript single page application.
+
+With New-UDElement, you can now include your own PowerShell and JavaScript component implementations and load them on the fly. Even if you aren’t developing your own components, it will be possible to pick and choose which components you’d like included (aside from the current core set).
+
+A full detailed blog post is coming but an open-source version is already available on GitHub.
+
+The First Open Source Component: UDSparklines
+
+UDSparklines is the first open-source Universal Dashboard component. It’s written in PowerShell and JavaScript and available on GitHub and the PowerShell Gallery.
+
+Sparklines are simple, little charts that display counts of data using various chart types. It’s intended to be easier to use than the current ChartJS implementation but doesn’t offer as many features.
+
+UDSparklines uses react-sparklines to generate sparklines in the browser.
+
+Using UDSparklines in your dashboard
+
+UDSparklines is just a module on the PowerShell Gallery that you can install and import into your dashboard. Install the UniversalDashboard.Sparklines module using Install-Module. After it’s installed, you can create new sparklines in your dashboard.
+
+If you open your browser, you’ll see some cute little charts.
+
+Getting Involved
+
+The UDSparklines repository is open to contributions. I’d love others to join the ecosystem. Since this is still in beta, functionality may change and there is not yet any documentation. Stay tuned for a detailed blog post on how to create your own JavaScript components.
+
+There is also an active discussion about the direction of Custom Components in Universal Dashboard on GitHub. Feel free to join in!

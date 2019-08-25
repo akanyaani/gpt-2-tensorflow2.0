@@ -1,0 +1,59 @@
+Patek Philippe’s Advanced Research facility in Neuchâtel, Switzerland Christoffer Rudquist
+
+It could be any old drab-looking office block, possibly a building affiliated with the École Polytechnique Fédérale de Lausanne, the leading micromechanical and electronics research institute that has its Neuchâtel outpost next door. However, this building doesn’t look as though it houses those working at the bleeding edge of micro-engineering; it looks administrative, as if nothing really happens there except the filing of papers. There is little inside to dispel that notion, until you see a door bearing a cross formed from four fleurs-de-lis.
+
+At this year’s Baselworld watch and jewellery show, Patek Philippe unveiled the Aquanaut Time Travel Ref. 5650G, the fifth watch in its Advanced Research series – a collection of watches designed to showcase innovations in silicon.
+
+Advertisement
+
+Patek’s singular programme actually has its roots in research into silicon that took place at Centre Suisse d’Electronique et de Microtechnique, and which was supported by Rolex and the Swatch Group, as well as Patek Philippe. However, Patek took over its laboratory, integrating it into the family and using it to further its own use of silicon components.
+
+In 2005, it launched its first component – an escape wheel – in Silinvar (the brand’s proprietary silicon dioxide formulation), which it put in its Annual Calendar Ref. 5250. A year later, the Spiromax balance spring was unveiled in another Annual Calendar, the 5350. Then 2008 saw the Pulsomax (lever and escape wheel) in the Ref. 5450 Annual Calendar converted to silicon, and in 2011, it brought out its Perpetual Calendar Ref. 5550 with a silicon balance wheel, the GyromaxSi. It was Patek’s first watch with the entire complement of regulating organs – escape wheel, lever, balance spring and balance wheel – made entirely from silicon; something the brand referred to as the Oscillomax.
+
+Read next This summer's top-five ultimate outdoor rugged watches This summer's top-five ultimate outdoor rugged watches
+
+A sheet of Patek Philippe's Spiromax balance springs during production at the Advance Research facility Christoffer Rudquist
+
+After this flurry of activity, the next six years passed with nothing coming from the Patek Philippe Advanced Research arm except silence. Until this year, when the latest addition to the Aquanaut family was unveiled. The first thing you cannot help but notice is the cutaway at nine o’clock. Dedicated Patek followers will know what a leap this is for the brand; it doesn’t even display tourbillons, choosing instead to observe tradition and keep it hidden.
+
+Advertisement
+
+But Patek had good reason to expose this part of the watch because it was one of two major innovations contained in this 40.8mm case. The one you can see is a time-zone correction with compliant mechanism in steel, and the other, which you cannot, is a Spiromax balance spring with patented terminal curve and an inner boss – a groundbreaking idea that gives this watch an accuracy (-1 to +2 seconds per day) similar to a Patek Philippe movement with a tourbillon. This is made possible by the addition of an inner boss, a bulge at the inner end of the spring. The bulge corrects the centre-of-mass imbalance that occurs when a watch remains on its side for an extended period of time and ensures the evenness of each semi-oscillation.
+
+And this particular modern marvel of microengineering is made behind those fleur-de-lis-embossed doors in Neuchâtel.
+
+Individual springs are removed from the sheet. Each is checked and the frequency adjusted Christoffer Rudquist
+
+Read next The new Seiko 5 is one of the best value watches around The new Seiko 5 is one of the best value watches around
+
+“The temperature in this laboratory is kept at 21°C and the humidity at 45 per cent,” explains Sylvain Jeanneret, the man who heads up the eight-strong team at the Patek Philippe lab in Neuchâtel, from behind his white mask, which is just one part of his head-to-toe covering. “There is a continual airflow from the ceiling into the wall. It’s filtrated and then comes back out again. It circulates 200 times per hour and flows at three metres per second.” The reason for all this – the suits, the strict environmental conditions – is because this is where Patek makes the Spiromax balance, now with two bosses, and, as Jeanneret says, “we’re dealing with elements that are less than a micron. We can’t have any dust in here.”
+
+Advertisement
+
+"The airflow circulates 200 times per hour. We’re dealing with elements that are less than a micron. We can’t have any dust" Sylvain Jeanneret, head of Patek Philippe Research Lab
+
+What goes on in these laboratories is known as deep reactive-ion etching (DRIE). To start, a smooth silicon wafer, reminiscent of Terminator 2’s T-1000 in liquid form and made from two layers of mono-crystalline silicon with an oxide layer in between, is covered with a photoresist – a light-sensitive material that forms a coating on the surface of the wafer.
+
+A component-testing machine at the Patek Philippe Advance Research facility in Switzerland Christoffer Rudquist
+
+On top of this is placed a mask, and the wafer is then exposed to a mercury lamp. This allows a pattern to show up on the silicon. A corrosive gas called SF6 (sulfur hexafluoride) then etches the silicon where the photoresist is absent. The wafer is then subjected to C4F8 (octafluorocyclobutane, an organofluorine compound that can occur in liquid or gas form), followed by SF6 again. This leads to the silicon being cut through in a striated way to reveal the balances. The oxidised layer changes colour to prevent the etching from going through the wafer, and then wet etching is used to separate the silicon from the oxidised layer.
+
+Read next The best military-inspired watches in 2019 The best military-inspired watches in 2019
+
+Each balance is checked and an oxidisation process is used on every individual spring to adjust the frequency. One final oxidisation process in a furnace at 1,000°C stabilises the spring and, after this three-week process, 600 miniscule coils of silicon are ready to regulate.
+
+A steel compliant flexible mechanism is an intricate and tiny element of the watch Christoffer Rudquist
+
+“Our customers don’t need a more precise watch, but they do expect this level of attention to detail from us,” explains Philip Barat, director of watch development at Patek, back at the company’s headquarters in Plan-les-Ouates, just outside Geneva.
+
+It is here that the second of the Aquanaut’s innovations was conceived. It looks like an animatronic crab and works in a similar pincer-like fashion. Instead of cogs and pinions, the Aquanaut’s travel time function is now a compliant mechanism; a single piece of flexible steel that has two claw-like structures at the end of a slim, steel cross move the travel time wheel back and forwards. The function is easily operated by two pushers at nine o’clock, and there is even an in-built isolator so you can’t operate the two levers at once; something the original 1950s two-time-zones mechanism version didn’t have, which led wearers having to be careful when setting their watch.
+
+Patek Philippe's Aquanaut Travel Time Ref. 5650G was unveiled at Baselworld in March 2017 Christoffer Rudquist
+
+Advertisement
+
+Thanks to 51,000 hours of computer work, 37 parts have been reduced to just 12, and the functional precision and integrity of the component has been increased. Compliant mechanisms aren’t new – the medical and engineering worlds have been using them for a while – but this is the first time they have been used in this way in the watchmaking industry.
+
+“We’re already thinking about where to use this technology next,” explains Barat. “It won’t be used to replace existing mechanisms, but we think it will allow us to find ways to reimagine complications.”
+
+If what is happening in Neuchâtel and Plan-les-Ouates is anything to go by, Patek Philippe, one of the most traditional names in the business, is redefining what watchmaking looks like in a modern age. Which goes to prove you should never judge a watch brand by its back catalogue.

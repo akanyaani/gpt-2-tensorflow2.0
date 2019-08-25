@@ -1,0 +1,35 @@
+For the first time in history, the Food and Drug Administration has approved a digital pill for tracking medications.
+
+The digital pill, known as Abilify MyCite, has a sensor that keeps track whether a patient has ingested his/her medication. The ingestible sensor is embedded in the pill and will record the date of when the drug has been taken.
+
+The gathered information will then be transmitted to a smartphone application through a patch worn by the patient.
+
+The app will enable patients to add their mood and the hours they rested. They will also have the option to upload the information to a database that physicians and others who have the patient’s permission can access.
+
+Abilify MyCite is made by the Japan-based pharmaceutical company, Otsuka Pharmaceutical, and is the brand-name version of aripiprazole.
+
+Aripiprazole is an antipsychotic drug specifically used to treat mental health disorders such as schizophrenia, bipolar disorder, and is also prescribed as an add-on treatment for depression in adults.
+
+On the other hand, the sensor fitted in the pill is manufactured by Proteus Digital Health, a California-based company which focuses on providing tools needed to provide an “efficient, patient-centric approach to measure, manage and improve the health of patient populations.”
+
+FDA-Approved Digital Pill Received Criticism
+
+Despite the potential benefits of the digital pill, many medical experts disapprove its usage. Some are already referring to it as a “biological big Brother” and is highly suspicious because the sensor will be combined with a drug used to treat mental illness.
+
+Given the fact that most people who suffer from schizophrenia experience paranoia and delusions, it puzzles health experts why the first digital drug to be approved is an antipsychotic.
+
+In a statement to the New York Times, Dr. Paul Appelbau, Director of law, Ethics, and Psychiatry at Columbia University’s psychiatry department, said:
+
+“Many of those patients don’t take meds because they don’t like side effects, or don’t think they have an illness, or because they become paranoid about the doctor or the doctor’s intentions.”
+
+“A system that will monitor their behavior and send signals out of their body and notify their doctor? You would think that, whether in psychiatry or general medicine, drugs for almost any other condition would be a better place to start than a drug for schizophrenia.”
+
+However, despite people’s concern about the pill’s cost and possible effects on a patient’s privacy, FDA remains positive and still view their decision as a big step for digital medicine.
+
+“Being able to track ingestion of medications prescribed for mental illness may be useful for some patients,” Dr. Mitchell Mathis, director of the Division of Psychiatry Products in the FDA’s Center for Drug Evaluation and Research, said. “The FDA supports the development and use of new technology in prescription drugs and is committed to working with companies to understand how technology might benefit patients and prescribers.”
+
+Dr. Walid Gellad, co-Director of the Center for Pharmaceutical Policy and Prescribing at the University of Pittsburgh, also sees the upsides to a pill with a built-in sensor. While the drug may not look appealing to patients, he pointed out that it might appeal to caregivers and family members who need to keep track of their patient’s medication.
+
+At the moment, FDA, in a statement to The Wall Street Journal, expects an influx of approval request for other digital pills. It was reported that FDA is planning to hire more software developers with “deep understanding” of medical-related devices.
+
+Would you take a digital pill to keep track of your medication given the fact that other people could access the information?? Let us know your thoughts in the comment section below!

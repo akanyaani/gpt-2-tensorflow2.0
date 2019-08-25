@@ -1,0 +1,39 @@
+In September 2016, Mark Feigin posted five insulting comments on the Islamic Center of Southern California's Facebook page (before he was finally blocked by the ICSC from commenting):
+
+"THE TERROR HIKE … SOUNDS LIKE FUN" (written in response to the Center's "Sunset Hike" announcement).
+
+"THE MORE MUSLIMS WE ALLOW INTO AMERICA THE MORE TERROR WE WILL SEE."
+
+"PRACTICING ISLAM CAN SLOW OR EVEN REVERSE THE PROCESS OF HUMAN EVOLUTION."
+
+"Islam is dangerous—fact: the more muslim savages we allow into america—the more terror we will see -this is a fact which is undeniable."
+
+"Filthy muslim shit has no place in western civilization."
+
+California is now prosecuting him for posting these comments, on the theory that they violate Cal. Penal Code § 653m(b):
+
+Every person who, with intent to annoy or harass, makes repeated telephone calls or makes repeated contact by means of an electronic communication device … to another person is … guilty of a misdemeanor. Nothing in this subdivision shall apply to telephone calls or electronic contacts made in good faith or during the ordinary course and scope of business.
+
+The posts, the California AG's office argues, were "were made with the specific intent to annoy and harass the members of the ICSC," because Feigin "was not trying to engage in any kind of political discussion but instead trying to vex members of the ICSC with his thoughts about their religion." The posts are criminal because they constitute "repeated harassment from those who wish to mock and disparage their religion," and, "[r]ather than attempt to engage in discussion or debate," are "cruel and pointedly aimed at dismissing an entire religion and those who practice it."
+
+What could be more "intolerable" than for [the] ICSC Communications Director … to check the ICSC's Facebook page and discover that someone has written "PRACTICING ISLAM CAN SLOW OR EVEN REVERSE THE PROCESS OF HUMAN EVOLUTION" as the Defendant in this case did …. Or how about … "Filthy muslim shit has no place in western civilization." This is exactly the kind of repeated, annoying, and harassing electronic communication that PC 653m(b) is meant to deter. Protected speech? Political speech? Defendant's posts on the ICSC Facebook page are neither of those things.
+
+And the government's argument makes clear that it's going after Feigin for the content—indeed the viewpoint—of his speech: "The mere content and nature of the posts establish that they are not made in 'good faith' as Defendant would suggest but are meant to annoy and harass." "Defendant is not seeking uriderstanding or guidance, instead he is posting in order to annoy and harass those who have beliefs with which he vehemently abhors." The Facebook's page public accessibility "does not translate into requiring ICSC or its members to sustain repeated harassment from those who wish to mock and disparage their religion." "Rather than attempt to engage in discussion or debate, Defendant's posts are cruel and pointedly aimed at dismissing an entire religion and those who practice it." Nor is the government's argument limited to vulgar epithets ("Filthy muslim shit"), though even those epithets are constitutionally protected when said outside the context of face-to-face "fighting words"; it applies just as much to the nonvulgar criticisms.
+
+Of course, there's nothing in the government's logic that limits it to comments posted on the Islamic Center's page, or for that matter on the Catholic Church's page or the Westboro Baptist Church's page or the Church of Scientology's page. If the government is right, and the statute applies to posts on organizations' pages, then it would apply to any repeated harshly critical posts
+
+on an NRA page "intended to annoy" NRA employees,
+
+on a pro-Trump page "intended to annoy" its operators,
+
+or on any other ideological organization's page.
+
+The "during the ordinary course and scope of business" exception might exclude consumer complaints, but the government's theory is that this exception doesn't apply to this sort of criticism that is "cruel and pointedly aimed at dismissing an entire religion and those who practice it"—logic that would apply equally to criticism of political as well as religious ideologies. Nor can the courts constitutionally conclude that harsh insults of the NRA are "in good faith" and similar harsh insults of Islam are not.
+
+This can't possibly be consistent with the First Amendment; indeed, in U.S. v. Popa (D.C. Cir. 1999), the D.C. Circuit set aside a telephone harassment conviction of someone who left seven racist messages on the voicemail of then-U.S.-Attorney Eric Holder; and the court focused on the "political message" of the speech, and not on Holder's status as a government official. Given that insults targeted to a particular person, related to a political message, are thus constitutionally protected, so are more general insults aimed at an ideology and all its adherents, whether that ideology is Islam, Scientology, conservatism, gun rights, or anything else. Laws aimed at preventing unwanted repeated messages to particular private citizens shouldn't be applied to messages sent to ideological organizations (or to public officials). And this is especially so when it comes to annoying Facebook posts, which the organization can simply block.
+
+Caleb Mason at Brown White & Osborn LLP—which many of our readers may know as the firm at which Ken White (Popehat) is one of the partners—has filed motions to dismiss the charges; I hope the court indeed promptly throws them out as unjustified under the statute, forbidden by the First Amendment, or both. But if the courts accept such charges, expect to see many more people, left, right, and otherwise, prosecuted for posting insulting messages on many groups' web pages.
+
+(I should note that Feigin is also being charged with making a threatening phone call to the Islamic Center; but that is a separate count, based on separate conduct, and it's far from clear that Feigin was actually the person who made that call, as this CNN story [Scott Glover] describes. The Center employee who received the call claimed that it sounded like Feigin's voice, which he heard when making a call to test the theory that the caller was the same person who wrote the Facebook posts. But the employee also continues to claim that the call sounded like the voice of someone who had left a different message on the Center's voice-mail the day before—and that person has been proved to be someone other than Feigin.
+
+Nor do the police have any phone records linking the threatening call to Feigin: They waited seven months before trying to get the records, and by then Citrix, which operated the calling number as part of its GoToMeeting teleconferencing system, had purged its records. This is why this post focuses on the Facebook posts, which Feigin did make, and not on the separate threatening phone call charge.)

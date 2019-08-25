@@ -1,0 +1,113 @@
+Xenoblade Chronicles 2 is an outstanding JRPG and one of my favorite games of the year. with a strategic battle system that anyone interested in battle mechanics must examine. Battles focus on forcing the player to make quick decisions with risks and rewards keeping players captivated. Players feel accomplished and satisfied after achieving goals they dreamed of minutes before.
+
+While there are several improvements to be made, the battle system is engaging, especially in boss battles near the end of the game, because of the following game design principles:
+
+Telescoping Goals – encourage the player to prioritize long-term goals while giving them feelings of progress with short-term goals
+
+Mechanic Tradeoff – each battle mechanic has advantages and disadvantages resulting in players making interesting decisions to meet the goals they’ve chosen
+
+Gradual Battle Evolution – Mechanics are mastered throughout the course of the game and change the goals the player must think about
+
+“Juicy” game feel – rewards the players for completing goals and makes it feel fun to play
+
+As long as the player understands how it works (which the game doesn’t teach well), these principles synergize to create conflicting goals that require the player question what they want to do at any given moment creating combat that requires concentration in every battle. Winning a battle using the strategy you decided feels incredibly rewarding. Though random Blade acquisition prevents you from bringing in abilities you wish you could, you’ll probably find a way that works well enough for you and have very exciting boss battles from it.
+
+Mechanics Summary
+
+For those who aren’t familiar with the game, I’ll start by describing the various complexities of the mid-game battle system in as simple terms as I can (hopefully better than the game teaches you how it works). Experts can skip this section. (Credit to Reddit user jp21231 for the image.)
+
+Your characters will auto-attack the enemy as long as they’re within range and you aren’t moving.
+
+Auto-attacks fill up your Arts (abilities) gauges, which when full will allow you to perform the art.
+
+You can switch between one of 3 “Blades” for your character. (Blades are another character that has a particular weapon (determining the arts you can use) and element.
+
+When switching to another Blade, you can immediately use all the arts for that Blade but will be unable to switch back to the previous Blade for a given time.
+
+Using an Art fills up your special attack gauge. This gauge has three levels for three different special attacks.
+
+Some Arts have properties that can trigger a Driver Combo. This is Break > Topple > Launch > Smash. (e.g., a combatant must be toppled for a Launch ability to launch it)
+
+Performing a special attack has an element tied to it, which starts a Blade Combo.
+
+Performing three special attacks of appropriate level and elements within a given time will complete the Blade Combo resulting in extra damage.
+
+Performing a Driver Combo or a Blade Combo while the other is active on the enemy will cause a Fusion Combo which does extra damage and extends the time you have to complete the combos.
+
+A completed Blade Combo will place an elemental orb on the enemy making it more resistant to the final element in the Blade Combo.
+
+When the Party Gauge is full (which rises from various actions), you can perform a Chain Attack which allows all your characters to attack with a Blade of your choice.
+
+During a chain attack, you can burst the elemental orbs on the enemy to gain extra rounds of the chain attack. Chain attacks could be the ultimate form of damage if you have enough elemental orbs on the enemy and can break them all.
+
+If a character dies, you revive them using a segment of the Party Gauge.
+
+If your character dies and no one can revive you (they’re all dead, or the Party Gauge is empty), it’s game over.
+
+As you can tell, it’s very complicated. I do wonder if it’s too complicated, and it’s worth exploring if less complexity would improve the game.
+
+Goal Analysis
+
+For players to have strategy, they must have goals. In a given battle, players usually have one primary goal: reduce the enemies HP to zero before your party-lead character dies with no possibility for revival. I’ve broken this down into a list of subgoals players may form in their mind based on the abilities the game provides.
+
+Goals in a typical mid-game boss battle:
+
+1 ) Do as much damage as I need to defeat the enemy as quickly as possible:
+
+Perform a Chain Attack with as many elements that I can break as possible/necessary (Competes with 2.1. After this ability, you are left wide open for death): Get the Party Gauge up to 3 Perform Blade Combos that will stack an element onto the enemy: Perform Arts as soon as they are available to activate my special (competes with 1.3, 1.2.1) Change Blades as soon as I can after I’ve used all my arts to be able to use the arts on that blade without waiting (means I can’t use arts from my current blade for a while, i.e. competes with most things). Make sure the Blade I need to use the combo for is available at the appropriate time Time with Driver Combos to create fusion combos and extend time Don’t perform a blade combo that would use an element that’s already on the enemy because they are more resistant and wouldn’t improve the next chain attack. Activate Specials at the right time so you can take advantage of the element you want. Consistently take advantage of Driver Combos: Cast Break, Topple, Launch, Smash at appropriate times, paying attention to other characters and when they may be able to help Time Blade Combos to create fusion combos and extend time Consistently time my Arts, so they perform a Cancel Attack Take advantage of an enemy weakness in positioning. Don’t move so I continuously auto attack
+
+2) Don’t let my player character die while there is no Party Gauge available
+
+Keep the Party Gauge as high as possible so characters can revive me if I die Keep everyone alive: Spawn potions Move to collect potions on the ground (competes against 1.5) Heal at appropriate times (competes with 1.3) Minimize damage to myself (occasionally competes against 1.4 in situations where back attacks are discouraged)
+
+To perform a Chain Attack that deals maximum damage, the player must plan for five to ten minutes! To make the Chain Attack useful, the player must choose subgoals they want to complete in the next minute or two (finish a specific Blade Combo to attach an elemental orb to the enemy). To achieve these goals, they form even more subgoals such as using the appropriate Blade special attacks to get the right element for the Blade Combo.
+
+These telescoping goals are what make the combat exciting. You constantly work towards a goal that contributes towards your long-term goal, and it allows you to see progress which makes you feel good. Combining the feeling of success with the juicy game feel of completing a Blade, Driver, or Fusion Combo or putting a Chain Attack into Overkill mode makes the player feel outstanding.
+
+Strategy
+
+Because every mechanic has risk and reward, the goals end up conflicting in a player’s mind. The player must remember their strategy can be interrupted at any time if they need to reprioritize their goals (for example, healing all of a sudden becomes more important). This leads to a plethora of interesting decisions within the battle.
+
+In a given moment, the player is thinking:
+
+Should I move and exploit an arts special ability (back attack) or pick up HP potions? Or should I just allow the auto attack to do damage and fill up my arts?
+
+Which art should I use? Should I save a certain art to allow for easier driver combos or healing or just use it so I can activate my special faster?
+
+When should I use my art? Should I use it immediately to get more affinity now? Or should I time it with my auto-attacks to get bonus damage and quicker refill?
+
+Should I switch/which blade should I switch to? Changing means I can’t come back to this blade for some time; do I need its arts or element? Should I change to get my special up faster?
+
+Which blade combo should I strive for? Should I wait for my party to get the element I want or should I just go with what I can do? Should I use a Blade Combo that seals a certain ability even if the enemy is resistant to that element.
+
+When should I use my chain attack? Should I save it so I can revive characters if they die? Should I wait until I have more elements to give me the potential to do more damage if I have the right elements to burst the elemental orbs?
+
+The tradeoffs built into every mechanic and goal make these interesting decisions pop into a player’s mind. Just to move, I’m giving up auto-attacks to gain a positional advantage. To pick up a potion, I must move, thus give up attacking. Is it worth it?
+
+While I don’t want to focus too much on out-of-battle strategy involved in preparation for battle, your strategy is greatly impacted by which Blades you bring into battle. The Blades you choose determine what elements and abilities you have access to and thus the difficulty of performing Blade/Driver Combos. Players frequently must compromise on which Blades they bring into battle due to the randomization of obtaining Blades. Working within these restrictions encourages players to play better and learn different mechanics. I explore the largely negative effect randomness has on the game in another post.
+
+Continuous Battle Evolution
+
+Even 50 hours into the game, boss battles felt fresh because a player’s goals in battle gradually change over the course of the game. Here are the ways Xenoblade 2 manipulates player goals throughout the game:
+
+The strategy to do the most damage changes as the player unlocks and learns more about the mechanics of the game. Early in the game, it was the driver combos. Later, it was Blade combos and fusion combos. Closer to the end, it was the chain attack mechanics. (Although you may question how well the game is at teaching you these mechanics)
+
+Enemies and dungeons require you to mix up your gameplay strategy. If you’re used to back-attacking to deal more damage, you’ll begin noticing enemies that counter back attacks in chapter three and four. Once you’ve (probably) mastered the blade combos, there are bosses that sap your blade affinity, requiring you to perform these actions faster or rely on a different strategy entirely.
+
+At some points in the game, the battle system had me in complete flow. It’s rare for me to put off main story to fight battles, but I was wanting to challenge myself. The points where I was in battle system flow were triggered by my determination to master the mechanics I was learning at the time.
+
+While in flow, I would attempt to fight the unique monsters in the game that are harder and gave better rewards. Unique monsters balance player flow by being optional content for players that are are higher skilled or progressed to test themselves, while lower-skilled players can safely ignore. Optional difficult content is a common strategy used to balance flow.
+
+Early in the game, it’s possible to perform a Chain Attack, but players are unlikely to because there’s no real need to break elemental orbs. It’s not until later in the game that players discover how useful this mechanic is and begin to take advantage of it. It’s great that it’s allowed early on so that highly-skilled player or those in future playthroughs can take advantage of the mechanic to make battles go faster or fight tougher enemies. This is another element that makes flow possible for highly-skilled players (although some late-game mechanics are completely blocked off until later chapters, unfortunately).
+
+Conclusion
+
+Xenoblade 2 is a phenomenal game with a strategic battle system all game designers can learn from. While I have some suggestions on how the battles could be improved, there are a few lessons for your games:
+
+Use telescoping goals to give the player constant feedback and feelings of progress towards their long-term goal
+
+Give mechanics and goals advantages and disadvantages to force the player to make interesting decisions
+
+When players complete a goal, give them some “juice” to make them feel even better
+
+Gradually increase the scope of your mechanics to change the way players must think throughout the game

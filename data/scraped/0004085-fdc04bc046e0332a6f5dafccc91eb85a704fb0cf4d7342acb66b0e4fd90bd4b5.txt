@@ -1,0 +1,9 @@
+These things look quite nice, as you might expect, with a reasonably high RGB LED density under the light diffuser, two-tone heat spreaders and pleasing design. The memory itself is also high perfoamance, running at 3200MHZ with tight latency timings. Note that you will have to go in to your motherboard settings and manually set up the memory speed, either directly or through the XMP profile.
+
+
+
+Please note, however, that I run a Ryzen system - I wasn't aware of this before I made this purchase and had to do a lot of troubleshooting, but Ryzen systems (particularly 1st gen) do not play nice with high speed memory. After much tweaking and overvolting, mine runs stable but only at 3066Mhz.
+
+I am not factoring this in to my review score, as this was a lack of research and user error on my part - but if you are buying this for a Ryzen system, consider saving money and buying the 3000Mhz kit instead. Most ryzen systems flake out above a memory frequency of 2988Mhz or so, so buying a 3200Mhz set of memory is likely to not work properly at its rated speeds unless they are made specifically for Ryzen - which these are not.
+
+The silicon lottery does factor in to this, so you might be able to get high speed memory to work fine for you, but I could not.

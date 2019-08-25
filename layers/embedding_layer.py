@@ -4,7 +4,7 @@ import math
 
 class EmbeddingLayer(tf.keras.layers.Layer):
 
-    def __init__(self, vocab_size, embedding_size, initializer, stddev=0.01, mean=0.0):
+    def __init__(self, vocab_size, embedding_size, initializer=None, stddev=0.01, mean=0.0):
         super(EmbeddingLayer, self).__init__()
         self.vocab_size = vocab_size
         self.embedding_size = embedding_size

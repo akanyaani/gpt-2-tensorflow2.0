@@ -1,0 +1,87 @@
+Updated: January 28th
+
+If you’ve been following the cryptocurrency market over the past year, you have most likely seen an explosion in the number of new ICOs. This development has clearly showcased the disruptive potential of blockchain technology. However, it has also brought a lot of complexity, which might be very hard to navigate. At WePower, we are constantly striving to help our community navigate through the complexity of the energy sector and its blockchain applications. This is why in this post we want to share a summary of why we believe WePower stands out in the landscape.
+
+Take a look at these 10 reasons why WePower might be the next best blockchain company to support. Each of these reasons can serve as a great starting point helping you understand the key values of WePower.
+
+1. We’re Bringing a Powerful Revolutionary Product
+
+WePower disrupts green energy finance market by creating global access to capital for green energy project developers, opening it to buyers and investors across the globe and providing liquidity.
+
+With WePower, green energy project developers can raise funds for their projects by issuing tokens, and then selling them to the energy buyers and investors. These tokens, in a form of smart contracts, represent a commitment to produce and deliver energy to the token holders. Because of WePower’s simple and cost effective fundraising method, green energy can be sold upfront at below the market cost; and, as a result drastically increase green energy production across the globe.
+
+These Energy tokens are internal platform tokens. WePower also grants a WPR token (described bellow) to the contributors, which accumulates energy and provides priority access to the energy plant auctions.
+
+2. Our Vision’s Credibility Is Backed by International Partnerships
+
+WePower’s innovative approach to producing, consuming, and investing in renewable energy has already attracted strong partners:
+
+WePower was selected to join Australia’s Startupbootcamp Energy Australia Accelerator (SBC). SBC is the second largest accelerator program globally, and the first to invest in a company doing a token sale. As part of the SBC Energy Australia program, WePower will be supported by some of the biggest energy companies in Australia, including Energy Australia and Spotless;
+
+3. Our team is built to deliver in all key areas of the business
+
+Our team is comprised of some of the most talented energy experts, engineers and developers who’re committed to seeing our vision through, including:
+
+Nikolaj Martyniuk, our CEO with 10 years of experience in energy project development
+
+Kaspar Kaarlep, our Chief Technology Officer and an ex-CTO of a national DSO
+
+Arturas Asakavicius, our COO with legal background in crowdfunding and Fintech
+
+David Allen Cohen, our award-winning Energy Advisor
+
+Jon Matonis, our Blockchain Advisor and Chairman of Globitex
+
+Eyal Hertzog, our Token model advisor, co-founder of Bancor
+
+Liraz Siri, our Security Expert and Co-Founder of TurnKey Linux.
+
+4. We’re Working Together with the Leading Experts in the Crypto Ecosystem
+
+WePower has the support and partnership with some of the most talented and experienced minds in cryptocurrency, including Alignment Ventures. Alignment has been the driving force behind the success of a number of coin projects, including Stox and Kik, and is working with WePower to ensure that our business strategy are optimized for maximum effectiveness.
+
+5. Our WPR Token is a versatile asset with a clear value appreciation mechanism built-in
+
+Our WPR tokens issued to the contributors are designed to continuously grow in value together with the WePower expansion. This is due to the fact that green energy producers using the WePower platform are required to donate 0.9% of their tokenized energy to WePower investors, who can then decide whether to use or sell their tokens once the energy has been produced.
+
+Moreover, WPR tokens give holders priority access to participate in the energy tokens’ auctions, where energy can be bought for the best price. This creates an additional market demand for the token because of an additional demand for a token coming from the large green energy buyers.
+
+WPR tokens will also be integrated with the Bancor Protocol, which will provide additional and continuous liquidity for WPR token holders by allowing WPR owners to convert their tokens to any other token in the Bancor Network™.
+
+6. WPR token can be bought using a currency of your choice
+
+Our mission at WePower is to revolutionize green energy by making it accessible to all.
+
+One of the ways that we’re able to reach this vision is by giving investors and customers greater options when contributing to WePower.
+
+This also means that during the pre-sale you can contribute to the green future using Ethereum, Bitcoin, various other altcoins, and even FIAT currency through BlockEX . BlockEx already provides solution to buy tokens using your credit card.
+
+Updated: January 16th: Due to the necessity of individual caps, we had to modify our token sale smart contract. In order to make this modification fully functional and secure with the time constraints we have, some of our payment partnerships had to be changed. Therefore, it will also not be possible to buy tokens using BlockEx services.
+
+7. WePower Opens the Possibility to Invest in the Energy market
+
+Historically, the energy sector has been a closed market for all but institutional investors. Because of this, most people weren’t able to take advantage of the stability and profitability that comes with investing in renewable energy.
+
+With the help of WePower, the days of closed energy markets are over. Thanks to blockchain technology and WePower’s global platform, investors from all over the world can invest in renewable energy before it’s produced at optimal prices and sell it when there’s a higher ROI — which, in some cases, could be as much as 20%.
+
+8. WePower brings Transparency and Innovation to the PPA Market
+
+Blockchain technology helps WePower to innovate existing Power Purchase Agreement (PPA) market, where agreements to produce and deliver energy for a fixed price are concluded for 20–25 years. This market is closed and only big companies participate in it (producers, big corporates and energy market makers). It lacks liquidity. WePower disrupts this market by dividing each PPA to 1kWh PPA and putting them on the Blockchain. It opens PPA market to everyone (end users, speculators), providing liquidity and creating global access to capital for green development projects.
+
+9. Green energy market needs a financial boost
+
+Major cities across the world are pledging to cut carbon emissions and go completely green in the years to come. Despite this, between 2015 and 2016, the renewable energy market reached a negative growth of -23% due to poor planning and lack of investment big banks, hedge funds, and PE funds.
+
+This is where WePower comes in. Thanks to our open energy investment platform, investors from all over the world can invest in renewable energy.
+
+We recognize that energy production is big business, with $242 billion USD being invested into renewables every year. With our help, countries can realistically make the switch to 100% renewable energy, which should push the market size from $2.3 trillion USD up to as much as an estimated $11.5 trillion USD over time.
+
+For investors, now marks the perfect time to enter the green energy market while the industry is still growing.
+
+10. WePower Helps to Fight Climate Change
+
+The problem with the energy sector is that there’s not been a strong enough push towards renewable energy. Our dependence on dirty energy is having a negative impact on the environment. Reductions of emissions has to be as great as 80–95% by 2050 in order to prevent sea levels from rising and instability in the ocean’s pH levels.
+
+With the assistance of WePower’s inclusive platform, we’re able to build a cleaner tomorrow without having to cut back on energy consumption.
+
+And we’re able to achieve that by increasing green energy accessibility globally, as well as creating a transparent system that accounts for co2 emissions honestly and transparently — and that’s win-win for everyone.

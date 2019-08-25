@@ -1,0 +1,7 @@
+1. On the Customize screen turn off the Use default mobile theme option under Advanced Options.
+
+2. Remove the stash logo from your website by getting a Full License.
+
+3. For the Instagram feed generate your Access Token & User ID here.
+
+4. If you still need help check out our help section or the theme documentation.

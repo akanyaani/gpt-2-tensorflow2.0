@@ -1,0 +1,29 @@
+First Real Bitcoin Lightning Network Payment Completed via Bitrefill
+
+Considering the persistent issues with the system at the moment, fast and cheap bitcoin (BTC) transactions might sound like a distant dream, but its realization might be just around the corner. The first transaction using real bitcoin to make a payment on the lighting network has recently been completed via mobile top-up service Bitrefill.
+
+Also Read: Several Bitcoin Exchanges Are Closing Their Doors to New Traders
+
+Lightning Payment on Bitrefill
+
+Software developer Alex Bosworth has revealed that he successfully completed the first lightning bitcoin mainnet (not a testing environment) transaction for an online purchase at Bitrefill. He paid his own actual phone bill with no fees, which executed instantly. Bitrefill is an online service that enables users top up their prepaid mobile phone plans with bitcoin and litecoin with over 600 operators across 150 countries.
+
+The Lightning Network is a scaling solution that has been in development for a few years already. The protocol creates an off-chain system by forming a network of payment channels where funds are not entrusted to a third party. It theoretically promises to scale bitcoin by allowing thousands of transactions per second without compromising its trustless nature.
+
+Mainnet Lightning Network paying my actual phone bill with actual Mainnet funds on @bitrefill. Speed: Instant. Fee: Zero. Future: Almost Here. pic.twitter.com/futhn502Lp — Alex Bosworth (@alexbosworth) December 28, 2017
+
+Bitrefill CEO, Sergej Kotliar, explained to news.bitcoin.com the motivation for this development by his team. “As we all know, blockchains currently don’t scale for consumer payments and currently require tradeoffs between decentralization and efficiency. Lightning is a tool that can enable the best of both worlds – a great customer experience (both fast and cheap), but also trustless custody of funds. So we’re eager to enable it as a payment method and do what we can to support developments on that front.”
+
+Full Steam Ahead
+
+This payment integration with Lightning has been surprisingly easy and the company is already working on further developments, Kotliar explained to us. “At first we’ve enabled Bitrefill orders to be paid with Lightning. That’s the easiest integration for us. Next step will be enabling full lightning support (send and receive) in our user accounts.”
+
+As to how he sees his company’s role in the larger development of the network, the CEO said: “A common problem with new technology and innovation is actually implementing things in production. That’s also where real issues pop up. We’re a small company, but we think that it’s important to help where we can. In our case it’s at least implementing this new piece of technology as it becomes available and provide testing. Credit belongs where credit is due with all of the independent and corporate developers of the Lightning protocol.”
+
+Bitrefill most recently made headlines when it came to the rescue of bitcoin PC gamers after Steam announced that the popular online games store would no longer accept BTC as a method of payment. “I can’t share revenue numbers but I’ll tell you that Steam voucher sales far exceeded our expectations, Kotliar commented. “We’re looking to add more voucher products to our service soon.”
+
+Would the lightning network be the cure-all for bitcoin’s current ills? Let us know your thoughts in the comments section below.
+
+Images courtesy of Shutterstock, Bitrefill.
+
+Do you like to research and read about Bitcoin technology? Check out Bitcoin.com’s Wiki page for an in-depth look at Bitcoin’s innovative technology and interesting history.

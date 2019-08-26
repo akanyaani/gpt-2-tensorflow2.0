@@ -95,11 +95,11 @@ For distributed training on multiple gpu.
 **Computation Graph of GPT-2 Model.**
 
 <div align="center">
-\nDecoder
+Decoder
 <img src="https://raw.githubusercontent.com/akanyaani/gpt-2-tensorflow2.0/master/images/GPT-2_Decoder.jpg" alt="Decoder Graph" height="750" width="700"/>
 <div>
           
 <div align="center">
-\nGPT-2
+GPT-2
 <img src="https://raw.githubusercontent.com/akanyaani/gpt-2-tensorflow2.0/master/images/GPT-2_Graph.jpg" alt="GPT-2_Graph" height="750" width="700"/>
 <div>

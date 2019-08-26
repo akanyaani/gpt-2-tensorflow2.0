@@ -77,6 +77,9 @@ For distributed training on multiple gpu.
 ```
 >> python train_model.py --distributed Ture
 ```
+**Contribution**
+
+* Your comments (issues) and PRs are always welcome.
 
 **Author**
 

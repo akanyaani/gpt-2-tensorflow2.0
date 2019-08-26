@@ -7,6 +7,7 @@ Originally implemented in tensorflow 1.14 by OapenAi :- ["openai/gpt-2"](https:/
 * ["Openai/gpt-2"](https://github.com/openai/gpt-2)
 * ["Huggingface pytorch-transformers"](https://github.com/huggingface/pytorch-transformers)
 * ["Tensorflow Transformers"](https://www.tensorflow.org/beta/tutorials/text/transformer)
+* ["The Illustrated GPT-2 "](https://jalammar.github.io/illustrated-gpt2/)
 
 
 **This repository has OpenAi GPT-2 pre-training implementation in tensorflow2.0, I am also working on text -generation using this model, 

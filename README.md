@@ -77,12 +77,15 @@ For distributed training on multiple gpu.
 ```
 >> python train_model.py --distributed Ture
 ```
+**Contribution**
+
+* Your comments (issues) and PRs are always welcome.
 
 **Author**
 
 * Abhay Kumar
 * Author Email : akanyaani@gmail.com
-* [Twitter](https://twitter.com/akanyaani)
+* Follow me on [Twitter](https://twitter.com/akanyaani)
 
 **Computation Graph of GPT-2 Model.**
 

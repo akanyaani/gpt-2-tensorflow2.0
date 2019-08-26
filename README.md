@@ -82,7 +82,7 @@ For distributed training on multiple gpu.
 
 * Abhay Kumar
 * Author Email : akanyaani@gmail.com
-* [Twitter](https://twitter.com/akanyaani)
+* Follow me on [Twitter](https://twitter.com/akanyaani)
 
 **Computation Graph of GPT-2 Model.**
 

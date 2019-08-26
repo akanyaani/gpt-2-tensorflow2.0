@@ -92,12 +92,12 @@ For distributed training on multiple gpu.
 
                                               Decoder Graph
 <div align="center">
-<img src="https://raw.githubusercontent.com/akanyaani/gpt-2-tensorflow2.0/master/images/GPT-2_Decoder.jpg" alt="Decoder Graph" height="1000" width="850"/>
+<img src="https://raw.githubusercontent.com/akanyaani/gpt-2-tensorflow2.0/master/images/GPT-2_Decoder.jpg" alt="Decoder Graph" height="900" width="750"/>
 </div>
                          
                                               GPT-2 Graph
 <div align="center">
-<img src="https://raw.githubusercontent.com/akanyaani/gpt-2-tensorflow2.0/master/images/GPT-2_Graph.jpg" alt="GPT-2_Graph" height="1000" width="850"/>
+<img src="https://raw.githubusercontent.com/akanyaani/gpt-2-tensorflow2.0/master/images/GPT-2_Graph.jpg" alt="GPT-2_Graph" height="900" width="750"/>
 <div>
 
 

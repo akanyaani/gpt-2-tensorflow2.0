@@ -88,6 +88,11 @@ For distributed training on multiple gpu.
 * Author Email : akanyaani@gmail.com
 * Follow me on [Twitter](https://twitter.com/akanyaani)
 
+**License**
+
+* [MIT](https://github.com/akanyaani/gpt-2-tensorflow2.0/blob/master/LICENSE)
+
+
 **Computation Graph of GPT-2 Model.**
 
                                               Decoder Graph
@@ -99,8 +104,3 @@ For distributed training on multiple gpu.
 <div align="center">
 <img src="https://raw.githubusercontent.com/akanyaani/gpt-2-tensorflow2.0/master/images/GPT-2_Graph.jpg" alt="GPT-2_Graph" height="900" width="750"/>
 <div>
-
-
-**License**
-
-* [MIT](https://github.com/akanyaani/gpt-2-tensorflow2.0/blob/master/LICENSE)

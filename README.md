@@ -68,9 +68,14 @@ Options:
 >> python train_model.py
 ```
 
-For distributed training on multiple gpu.
+Distributed training on multiple gpu.
 ```
 >> python train_model.py --distributed Ture
+```
+
+Start TensorBoard through the command line.
+```
+$ tensorboard --logdir /log
 ```
 
 **References:**

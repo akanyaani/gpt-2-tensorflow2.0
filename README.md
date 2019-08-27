@@ -65,12 +65,12 @@ Options:
   --help                    Show this message and exit.
   
   
->> python train_model.py
+>> python train_model.py --num-layers=8 --embedding-size=768 --batch-size=32
 ```
 
 Distributed training on multiple gpu.
 ```
->> python train_model.py --distributed Ture
+>> python train_model.py --num-layers=8 --embedding-size=768 --batch-size=32 --distributed=Ture
 ```
 
 Start TensorBoard through the command line.

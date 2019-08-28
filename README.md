@@ -1,4 +1,4 @@
-# GPT-2 Pre-training and text generation, implemented in Tensorflow2.0
+# GPT-2 Pre-training and text generation, implemented in Tensorflow 2.0
 
 Originally implemented in tensorflow 1.14 by OapenAi :- ["openai/gpt-2"](https://github.com/openai/gpt-2). OpenAi GPT-2 Paper:-["Language Models are Unsupervised Multitask Learners"](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)
 

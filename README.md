@@ -45,7 +45,7 @@ Options:
 Pre-Training model on openwebtext or any other data
 
 ```
->> python pre_process.py --data-dir=data_directory
+>> python pre_process.py --data-dir=data_directory --vocab-size=32000
 ```
 
 ```

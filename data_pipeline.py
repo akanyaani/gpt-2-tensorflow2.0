@@ -3,8 +3,8 @@ import tensorflow as tf
 
 PAD_ID = 0
 UNKNOWN_ID = 1
-START_ID = 2
-END_ID = 3
+START_ID = 3
+END_ID = 4
 
 
 def load_vocab(vocab_path):

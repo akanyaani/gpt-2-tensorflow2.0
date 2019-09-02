@@ -49,7 +49,7 @@ Pre-Training model on openwebtext or any other data
 ```
 
 ```
-$ python train_model.py --help
+$ python train_gpt2.py --help
 
 Options:
   --num-layers INTEGER      No. of decoder layers  [default: 8]
@@ -65,12 +65,12 @@ Options:
   --help                    Show this message and exit.
   
   
->> python train_model.py --num-layers=8 --embedding-size=768 --batch-size=32
+>> python train_gpt2.py --num-layers=8 --embedding-size=768 --batch-size=32
 ```
 
 Distributed training on multiple gpu.
 ```
->> python train_model.py --num-layers=8 --embedding-size=768 --batch-size=32 --distributed=Ture
+>> python train_gpt2.py --num-layers=8 --embedding-size=768 --batch-size=32 --distributed=Ture
 ```
 
 Start TensorBoard through the command line.

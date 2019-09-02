@@ -39,7 +39,7 @@ class Conv1d(tf.keras.layers.Layer):
 
 class FeedForward(tf.keras.layers.Layer):
 
-    def __init__(self, hidden_size, filter_size, dropout_rate, activation=tf.nn.relu):
+    def __init__(self, hidden_size, filter_size, dropout_rate=0.1, activation=tf.nn.relu):
         super(FeedForward, self).__init__()
         self.hidden_size = hidden_size
         self.filter_size = filter_size
@@ -52,8 +52,9 @@ class FeedForward(tf.keras.layers.Layer):
     def call(self, x, training=False):
         output = self.dense_layer(x)
         output = self.activation(output)
-        if training:
-            output = tf.nn.dropout(output, rate=self.dropout_rate)
         output = self.output_dense_layer(output)
+
+        if training:
+            output = tf.nn.dropout(output, rate=self.dropout_rate, name="feed_forward_dropout")
 
         return output

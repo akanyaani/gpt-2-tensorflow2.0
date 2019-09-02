@@ -2,6 +2,8 @@ from layers.feed_forward import *
 from layers.attention_layer import *
 from layers.embedding_layer import *
 from layers.layer_norm import LayerNormalization
+from tensorflow.python.framework import tensor_shape
+
 from utils.tf_utils import *
 import os
 
@@ -17,7 +19,7 @@ train_step_signature = [
 
 class Gpt2(tf.keras.Model):
     def __init__(self, num_layers, d_model, num_heads, dff, max_seq_len, vocab_size,
-                 optimizer="adam", learning_rate=1e-3, rev_embedding_projection=False):
+                 optimizer="adam", learning_rate=1e-3, rev_embedding_projection=True):
         super(Gpt2, self).__init__()
 
         self.rev_embedding_projection = rev_embedding_projection
@@ -42,10 +44,8 @@ class Gpt2(tf.keras.Model):
                                for _ in range(self.num_layers)]
         self.layer_norm = LayerNormalization(self.d_model)
 
-        if self.rev_embedding_projection:
-            self.output_layer = OutputLayer(self.d_model, self.vocab_size, proj_weights=self.embedding.shared_weights)
-        else:
-            self.output_layer = OutputLayer(self.d_model, self.vocab_size)
+        if not self.rev_embedding_projection:
+            self.output_layer = OutputLayer(self.vocab_size)
 
         self.loss_object = tf.keras.losses.SparseCategoricalCrossentropy(
             from_logits=True, reduction='none')
@@ -79,7 +79,11 @@ class Gpt2(tf.keras.Model):
 
         hidden_states = self.layer_norm(hidden_states)
 
-        logits = self.output_layer(hidden_states)
+        if self.rev_embedding_projection:
+            logits = self.embedding(hidden_states, mode="projection")
+        else:
+            logits = self.output_layer(hidden_states)
+
         return logits, presents
 
     @staticmethod
@@ -122,7 +126,7 @@ class Gpt2(tf.keras.Model):
             sequence_avg_loss = loss_ / tf.reduce_sum(mask, axis=1)
             return sequence_avg_loss
 
-    def create_checkpoint_manager(self, checkpoint_path, max_to_keep=5, load_model=False):
+    def create_checkpoint_manager(self, checkpoint_path, max_to_keep=5, load_model=True):
         with tf.name_scope('checkpoint_manager'):
             ckpt = tf.train.Checkpoint(optimizer=self.optimizer, model=self)
             self.ckpt_manager = tf.train.CheckpointManager(ckpt, checkpoint_path, max_to_keep=max_to_keep)
@@ -150,7 +154,7 @@ class Gpt2(tf.keras.Model):
             return self.train_writer, self.test_writer
 
     @tf.function(input_signature=train_step_signature)
-    def train_step(self, inputs, targets, step, grad_clip=True, clip_value=1.0):
+    def train_step(self, inputs, targets, step, grad_clip=True, clip_value=2.5):
 
         with tf.GradientTape() as tape:
             predictions, _ = self(inputs, training=True)
@@ -239,19 +243,19 @@ class Gpt2(tf.keras.Model):
 
 
 class OutputLayer(tf.keras.layers.Layer):
-    def __init__(self, input_dim, output_dim, proj_weights=None, kernel_initializer=None):
+    def __init__(self, output_dim, proj_weights=None, kernel_initializer=None):
         super(OutputLayer, self).__init__()
         self.proj_weights = proj_weights
-        self.input_dim = input_dim
         self.output_dim = output_dim
         self.layer_weights = None
         self.kernel_initializer = kernel_initializer
 
     def build(self, input_shape):
         if self.proj_weights is None:
+            input_dim = tensor_shape.dimension_value(input_shape[-1])
             self.layer_weights = self.add_weight(
                 'output_layer_weights',
-                shape=[self.input_dim, self.output_dim],
+                shape=[input_dim, self.output_dim],
                 initializer=self.kernel_initializer,
                 trainable=True)
         super(OutputLayer, self).build(input_shape)
@@ -283,10 +287,11 @@ class DecoderLayer(tf.keras.layers.Layer):
         self.layer_norm2 = LayerNormalization(self.d_model)
 
     def call(self, x, training, mask, past=None):
-        out, present = self.mha(self.layer_norm1(x), mask, past)  # (batch_size, input_seq_len, d_model)
+        out, present = self.mha(self.layer_norm1(x), mask=mask, past_layer=past,
+                                training=training)  # (batch_size, input_seq_len, d_model)
         with tf.name_scope("residual_conn"):
             x = x + out
-        out = self.feed_forward(self.layer_norm2(x), training)  # (batch_size, input_seq_len, d_model)
+        out = self.feed_forward(self.layer_norm2(x), training=training)  # (batch_size, input_seq_len, d_model)
         with tf.name_scope("residual_conn"):
             x = x + out
         return x, present

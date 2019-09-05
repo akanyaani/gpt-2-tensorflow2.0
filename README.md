@@ -88,7 +88,7 @@ $ tensorboard --logdir /log
 
 **Contribution**
 
-* Your comments (issues) and PRs are always welcome.
+* Your issues and PRs are always welcome.
 
 **Author**
 

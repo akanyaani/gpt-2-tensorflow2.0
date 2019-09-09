@@ -6,6 +6,7 @@ Originally implemented in tensorflow 1.14 by OapenAi :- ["openai/gpt-2"](https:/
 **This repository has OpenAi GPT-2 pre-training implementation in tensorflow 2.0, I am also working on text -generation using this model, 
 I will push that code after couple of days.**
 
+
 **Requirements**
 
 *  python >= 3.6

@@ -176,7 +176,7 @@ class Gpt2(tf.keras.Model):
 
         return loss, accuracy
 
-    @tf.function(input_signature=train_step_signature)
+    @tf.function
     def distributed_train_step(self, inputs, targets, step, grad_clip=True, clip_value=1.0):
         def step_fn(inp, tar):
             with tf.GradientTape() as tape:

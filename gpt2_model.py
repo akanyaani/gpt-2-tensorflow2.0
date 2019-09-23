@@ -295,3 +295,5 @@ class DecoderLayer(tf.keras.layers.Layer):
         with tf.name_scope("residual_conn"):
             x = x + out
         return x, present
+    
+    

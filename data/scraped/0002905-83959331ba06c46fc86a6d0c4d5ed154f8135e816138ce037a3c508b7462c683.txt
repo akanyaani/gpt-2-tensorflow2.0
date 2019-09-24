@@ -1,5 +1,0 @@
-Broadcast and play with locals
-
-Broadcasting is a way to meet up and play with people in your area. Location services must be turned on for this site on your browser (a prompt should appear).
-
-Please do not use this feature if you own a fake ice cream truck

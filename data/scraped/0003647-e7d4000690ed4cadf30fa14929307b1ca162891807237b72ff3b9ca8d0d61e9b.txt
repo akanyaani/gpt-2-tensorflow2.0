@@ -1,5 +1,0 @@
-In the video below, I am combining two very powerful modules from Phosphorus Five – Namely Hyper IDE and Camphora Five. By doing this, I can create a rich and complex Ajax CRUD app, literally in seconds – While I still get to edit it, as I see fit, after I have generated my app.
-
-This allows me to create a highly rich, Ajax web app, from within my browser, in 57 seconds. Everything is Open Source, and can be installed on your own computer, or server, with three simple steps.
-
-Advertisements

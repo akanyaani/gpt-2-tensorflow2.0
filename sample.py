@@ -83,7 +83,6 @@ class SequenceGenerator:
         if context == None:
             print("Give some context to model.................")
             return
-        context = ep.process_doc(context).lower().replace("e_os", "[SEP]")
         context = tf.expand_dims(([bos] + self.sp.encode_as_ids(context)), 0)
         print(context)
         prev = context

@@ -133,9 +133,9 @@ class Gpt2(tf.keras.Model):
 
             if load_model:  # If want to load trained weights
                 ckpt.restore(self.ckpt_manager.latest_checkpoint)
-                print('Latest checkpoint restored..............')
+                print('Latest checkpoint restored...............')
             else:
-                print("Initializing model from scratch.........")
+                print("Initializing model from scratch..........")
 
     def load_model(self, filepath):
         ckpt = tf.train.Checkpoint(model=self)

@@ -84,7 +84,6 @@ class SequenceGenerator:
             print("Give some context to model.................")
             return
         context = tf.expand_dims(([bos] + self.sp.encode_as_ids(context)), 0)
-        print(context)
         prev = context
         output = context
         past = None
@@ -94,7 +93,7 @@ class SequenceGenerator:
             logits = logits[:, -1, :] / tf.cast(temperature, tf.float32)
             # print(logits)
             logits = top_k_logits(logits, k=top_k)
-            print(logits)
+            #print(logits)
             if nucleus_sampling:
                 logits = top_p_logits(logits, p=top_p)
 
@@ -104,13 +103,13 @@ class SequenceGenerator:
                 print("Predicted end of sequence.")
                 break
 
-            print("shape.........")
-            print(tf.shape(output))
-            print(tf.shape(samples))
+            #print("shape.........")
+            #print(tf.shape(output))
+            #print(tf.shape(samples))
             output = tf.concat([output, samples], axis=-1)
             prev = samples
-            print(tf.shape(output))
-            print(output)
+            #print(tf.shape(output))
+            #print(output)
 
         print("--------------------------")
         result = tf.squeeze(output, axis=0)

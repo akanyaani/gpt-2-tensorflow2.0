@@ -15,7 +15,7 @@ I will push that code after couple of days.**
 *  tqdm==4.32.1
 *  Click==7.0
 *  sentencepiece==0.1.83
-*  tensorflow-gpu==2.0.0rc0
+*  tensorflow-gpu==2.0.0
 *  numpy==1.16.4
 
 **Setup**

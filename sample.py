@@ -98,7 +98,7 @@ class SequenceGenerator:
                 logits = top_p_logits(logits, p=top_p)
 
             samples = tf.random.categorical(logits, num_samples=1, dtype=tf.int32)
-            print(samples)
+            #print(samples)
             if tf.equal(samples, eos):
                 print("Predicted end of sequence.")
                 break
@@ -111,7 +111,7 @@ class SequenceGenerator:
             #print(tf.shape(output))
             #print(output)
 
-        print("--------------------------")
+        #print("--------------------------")
         result = tf.squeeze(output, axis=0)
         pred = [int(i) for i in result]
         generated_seq = self.sp.decode_ids(pred[1:])

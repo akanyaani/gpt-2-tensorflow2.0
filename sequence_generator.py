@@ -8,7 +8,7 @@ import click
 @click.option('--top-k', type=int, default=512, show_default=True, help="seq_len")
 @click.option('--top-p', type=int, default=512, show_default=True, help="seq_len")
 @click.option('--nucleus_sampling', type=int, default=512, show_default=True, help="seq_len")
-def seq_gen(seq_len, embedding_size, num_heads, dff):
+def seq_gen(seq_len, temperature, top_k, top_p, nucleus_sampling):
     sg = SequenceGenerator(model_path, model_param, bpe_data_path)
     sg.load_weights()
     sg.sample_sequence(context,

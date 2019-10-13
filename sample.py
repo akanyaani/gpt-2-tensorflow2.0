@@ -93,25 +93,25 @@ class SequenceGenerator:
             logits = logits[:, -1, :] / tf.cast(temperature, tf.float32)
             # print(logits)
             logits = top_k_logits(logits, k=top_k)
-            #print(logits)
+            # print(logits)
             if nucleus_sampling:
                 logits = top_p_logits(logits, p=top_p)
 
             samples = tf.random.categorical(logits, num_samples=1, dtype=tf.int32)
-            #print(samples)
+            # print(samples)
             if tf.equal(samples, eos):
                 print("Predicted end of sequence.")
                 break
 
-            #print("shape.........")
-            #print(tf.shape(output))
-            #print(tf.shape(samples))
+            # print("shape.........")
+            # print(tf.shape(output))
+            # print(tf.shape(samples))
             output = tf.concat([output, samples], axis=-1)
             prev = samples
-            #print(tf.shape(output))
-            #print(output)
+            # print(tf.shape(output))
+            # print(output)
 
-        #print("--------------------------")
+        # print("--------------------------")
         result = tf.squeeze(output, axis=0)
         pred = [int(i) for i in result]
         generated_seq = self.sp.decode_ids(pred[1:])

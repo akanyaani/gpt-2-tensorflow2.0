@@ -3,13 +3,16 @@ import click
 
 
 @click.command()
+@click.option('--model-path', type=str, default="./model", show_default=True, help="Model Path")
+@click.option('--model-parm', type=str, default="./model", show_default=True, help="Model Parm")
+@click.option('--vocab', type=str, default="./model", show_default=True, help="Vocab")
 @click.option('--seq-len', type=int, default=512, show_default=True, help="seq_len")
 @click.option('--temperature', type=float, default=1.0, show_default=True, help="seq_len")
 @click.option('--top-k', type=int, default=512, show_default=True, help="seq_len")
 @click.option('--top-p', type=int, default=512, show_default=True, help="seq_len")
 @click.option('--nucleus_sampling', type=int, default=512, show_default=True, help="seq_len")
-def seq_gen(seq_len, temperature, top_k, top_p, nucleus_sampling):
-    sg = SequenceGenerator(model_path, model_param, bpe_data_path)
+def seq_gen(model_path, model_param, vocab, seq_len, temperature, top_k, top_p, nucleus_sampling):
+    sg = SequenceGenerator(model_path, model_param, vocab)
     sg.load_weights()
     sg.sample_sequence(context,
                        seq_len=512,

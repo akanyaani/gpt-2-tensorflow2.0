@@ -1,0 +1,47 @@
+SCP-2334
+
+Item #: SCP-2334
+
+Object Class: Safe
+
+Special Containment Procedures: SCP-2334 is contained on site at its location in Utah. Although potentially hazardous records remain in the facility, Level 3 researchers may enter to study catalogued records with proper authorization from their supervisors.
+
+Description: SCP-2334 is an anomalous underground salt mine and photograph storage facility near Salt Lake City, Utah, with a single known entrance located at coordinates N██°██'██.██" W███°██'██.██". Intelligence suggests that it may contain every possible photograph in the RGB color spectrum, printed at an approximate resolution of 2000 by 3000 pixels.
+
+SCP-2334 came to the attention of the Foundation after photocopies of a photograph of the following document began to circulate among students at Brigham Young University in Provo, Utah, in September 1996. Distribution was localized to a religious sect of students who wore colorful, static-patterned clothing. Containment personnel administered Class-A amnestics to students who received photocopies of sensitive materials.
+
+SCP-2626 Artifact #: SCP-2626
+
+Artifact Class: Innoxious Spatial Control Paradigm: If not in trials, SCP-2626 should inhabit a thick bin at Plot 19. Staff may ask to work with SCP-2626 for study trials by submitting a physical proposal to a Lvl. 3 boss, who must wait in physical form to watch all handling of said artifact. …
+
+These copies appeared to be photographs of official Foundation documents, albeit with text altered to avoid use of the letter 'e'. Five different classified documents — reports regarding SCP-2626, -████, -████, -████, and -████ — were found to be circulating, all on official Foundation letterhead. Students possessing copies were interrogated, and the source was traced to a small abandoned house in ████████, Utah, where similar photographs were found pinned to the walls. An entrance to the storage facility was discovered on the adjoining property.
+
+In Operation Oulipo, Foundation personnel questioned and interrogated ██ subjects who inhabited the facility (see: Addendum-A), all of whom were affiliated with the religious sect known as the Monks of the Archive. On entering the storage facility, personnel investigated █████ rooms.
+
+SCP-2334 is not believed to be endless, but rather significantly larger than the spatial constraints of the local geology would normally allow. It is believed that additional members of the religious sect may remain within the caverns, but attempts to locate them have been unsuccessful.
+
+Addendum-A: Operation Oulipo
+
+The individuals detained in Operation Oulipo identified themselves as members of a religious group and wore ceremonial garments with colorful static patterns. They did not exhibit resistance until Foundation personnel requested access to rooms beyond those in the nearest cluster to the entrance, at which point they reacted violently. █ were terminated on site, and the rest were detained.
+
+The detained individuals did not provide reliable intelligence. Below is a brief excerpt from one of the more productive interviews.
+
+Interviewed: 2334-D2 ("Brother Pixel") Interviewer: Dr. Calvino <Begin Log, 11-09-1996 04:31 p.m.> Calvino: If these caverns contain every possible photograph, why are there humans and depictions of Earth in so many of the photos we've seen? 2334-D2: You've only seen the part that's closest to us — they printed it that way, as they carved this place from the salt. It's much larger than you think. Calvino: Who's they? 2334-D2: They printed everything. Calvino: What do you mean? 2334-D2: We follow they who have seen all, they who have known all, they who have seen the one true image. Calvino: And that's supposed to be — 2334-D2: With every passing day, our pilgrims travel deeper toward its source. Calvino: Are there more of you down there? 2334-D2 refused to answer any additional questions.
+
+Addendum-B: Image Samples
+
+The following images were chosen to provide an overview of the image characteristics discovered in each subsequent room. Most images were unrecognizable static, so these samples were also selected for clarity.
+
+Addendum-C: Document 2334-73███
+
+The following document was found in the archive room designated 73███, beside an elderly man's corpse that was found in an advanced state of decomposition.
+
+May 1 Entered the sacred realm today. My body thirsted for knowledge, but they only granted me static and images without form. I sense this journey will be long, and I must return with supplies. May 3 I saw something that almost looked like a dog today, but Brother Gradient insisted it was not a dog. May 10 I know the brothers forbid my writings, but I feel I must record what happens in these sacred caverns. I believe I saw a man's face in the static today. May 15 Brother Vector found an entire word today. The word was "calcify" — It looked as if it had been written on a typewriter, but I dare not assert that. May 28 We are running low on supplies, but a trip back to the surface is not in order. We pledged to find the one true image and not to return until we had done so. Time seems to move different here. Though we have not shaved, none of the men have grown beards since we departed. July ? Today we saw green for the first time in weeks. Praise Them! ? ? The static burns my eyes.
+
+Addendum-D: Possible Dimensions
+
+No evidence has been discovered concerning another entrance or end point to the archive.
+
+Research theories regarding the size of the archive are based on statistical analysis of pixel values in images recovered from the site. In short, the distribution of pixels suggests a complete set of images, were one to travel far enough through the archive.
+
+The total number of images possible at 2000 by 3000 pixels (the approximate resolution of each print) is calculated to be 224^6000000, or nearly 1010^10^7.

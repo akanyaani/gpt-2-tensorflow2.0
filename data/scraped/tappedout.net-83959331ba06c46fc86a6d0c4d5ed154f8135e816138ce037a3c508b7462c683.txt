@@ -1,0 +1,17 @@
+Export/Download Printable Text (.txt) CSV Multiverse id (.txt) Markdown/Reddit MTGO (.dek) MTG Salvation
+
+MTG Arena
+
+Copy to clipboard
+
+4 Aqueous Form (THS) 39 3 Cartouche of Knowledge (AKH) 45 4 Counterspell (EMA) 50 2 Foil (UMA) 23 Island (HOU) 254 4 Jhessian Thief (IMA) 2 Mana Leak (MM2) 2 Nullify (BNG) 45 2 Ponder (C18) 96 2 Scroll Thief (M14) 17 4 Sigil of Sleep (DDI) 24 4 Tandem Lookout (MM3) 53 4 Vapor Snag (MM2) 3 Annul (THS) 2 Negate (AER) 2 Nullify (BNG) 3 Relic of Progenitus (EMA) 3 Rewind (MM3) 2 Spell Pierce (XLN)
+
+Copied to clipboard. You can now import it in the MTG Arena client.
+
+In TappedOut's comments/forums
+
+In TappedOut's comments/forums with pie-chart
+
+On your blog
+
+This will require TappedOut.js included in your blog.

@@ -1,0 +1,3 @@
+⚠
+
+The HookTube frontend now loads its data from hooktube.com/api JSON rather than inserting inline with serverside scripting, so it requires JavaScript. Please give the site permission to run hooktube.com JavaScript in your NoScript or similar plugin. The javascripts are purely for loading data from hooktube.com and enabling interface elements, not tracking or ads.

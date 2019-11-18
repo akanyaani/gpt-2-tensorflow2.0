@@ -1,0 +1,61 @@
+Most web browsers come with a built-in password manager, a basic tool to save login data to a database and fill out forms and/or sign in to sites automatically using the information that is in the database.
+
+Users who want more functionality rely on third-party password managers like LastPass, KeePass or Dashlane. These password managers add functionality, and may install as browser extensions or desktop programs.
+
+Research from Princeton's Center for Information Technology Policy suggest that newly discovered web trackers exploit password managers to track users.
+
+The tracking scripts exploit a weakness in password managers. What happens is the following according to the researchers:
+
+A user visits a website, registers an account, and saves the data in the password manager. The tracking script runs on third-party sites. When a user visits the site, login forms are injected in the site invisibly. The browser's password manager will fill out the data if a matching site is found in the password manager. The script detects the username, hashes it, and sends it to third-party servers to track the user.
+
+The following graphic representation visualizes the workflow.
+
+The researchers analyzed two different scripts designed to exploit password managers to get identifiable information about users. The two scripts, AdThink and OnAudience, inject invisible login forms in web pages to retrieve username data that is returned by the browser's password manager.
+
+The script computes hashes and sends these hashes to third-party servers. The hash is used to track users across sites without the use of cookies or other forms of user tracking.
+
+User tracking is one of the holy grails of online advertising. Companies use the data to create user profiles that record user interests based on a number of factors, for example based on the sites visited -- Sports, Entertainment, Politics, Science -- or from where a user connects to the Internet.
+
+The scripts that the researchers analyzed focus on the username. Nothing is keeping other scripts from pulling password data as well however, something that malicious scripts have tried already in the past.
+
+The researchers analyzed 50,000 websites, and found no traces of password dumping on any of them. They did find the tracking scripts on 1,100 of the top 1 million Alexa websites however.
+
+The following scripts are used:
+
+AdThink: https://static.audienceinsights.net/t.js
+
+OnAudience: http://api.behavioralengine.com/scripts/be-init.js
+
+AdThink
+
+The Adthink script contains very detailed categories for personal, financial, physical traits, as well as intents, interests and demographics.
+
+The researchers describe the functionality of the script in the following way:
+
+The script reads the email address and sends MD5, SHA1 and SHA256 hashes to secure.audiencesights.net. Another request sends the MD5 hash of the email address to the data broker Acxiom (p-eu.acxiom-online.com)
+
+Internet users can check the status of tracking and opt out of the collecting of data on this page.
+
+OnAudience
+
+The OnAudience script is "most commonly present on Polish websites".
+
+The script computes the MD5 hash of email addresses, and also other browser data commonly used for fingerprinting (MIME types, plugins, screen dimensions, language, timezone information, user agent string, OS and CPU information). Another hash is generated based on the data.
+
+Protection against login form web tracking
+
+Users can install content blockers to block requests to the domains mentioned above. The EasyPrivacy list does that already, but it is easy enough to add the URLs to the blacklist manually.
+
+Another defense is the disabling of login data auto-filling. Firefox users can set the preference about:config?filter=signon.autofillForms to false to disable autofilling.
+
+Closing Words
+
+Is the advertisement publishing industry shoveling its own grave? Invasive tracking scripts are yet another reason for users to install ad and content blockers in web browsers.
+
+Yes, this site has ads as well. I wish there was another option to run an independent site, or a company that would offer native advertisement solutions that run only on the server a site runs on, and does not require third-party connections or use tracking.
+
+You can support us through Patreon, PayPal, or by leaving a comment / spreading the word on the Internet.
+
+Summary Article Name How web trackers exploit password managers Description Research from Princeton's Center for Information Technology Policy suggest that newly discovered web trackers exploit password managers to track users. Author Martin Brinkmann Publisher Ghacks Technology News Logo
+
+Advertisement

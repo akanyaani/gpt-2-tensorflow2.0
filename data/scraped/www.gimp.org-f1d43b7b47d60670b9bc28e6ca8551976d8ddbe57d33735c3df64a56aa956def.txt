@@ -1,0 +1,25 @@
+2017-12-31
+
+When you say you mostly do bugfixing now, seven kinds of new features will crawl under your bed and bite your silly toes off. If we were to come up with a short summary for 2017, it would be along those very lines.
+
+So yes, we ended up with more new features that, however, make GIMP faster and improve workflows. Here’s just a quick list of the top v2.10 parole violators: multi-threading via GEGL, linear color space workflow, better support for CIE LCH and CIE LAB color spaces, much faster on-canvas Warp Transform tool, complete on-canvas gradients editing, better PSD support, metadata viewing and editing, under- and overexposure warning on the canvas.
+
+All of the above features (and many more) are available in GIMP 2.9.8 released earlier this month. We are now in the strings freeze mode which means there will be very few changes to the user interface so that translators could safely do their job in time for the v2.10 release.
+
+Everyone is pretty tired of not having GIMP 2.10 out by now, so we only work on bugs that block the v2.10 release. There are currently 25 such bugs. Some are relatively easy to fix, some require more time and effort. Some have patches or there is work in progress, and some need further investigation. We will get there faster, if more people join to hack on GIMP.
+
+Speaking of which, one thing that has changed in the GIMP project for the better this year is the workload among top contributors. Michael Natterer is still responsible for 33% of all GIMP commits in the past 12 months, but that’s a ca. 30% decrease from the last year. Jehan Pagès and Ell now have a 38% share of all contributions, and Øyvind Kolås tops that with his 5% thanks to the work on layers blending/compositing and linear color space workflow in GIMP.
+
+In particular, Ell committed the most between 2.9.6 and 2.9.8, implemented on-canvas gradients editing, introduced other enhancements, and did a lot of work on tuning performance in both GIMP and GEGL. We want to thank him especially for being the most prolific developer of GIMP for this last development release!
+
+Another increasingly active contributor in the GEGL project is Debarshi Ray who uses the library for his project, GNOME Photos. Debarshi focused mostly on GEGL operations useful for digital photography such as exposure and shadows-highlights, and did quite a lot of bugfixing. We also got a fair share of contributions from Thomas Manni who added some interesting experimental filters like SLIC (Simple Linear Iterative Clustering) and improved existing filters.
+
+Changes in GEGL and babl in 2017 included (but are not limited to) 15 new filters, improvements in mipmap processing and multi-threading computations, a video editing engine called gcut, more fast paths to convert pixel data between various color spaces, support for custom RGB primaries and TRC, ICC color profiles parsing and generation, and numerous bugfixes.
+
+At least some of the work done by Øyvind Kolås on both GEGL, babl, and GIMP this year was sponsored by you, the GIMP community, via Patreon and Liberapay platforms. Please see his post on 2017 crowdfunding results for details and consider supporting him. Improving GEGL is crucial for GIMP to become a state-of-the art professional image editing program. Over the course of 2017, programming activity in GEGL and babl increased by 120% and 102% respectively in terms of commits, and we’d love to see the dynamics keep up in 2018 and onwards.
+
+Even though the focus of another crowdfunded effort by Jehan Pagès and Aryeom Han is to create an animated short movie, Jehan Pagès contributed roughly 1/5 of code changes this year, fixing bugs, improving painting-related features, maintaining GIMP official Flatpak, and these statistics don’t even count the work on a much more sophisticated animation plug-in currently available in a dedicated Git branch. Hence supporting this project results in better user experience for GIMP users. You can help fund Jehan and Aryeom on Liberapay, Patreon or Tipeee. You can also read their end-of-2017 report.
+
+We also want to thank Julien Hardelin who has been a great help in updating the user manual for upcoming v2.10, as well as all the translators and people who contributed patches. Moreover, we thank Pat David for further work on the new website, and Michael Schumacher for tireless bug triaging. They all don’t get nearly as much praise as they deserve.
+
+Happy 2018!

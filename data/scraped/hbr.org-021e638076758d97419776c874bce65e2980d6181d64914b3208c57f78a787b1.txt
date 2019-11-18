@@ -1,0 +1,65 @@
+Numerous studies show how men and women are treated differently at work, and how these differences affect behavior. This roundup of research articles, six in total, explores why women don’t apply for roles if they’ve been previously rejected; what wearing sensors in the office reveals about gender bias; how marriage impacts women’s careers (and vice versa); how VCs talk about male and female entrepreneurs differently; and why women choke less than men (at least when it comes to tennis).
+
+We publish a lot of articles based on new research (you may have noticed). This year, some of our most viewed and shared stories were based on studies about women — and, more specifically, stories looking at differences in how men and women are treated, and behave, at work. I’ve summarized six below, including one where the office is actually a tennis court.
+
+The question: Why do fewer women end up in senior positions than men? Is it because they have fewer mentors? Less face time with managers? Or aren’t as proactive as men in talking to senior leaders?
+
+The methodology: An analysis of email communication and meeting schedule data for hundreds of employees in one office over four months. One hundred employees were given sociometrist budgets (similar to the ID badges worn by all employees) to track in-person behavior, including movement, proximity to other badges, and volume and tone of speech.
+
+The results: No perceptible differences were observed in the behavior of men and women. They had the same number of contacts, spent the same amount of time with senior leaders, and allocated their time similarly. They also spend the same amount of time in online and face-to-face conversations. Yet women weren’t advancing and men were.
+
+The conclusion: “Our analysis suggests that the difference in promotion rates between men and women in this company was due not to their behavior but to how they were treated. This indicates that arguments about changing women’s behavior — to ‘lean-in,’ for example — might miss the bigger picture: Gender inequality is due to bias, not differences in behavior.” –Stephen Turban (former data scientist, Humanyze), Laura Freeman (data analyst, Humanyze), and Ben Waber (Humanyze CEO, visiting scientist at the MIT Media Lab)
+
+Read the full article.
+
+The question: Are actions that lead to professional success viewed less favorably in the heterosexual marriage market?
+
+The methodology: Career center questionnaires were completed by 355 incoming business school students (241 men and 114 women) regarding their job preferences (desired compensation, hours of work, and days per month of travel). Students also rated their leadership abilities and professional ambition.
+
+The results: When single women were told their answers would be viewed by just their career counselors, single and married women gave similar answers. When they were told their answers would be viewed by both counselors and peers, however, single women lowered their desired salary (from $131,000 to $113,000 on average) and the number of days they were willing to travel (14 days vs. 7). The hours they were willing to work per week dropped by four, and they also reported less professional ambition.
+
+The conclusion: “Taken together, our results suggest that single women avoid actions that would help their careers because of marriage considerations, and that marriage considerations may be an additional explanation for gender differences in the labor market. Many schooling and initial career decisions…occur early in life, when most women are single. These decisions can have labor market consequences with long-lasting effects.” –Leonardo Bursztyn (University of Chicago), Thomas Fujiwara (Princeton University, and Amanda Pallais (Harvard University)
+
+Read the full article.
+
+The question: The initial aim of the research was to help financial decision makers develop better processes. But as the data was collected and analyzed, a more gendered pattern began to emerge.
+
+The methodology: Observations of closed-room, face-to-face discussions of final funding decisions among Swedish government VCs. In total, 125 applications (99 from male entrepreneurs and 26 from female entrepreneurs) were discussed between 2009 to 2010.
+
+The results: The VCs’ rhetoric often reflected stereotypical ideas about women having qualities opposite to those considered important to being an entrepreneur, with VCs questioning their credibility, trustworthiness, experience, and knowledge. When they spoke with men, the VCs’ language borrowed from stereotypical beliefs about entrepreneurial potential.
+
+Women were also only given 25% of the applied-for amount; men received an average of 52% of what they asked for. Women were also denied financing 53% of the time, while men’s applications were dismissed 38% of the time.
+
+The conclusion: “Broadly, our research suggests that stereotyping through language underpins the image of a man as a true entrepreneur while undermining the image of a woman as the same. Such stereotyping will inevitably influence the distribution of financing, but could also have other major consequences. Because the purpose of government venture capital is to use tax money to stimulate growth and value creation for society as a whole, gender bias presents the risk that the money isn’t being invested in businesses that have the highest potential.” –Malin Malmstrom (Luleå University of Technology), Jeaneth Johansson (Halmstad University and Luleå University of Technology), Joakim Wincent (Luleå University of Technology and Hanken School of Economics)
+
+Read the full article.
+
+The question: It’s known as the “Oscar curse”: women who are awarded Best Actress are more likely to file for divorce than men awarded Best Actor. Do women’s high-status careers affect marital stability?
+
+The methodology: A total of 209 women in executive leadership roles completed a 9-item scale survey about their status relative to their husbands. Data was also collected from 53 of their husbands.
+
+The results: Women who felt they were in a higher status position compared to their husbands were more likely to have feelings of resentfulness or embarrassment, which negatively impacted their marital satisfaction (note: men were unaffected by their wives’ feelings and were only dissatisfied with their marriage if they felt their wives were outwardly dissatisfied about it). However, when husbands provided material (and not just emotional) support to their wives (helping with child or elder care, household chores), women did not report feeling resentment.
+
+The conclusion: It’s still challenging for women to achieve both a successful career and a family, and open dialogue between spouses can help. But perhaps more importantly, tangible support (from both husbands and, potentially, organizations) can make it easier. –Alyson Byrne (Memorial University of Newfoundland) and Julian Barling (Smith School of Business, Queen’s University)
+
+Read the full article.
+
+The question: Why do women, who begin their careers with ambitions as high as their male peers, stop competing for top jobs?
+
+The methodology: A study of more than 10,000 senior executives in the U.K. who were competing for top jobs, interviews with top women leaders, a survey, and a randomized experiment.
+
+The results: Women were less likely than men to apply for a job, but only if they had been rejected for a similar job before. Why? Not because they lacked confidence, but because they felt they wouldn’t be truly valued at the highest levels of the corporate world. In addition, women also perceived recruitment and hiring processes as less fair.
+
+The conclusion: “Women’s decisions to remove themselves from competition after having been rejected is driven partly by their experience of being a negatively stereotyped minority in the executive labor market. Think about it — women executives were coming to the table with past experiences of being in the minority, and they may have been in situations in which they felt like outsiders or felt that their leadership ability wasn’t recognized. Because the majority of men had generally not been subject to these same situations, men were less likely to take rejection as a signal that they did not belong in the corner offices, and therefore such disappointments had less of a negative impact on their willingness to apply again.” –Raina Brands (London Business School) and Isabel Fernandez-Mateo (London Business School)
+
+Read the full article.
+
+The question: Who chokes more when it matters: men or women?
+
+The methodology: An analysis of more than 8,200 tennis matches from 2010 Grand Slam tournaments, specifically focusing on server performance in the first set played.
+
+The results: Men’s performances deteriorated at critical junctures (in sets that went to 4-4, for example), while women’s remained the same in pre- and post-tie situations. And when women’s performance did go downhill, it was 50% less of a drop, on average, than the drop seen for men.
+
+The conclusion: “We can confidently say that in the world of elite tennis, women are better under pressure than men are. They choke less. Whether that translates to other competitive settings remains to be seen.” –Alex Krumer (University of St. Gallen)
+
+Read the full article.

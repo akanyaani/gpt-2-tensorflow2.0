@@ -1,0 +1,23 @@
+NEW: Lucky Draw
+
+All BNB collected from voting fees during the vote will be put into a pool for a Lucky Draw to be completed at the end of the vote. In the spirit of our community vote, Binance will also contribute up to an additional 5,000 BNB to the Lucky Draw pool based on the total number of participants in the vote (1,500 BNB, 3,000 BNB and 5,000 BNB for 10,000, 20,000 and 30,000 voters respectively).
+
+All users that participate in the vote will be eligible for the lucky draw and we will draw a total of 500 winners, who will evenly split the final pool. The lucky draw will, as always, be live streamed online. We will announce the URL (and broadcast date) for the live stream at a later date.
+
+Voting Rules:
+
+Voting time: {{voteInfo.vote.startTime | date:"yyyy-MM-dd HH:mm:ss"}} - {{voteInfo.vote.endTime | date:"yyyy-MM-dd HH:mm:ss"}}.
+
+Only users with total trading volume of at least {{voteInfo.vote.tradeLimit}} BTC in their past 30 day trading history will be eligible to participate in the vote.
+
+Only accounts that were registered before {{voteInfo.vote.registerTimeLimit | date:"yyyy-MM-dd HH:mm:ss"}} will be eligible to participate in the vote.
+
+One vote per user, with a fee of {{voteInfo.vote.fee}} BNB per vote (the multiplier has been removed)
+
+Please note:
+
+- At the end of the voting period, the votes garnered by each candidate will be subject to a final review. As always, Binance reserves the right to adjust the weightings of each vote.
+
+- Upon completion of the voting process, Binance will list the coin on our exchange within a reasonable time frame. Depending on market response, we will attempt to conduct this event monthly.
+
+- Binance reserves all rights to change the rules of this event without notification, including the revoking of results or disqualifying candidates who are confirmed to have engaged in vote manipulation. This includes but is not limited to any form of financial or monetary incentives, airdrops or competition rewards offered that will influence user votes. The weight of each vote may also vary based on a variety of factors including but not limited to the level of historical activity of the account used to vote.

@@ -1,0 +1,29 @@
+Magical Candy
+
+Rare Wondrous Item
+
+Usually made by wizards to sell, these candies have magical properties once ingested, unless otherwise stated. Putting a candy in your mouth and/or swallowing takes a bonus action.
+
+Dragondrops Comes in 5 colors. Red (Fire, Strawberry Flavor) Black (Acid, Licorice Flavor) Blue (Lightning, Blueberry Flavor) Green (Poison, Lime Flavor) and White (Cold, Coconut Flavor). Once swallowed, the creature may use an action to breath dragon breathe corresponding to the color dragondrop he ate. Each dragondrop deals 4d8 damage of the corresponding type, or half on a success. Each drop allows only one dragon breathe. Black, Blue- 30ft line (Dex save, 14) Red, White, Green- 15ft cone (con save, 14)
+
+Taffy Rope When bitten into, can stretch up to a maximum size of 150 feet. Can only hold 100 pounds before it breaks.
+
+Candy Geyser When ingested, 300 gallons of water pour from the creature’s mouth. Every turn, 30 gallons of water pours out in a geyser 30 feet long and 1 foot wide. It has disadvantage to all ability checks, attack rolls, and saving throws. As a bonus action, it may turn to aim at a creature. The target must succeed on a DC 13 Strength saving throw or take 1d4 bludgeoning damage and fall prone.
+
+Candy Cane Shank After being in the mouth of a creature for 12 seconds (2 turns), the candy cane acts like a +1 dagger. In addition, it may be used to attack as a bonus action. The candy cane breaks after 1 minute.
+
+5-pound Gummy Bear Eating part of of this gummy bear feeds you for the entire day, but you have -1 on all attack rolls, ability checks, and saving throws for 24 hours. The part you ate regenerates at dawn. After eating a part of the gummy bear, you gain 1d6 pounds.
+
+Sugar Free Gummy Bears 1d6 hours after ingesting, the consumer has massive diarrhea. He or she becomes poisoned, stunned, and frightened for 2d4 hours. They take 1d4 fire damage and 1d4 psychic damage every hour.
+
+Adhesive Gum Once chewed for 6 seconds, the user may use the gum as an adhesive, attaching two objects together. To detach the items, one must succeed on a DC 15 Athletics Check.
+
+Life Savers If this candy is in your mouth when you fall to 0 hp, you are automatically stabilized. The candy dissolves in 1 minute.
+
+Pixie Dust When ingested, the user’s speed increases by 10 for 1 minute, and the user has disadvantage on any checks made to retain or recall knowledge.
+
+Cotton Candy When ingested, the creature turns into strands of cotton. It may move through a space as narrow as 1 inch without squeezing. It cannot cast spells or attack. It takes a perception check of 18 to notice the creature. Any damage it takes is doubled. This effect lasts for 1 minute.
+
+Chocolate Rabbit This rabbit is alive. It acts in every way like a rabbit. It uses Rat statistics. It is a construct.
+
+Iron Hide When held in a creature’s mouth, the creature has a natural armor of 13 + Dexterity modifier. After 1 minute, the Iron Hide dissolves in the creature's mouth, ending the effect. Spitting or swallowing the Ironhide causes its effects to end.

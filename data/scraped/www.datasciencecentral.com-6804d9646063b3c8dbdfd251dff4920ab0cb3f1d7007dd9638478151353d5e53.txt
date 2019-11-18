@@ -1,0 +1,13 @@
+The use of Python as a data science tool has been on the rise over the past few years: 54% of the respondents of the latest O'Reilly Data Science Salary Survey indicated that they used Python. The results of the 2015 survey indicated that 51% of the respondents used Python.
+
+Nobody can deny that Python has been on the rise in the data science industry and it certainly seems that it's here to stay.
+
+This rise in popularity in the industry, the long gone infancy of Python packages for data analysis, the low and gradual learning curve and the fact that it is a fully fledged programming language are only a couple of reasons that make Python an exceptional tool for data science.
+
+Although Python is a very readable language, you might still be able to use some help as a data science student or beginning data scientist.
+
+So, that's enough reason for me to make a cheat sheet for Python for data science, especially for beginners. It can serve as a quick reference for those of you who are just beginning their data science journey or it can serve as a guide to make it easier to learn about and use Python.
+
+This cheat sheet is free additional material that complements DataCamp's Intro to Python for Data Science course, where you learn by doing.
+
+If you want to download the cheat sheet, go here. The cheat sheet will guide you through variables and data types, Strings, Lists, to eventually land at the fundamental package for scientific computing with Python, Numpy. Below is a screenshot (the original is much easier to read.)

@@ -1,0 +1,5 @@
+JavaScript seems to be disabled in your browser. :(
+
+Our site is made awesome by Javascript. Please enable it to access it properly.
+
+If you'd like some help doing that, click the link for the browser you're using:

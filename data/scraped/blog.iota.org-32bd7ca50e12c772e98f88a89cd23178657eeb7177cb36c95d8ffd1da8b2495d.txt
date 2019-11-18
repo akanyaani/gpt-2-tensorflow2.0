@@ -1,0 +1,27 @@
+Background
+
+During an attack on the IOTA network in October, some funds were found to be at risk of theft, due to users re-using their private keys. The IOTA team took the decision to protect IOTA token holders by taking those funds which were at risk into temporary custody through a snapshot.
+
+Once the attack was stopped, the team worked on setting up a process for reclaiming the funds, and sending them back to the rightful owners. This process of receiving and validating the claims has been understandably complicated and sensitive — especially when taking into account the immutability of the IOTA distributed ledger. This effort has required the full attention of the entire core and legal teams of IOTA over the last few weeks. We are pleased to announce that we have finally come to the final step: sending out the reclaimed funds.
+
+Sending back the Funds
+
+As some community members have already noticed, we have already started sending out some of the claims (beginning with smaller ones) in batches. We will continue to do so over the course of the first week of January and aim to have all claims successfully processed by January 10th. Because this is a manual process, involving several validation and verification steps, we have limited the size of each batch to 30 claims.
+
+Once all claims have been successfully processed, we will publish the list of claims with a full audit trail (an intrinsic component of the validation process), for the public to verify. We will also provide additional instructions for users that have not yet claimed their funds, on how they will be able to do so.
+
+How do I know if my funds have been received?
+
+The fastest solution, is it to simply check your address at one of the Tangle explorers (https://thetangle.org, https://iotasear.ch), or via the API (for those more technically-minded, with the getBalance API call). You can also log in to your GUI wallet and check if you have received a transaction, your balance should simply show up in your account.
+
+Important: KYC for Multiple Claims
+
+Several funds have been claimed multiple times (requested to be sent to different addresses). Considering that these could represent malicious attempts to steal funds from the rightful owners, the IOTA Foundation will be processing these claims only after having KYC’ed the claimants.
+
+Because of this risk, the users of the following addresses should reach out to the IOTA Foundation at contact@iota.org, in order to get their claims processed. Simply send us an email, with the address(es) that are owned by you, and we’ll then guide you through the process.
+
+Closing Remarks
+
+We understand that users were frustrated due to the prolonged process of regaining access to their funds, and we sincerely apologize for the delays. At IOTA, our priority is it to ensure that user funds are protected at all costs. We want IOTA to be a protocol that can be used with confidence, to transfer and store value. Because of this, we have taken this extraordinary step of taking user funds into custody during the attack.
+
+We perceive that such steps may be necessary, especially during the growth stage of IOTA, and other crypto-currencies. All the best, and very much looking forward to an even better year 2018.

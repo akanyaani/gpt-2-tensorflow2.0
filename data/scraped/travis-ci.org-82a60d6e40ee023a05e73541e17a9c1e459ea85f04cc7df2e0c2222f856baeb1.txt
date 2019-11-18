@@ -1,0 +1,9 @@
+Hey there!
+
+Looks like you have JavaScript disabled.
+
+The Travis CI webclient needs JavaScript to work properly.
+
+Please enable JavaScript to get the best Travis CI experience.
+
+Thank you!

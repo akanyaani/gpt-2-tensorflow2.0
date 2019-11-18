@@ -1,0 +1,3 @@
+Package Scripts
+
+Package scripts as executables. Bundle in modules, assemblies and XAML files. Include the PowerShell 6 or 7 runtime directly in your executable so there is no need to install .NET Core or PowerShell on target machines.

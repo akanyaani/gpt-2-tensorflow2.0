@@ -1,0 +1,33 @@
+SCADA - Gateway to (s)hell Hacking industrial control gateways
+
+Thomas Roth
+
+45 min
+
+45 min 2017-12-30
+
+2017-12-30 5491
+
+5491 Fahrplan
+
+Playlists: '34c3' videos starting here
+
+Small gateways connect all kinds of fieldbusses to IP systems. This talk will look at the (in)security of those gateways, starting with simple vulnerabilities, and then deep diving into reverse-engineering the firmware and breaking the encryption of firmware upgrades. The found vulnerabilities will then be demonstrated live on a portable SCADA system.
+
+Companies often utilize small gateway devices to connect the different field-busses used in industrial control systems (such as Modbus, RS232 etc) to TCP/IP networks. Under the hood, these devices are mostly comprised of ARM-based mini computers, running either custom, tiny operating systems or uClinux/Linux. The talk will look at the security aspects of these gateways by examining known and unfixed vulnerabilities like unchangeable default credentials, protocols that do not support authentication, and reverse engineering and breaking the encryption of firmware upgrades of certain gateways.
+
+The talk will consist of a theoretical part, an introduction on how to reverse-engineer and find vulnerabilities in a firmware-blob of unknown format, and a practical part, showcasing a live ICS environment that utilizes gateways, from both the IP and the field-bus side, to pivot through an industrial control system environment: Demonstrating how to potentially pivot from a station in the field up to the SCADA headquarters, permanently modifying the firmware of the gateways on the way.
+
+Download
+
+Related
+
+Embed Share:
+
+
+
+
+
+
+
+Tags

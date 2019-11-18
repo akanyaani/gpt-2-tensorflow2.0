@@ -1,0 +1,145 @@
+Here it is, GIMP 2.9.8 has been released some days ago now, the latest development version of GIMP! As it is customary now, let’s list our involvement in this version so that our supporters on crowdfunding platforms know what they funded. 🙂
+
+Since it also happens to be the end of the year, I complete this post with our end-of-year report, as we also did in 2016.
+
+What we did for GIMP 2.9.8!
+
+During this release span, I focused most of my efforts on bug fixing. I finished a few features here and there but actually even restrained myself from coding too many new stuff! Why? Because I believe we have enough and at some point, we should just release GIMP 2.10. Of course, GIMP 2.10 could be even twice as awesome if we push it by a few more months, and 5 times more awesome with even more time. But then in the end, if you never see it, what’s the point, right? Actually I even plan on just doing this (bug fix and finishing what was started) until we get 2.10 out. Let’s stop feature craziness!
+
+Apart from a lot of bug fixes, I did a lot of bug triaging these last months (looks like I participated in 122 bug reports between 2.9.6 and 2.9.8, i.e. 3 and a half months). And this month, I also reorganized our bug tracker still for the same reason (pushing GIMP 2.10 release forward) by reviewing the 50+ bugs we had in the GIMP 2.10 milestone to set as blockers only the ones we should really look into. Right now that’s down to 25 such bugs!
+
+I also put some efforts in our stable flatpak release, which is how since October 16, GIMP has officially had its flatpak package on flathub! It is of course visible on the GNU/Linux section of GIMP’s download page with a nice “Install GIMP flatpak” orange button (notice also the cool drawing on this page? That’s Aryeom’s!).
+
+Right now, you can only install the stable release, i.e. GIMP 2.8.x (flathub only accepts stable builds) but if you get it there, when GIMP 2.10 will be out, you will automatically get an official update!
+
+In any case, this flatpak thing (in particular keeping our development flatpak manifest up-to-date with git code and testing the builds) is taking a lot of maintenance time!
+
+As a whole that was 122 commits authored by me in GIMP repository between GIMP 2.9.6 and 2.9.8, out of 474 commits (so ~25%), and I pushed a few more commit from third-party when I reviewed them…
+
+We also had again 2 guest commits by Lionel N., board member of LILA association, the non-profit managing ZeMarmot project.
+
+Of course, though I said I focused on bug fixes, there are still a bunch of cool features I participed to during this release:
+
+Support of password-protected PDF for import (the 2-commit feature implemented by Lionel from LILA !) and new procedure `file-pdf-load2()` API for plug-ins and scripts to open password-protected PDF files, but also multi-page PDFs (loading a multi-page PDF was already possible through the GUI but not by scripts and plug-ins).
+
+!) and new procedure `file-pdf-load2()` API for plug-ins and scripts to open password-protected PDF files, but also multi-page PDFs (loading a multi-page PDF was already possible through the GUI but not by scripts and plug-ins). Help system improvements: upon detection of locally installed manuals in several languages, GIMP will now allow selection of the preferred manual language in the Preferences dialog (Interface > Help System). I felt this was an important feature because we regularly had people not understanding why the manual they installed was not seen by GIMP. And they were right, especially since we don’t have as many manual languages as GUI languages. For example, we have 3 Chinese translations (zh_CN|TW|HK) but only a zh_CN manual. I could definitely imagine someone with a zh_HK GUI to go for the zh_CN manual as a fallback.
+
+will now allow selection of the preferred manual language in the Preferences dialog (Interface > Help System). I felt this was an important feature because we regularly had people not understanding why the manual they installed was not seen by GIMP. And they were right, especially since we don’t have as many manual languages as GUI languages. For example, we have 3 Chinese translations (zh_CN|TW|HK) but only a zh_CN manual. I could definitely imagine someone with a zh_HK GUI to go for the zh_CN manual as a fallback. Verbose version (command line: gimp -v) now displays C compiler information (useful for debugging).
+
+Canvas rotation and flipping information are now visible in the status bar, and this information is interactive (clicking the flip icons will unflip the canvas; clicking the rotation angle opens the “Select Rotation Angle” dialog). Some people were indeed noting that with the ability to flip/rotate the canvas, in some cases, you may end up “lost” on whether it is currently rotated, flipped or whatnot. After all, the status bar already has zoom information and flip/rotation is quite a similar feature. 🙂
+
+Screenshot implementation for KDE/Wayland.
+
+Color picker implementation for KDE/Wayland.
+
+Improve delay handling for screenshots.
+
+Review HGT support patches and improve a bunch of stuff with auto-detection of the format variants (SRTM-1 and SRTM-3), and also a `file-hgt-load()` API for scripts and plug-ins.
+
+But really, as I said, I think my bug fixes and maintenance of previous code was actually much more important than this above list, even though it is so less fancy (and I am a bit sad I cannot list bug fixes in a non-boring way!). And I will just focus more and more on fixes and stability to get GIMP 2.10 out as soon as possible.
+
+ZeMarmot in 2017: our report!
+
+You know it, ZeMarmot is not only about GIMP, even though this software is a huge part of it! ZeMarmot is about making an animation film in 2D drawing, traditional animation yet with digital means (i.e. drawing on computer, not paper). We draw with GIMP. Well Aryeom Han, animator and animation film director does so (not me). And we crowdfund this project.
+
+Financial status
+
+This year was a bit tough mentally and we really started to wonder if this project was a good idea for our lives. Project finances increased continuously yet very slowly, and were still extra low all throughout 2017 (under 400 € a month).
+
+In October, I finally shouted a cry for help after my computer broke, and we are so happy that many people heard it! The funding increased by about twice.
+
+Now let’s be clear! Our current funding is more or less 1000€ since October. This is a lot better than what we had before and it gave us a lot of hope. Yet it still does not pay full time salaries for 2 people (faaar from it, actually it cannot even pay a single full time salary obviously). So we still hope you will not forget us and if you appreciate our project and what we do, both on GIMP development and/or on ZeMarmot movie, please we will be very thankful if you can donate to the project.
+
+ZeMarmot project donations can happen on:
+
+» Liberapay «
+
+(weekly funding, USD and EUR possible, lowest fees)
+
+» Patreon «
+
+(monthly funding, USD ($) only)
+
+» Tipeee «
+
+(monthly funding, EUR (€) only)
+
+Live Streaming while GIMPing
+
+We were conscious that the lack of news on the animation side was not the best. On the other hand, animation just takes time. That’s the way it is.
+
+Depending on the complexity and details of the animation (as chosen by the team), a minute of animation can take a month of work or more (just search the web, all links say the same).
+
+Of course, it depends on your artistic choices. If you do vector animation or Limited Animation (Simpsons or the likes), you can animate a lot faster. Basically you don’t take the same time to animate South Park or a Disney movie (which is not a problem, it’s a choice; I appreciate The Simpsons or South Park too). For ZeMarmot, as you know, we chose a detailed style with full traditional animation. At times we regretted this choice a bit but that’s the way things are.
+
+That’s how Aryeom decided to live stream herself working! She took a few days to search software and found the Free Software OBS, understand how things work (well she also managed to break Fedora once by reinstalling NVidia drivers while following tutorials! :p), made many tests throughout December and since December 25, public livestreams started.
+
+The work is regularly live-streamed at this address:
+
+» https://www.youtube.com/c/LibreArtInfo/live «
+
+Unfortunately we have not found the right organization yet to plan and give a schedule of future livestreams. So for the time being, the best is either to follow us on Twitter, subscribe to the Youtube channel, or just try to have a regular look at above link.
+
+Previous livestreams are recorded and listed automatically on the channel once the streaming ends, so you can also have a look later on older (not live anymore) streaming. Be aware though: this is real live of someone working really. That means it is real time, not accelerated 20 times (as all these speed painting you can see everywhere), errors may happen and are not edited out afterwards. There is no sound and Aryeom doesn’t interact with people. She is focused and doesn’t look at what is streamed (we will sometimes look at the chat though and may answer questions but don’t consider it as a granted “feature”; this is a peek at an animator work, not a service). The artist sometimes goes for a rest, and so on. It can even be boring at times. Also the longer recorded streaming in the list is more than 7 hours straight! Fair warning. 😉
+
+Still I think that’s an awesome experiment and we already had some very cool comments, like people thanking us (some in English, many in French) because that it is a bit like being allowed to sneak into an animation studio to observe the animators working.
+
+Art+Code symbiosis
+
+We regularly have the question: “why don’t you have separate crowdfundings for development and animation sides?”
+
+Answer: because this project is a whole. It is symbiotic: I do Free Software because I use it; if I didn’t have ZeMarmot (or another project where we use GIMP), then I would likely not contribute to GIMP. It is that simple. Aryeom as well would likely not use GIMP if she didn’t have a developer by her side.
+
+We remind that is how I started my first patches: because we had crashes and many issues with GIMP and this was not enough for us as a professional tool at the time. We are very happy to tell you that now, it is. Not only because of us, far from it, let’s be clear! We are so happy to hack together on GIMP with several very talented developers (among them, Mitch, GIMP maintainer who is still here after 20 years!). But we were allowed to do our part and this is the reason we stuck around.
+
+To illustrate, just a few hours ago, thanks to Aryeom’s streaming of her work, we were able to have an unexpected live demo of how well we work together. During her live, GIMP crashed! Ouch! In a few minutes, she was able to find reproduction steps during the live streaming. Less than two hours later, I fixed the crash then improved my fix in the master repository of GIMP (it actually took even just a few minutes to reproduce and fix the crash, but well I also had other priorities which I could not drop immediately!).
+
+That’s how well we work together and what you pay for when you donate to ZeMarmot project, and finally that’s the reason why it is a 2-people project, not 2 separate projects. 🙂
+
+So if you ever hold your donation because you only want to pay for a movie, or at the opposite only want to pay for GIMP development, I hope you will review your judgment and see why you get to your goal even better by paying for both!
+
+GIMP Motion
+
+GIMP Motion is our plug-in for animation in GIMP (we talked about it earlier for simple then complex animations). You can also see it in action in Aryeom’s live streamings by the way, nearly daily now.
+
+Unfortunately I have kind of neglected it lately, and that’s mostly for the reason I told earlier: because I am really focusing on getting core GIMP 2.10 out. So I hope this won’t just drag forever (seriously I want to get done with GIMP 2 and go forward with GIMP 3!)
+
+That means that GIMP Motion will likely not be a part of GIMP 2.10. Yet it will be a part of a further GIMP 2.10.x release since we decided earlier that we would relax the no-feature policy on minor releases, which is how I decided that GIMP Motion was not ready to be part of a stable release. That’s exactly why I pushed for this no-feature policy relax for years (ever since 2014, cf. the section “GIMP Meeting(s)” on our LGM 2014 report!): so that we don’t have to rush half-done features nor push important releases forever.
+
+Well we still use it internally, but that’s still very very rough and has many bugs. Be warned if you try it!
+
+Documentating the process of animation
+
+This year, we have been a bit light on documenting the process. Well we had a post on animatics, key-framing, etc. and one on background design. We also had a few talks during the NUMOK festival in Paris, as well as in the JM2L meeting in South of France where we could give some interesting details on the process as well which are not written here yet (but should be soon).
+
+I am the first to admit that’s not enough since Aryeom and I really want to document the techniques behind giving life to still images. But as I said, we had been a bit down, overworked and penniless this year so this fell a little behind. Hopefully we’ll do better next year.
+
+ZeMarmot in the news
+
+This was also cool since, we got on local TVs twice this year thanks to JM2L! In all the videos, GIMP is clearly mentioned and shown on screen as well as Aryeom hacking animations on GIMP in GNOME. 🙂
+
+We have been featured on France 3 (also in writing):
+
+Then on PleinSud TV (at 2:32):
+
+And a mention in a newspaper, Nice Matin:
+
+New material
+
+Thanks to the increased funding at end of year, we were able to renew a bit our material. In particular we bought a Wacom MobileStudio Pro (basically a laptop-tablet from Wacom) on which the first thing we did was to erase Windows and install a GNU/Linux (Fedora 27) and GIMP. And that worked well. We still opened more than a dozen of bug reports here and there, so don’t expect things to be perfect yet. But we are working on it!
+
+We documented a bit our process on a Twitter moment and unfortunately had to take a pause because of hardware issues. We indeed had to send the tablet back to after-service, which gave it back after more than 3 weeks (2 days ago)!
+
+Now we will have to start it all again. Be prepared, we might publish a very complete guide soon on how to get a very cool Wacom laptop with Linux and GIMP. 🙂
+
+Conclusion
+
+This year was hard but eventful, and the end of year gave us more hope after funding increased and we were able to upgrade our material.
+
+The streaming of Aryeom GIMPing was also a very cool idea and we are happy to see that people seem to like it. To this day we only got positive feedbacks. We should have started this sooner!
+
+We do hope that things will continue to improve. We love what we do and our project, and we really wish we will soon be able to say proudly that we are able to make a living by hacking Free Software and Libre Art.
+
+When this day will come, this will just be a very very happy day. 🙂
+
+Happy New Year 2018 everyone!

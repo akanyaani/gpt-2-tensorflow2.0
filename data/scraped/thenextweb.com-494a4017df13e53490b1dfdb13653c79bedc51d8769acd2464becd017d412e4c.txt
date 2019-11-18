@@ -1,0 +1,41 @@
+While the advantages of extremely strong cybersecurity are much like the benefits of living a healthy life, it is hard to truly appreciate them until they are gone.
+
+Just in the next four years (2017-2021), cyber crime damage costs are expected to hit $6 trillion annually, according to Cybersecurity Ventures. As more and more humans gain internet access and create digital profiles (currently 51 percent of the world’s population of 7 billion people), cyber attackers will continue to gain more influence and power.
+
+Luckily, technological advances and accessibility to blockchain engineers have enabled companies like REMME, a startup that enables passwordless authentication across a variety of platforms, to fundamentally disrupt cyber space by building on top of the bitcoin blockchain.
+
+These companies have successfully eradicated the need for storing and collecting fragile passwords by creating a decentralized ‘access management system.’ In other words, they are building a more transparent and secure way of controlling who has access to what information. In the most practical sense, they have created a foolproof mechanism for user authentication that does not require password input.
+
+The biggest problem in many systems is that human beings are prone to make errors. We forget things. We are careless. We get greedy and do what we should not be doing. While this can be trivial in some cases, in larger scale states, it can be the difference between success and bankruptcy.
+
+This problem of “human error” has been a constant throughout history and is unlikely to change anytime soon. Many of the problems in cybersecurity root themselves in this tendency.
+
+What is promising, and likely to fundamentally disrupt the cyber security space in the near future, is that entrepreneurs are finding ways to leverage frontier technology to enable processes and structures that reduce (or entirely cut out) human error and provide systematic, controlled means of organization.
+
+Here are 3 ways passwordless authentication will change the web (for the better)
+
+Distributed authentication for web site owners and web service providers
+
+Right now, web site owners and web service providers store almost all of their user information, like usernames, passwords, emails, credit cards, etc., in one centralized location. For obvious reasons, if someone gets access to this database, there is huge liability and risk, often times costing firms billions and billions of dollars of damaging costs.
+
+Centralized systems are incredibly vulnerable to lone wolf attacks. Instead, it is possible to create a decentralized system that distributes verification across many nodes, which mitigates risk and further secures the data.
+
+Internal enterprise systems
+
+One of the biggest challenges that large enterprises have to deal with is managing the risk that comes with employing thousands of people. The challenge becomes 10x as complex when, to do their jobs effectively, employees need to get access to sensitive and confidential information. These employees, high ranking or not, generally need some sort of user, password, and login to get this information, and do their work.
+
+The problem is that freely distributing access to information for hundreds, or even thousands of employees, is a huge security risk. Most security breaches happen because of a careless human error, such as employees leaving their browsers open in public or leaving a trailing sticky note behind. On top of that, there is a slew of spammy cyber attacks that come through in the form of phishing emails, that try to bait a company’s employees into giving up their login data.
+
+The costs of maintaining access points to all of this sensitive data only increase as companies scale and add new employees. On the other hand, off-boarding employees, and removing proper access points, is a whole separate issue that is extremely costly as well.
+
+All companies would be much better off if the “human element” of accessing information was completely removed. And luckily, that is the future we are marching towards.
+
+IoT: device-to-device communication
+
+Internet connected devices are the future. We are all so excited about the enormous potential that intelligent, “smart things” can do for our homes, cities, and workplaces, that we often forget the enormous vulnerability that accompanies them.
+
+Imagine the worst case scenario: “terrorist-like” hackers have seized control of your car, wreaking havoc on the streets, all from the comfort (and safety) of their home. While this future is not pretty, it is not all that unlikely unless we continue to invest in building more secure authentication systems.
+
+By solving this problem with today’s tech, we can create a more secure onboard system that still works with internet connection. Imagine a car-to-car mesh network that enables the exchange of traffic data, avoids accidents, and minimizes traffic. That future is coming, quicker than we all may think.
+
+Read next: Microsoft found a way to fit a 3.5mm headphone jack in half the space

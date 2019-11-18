@@ -1,0 +1,43 @@
+These metrics show how this site compares to its competitors. The competitors list can be found next to the search input field above.
+
+Comparison Metrics
+
+These metrics show how this site compares to its competitors. The competitors list can be found next to the search input field above.
+
+Search Traffic
+
+The percentage of organic search referrals to this site.
+
+Search Traffic Competitor Average
+
+The average search traffic percentage for this site's competitors.
+
+
+
+The competitors list can be found next to the search input field above.
+
+Bounce rate
+
+Percentage of visits to the site that consist of a single pageview.
+
+Bounce rate Competitor Average
+
+The average bounce rate for this site's competitors.
+
+
+
+The competitors list can be found next to
+
+the search input field above.
+
+Total Sites Linking In
+
+Sites that link to this site, recalculated weekly.
+
+Total Sites Linking In Competitor Average
+
+The average number of sites linking to this site's competitors.
+
+
+
+The competitors list can be found next to the search input field above.

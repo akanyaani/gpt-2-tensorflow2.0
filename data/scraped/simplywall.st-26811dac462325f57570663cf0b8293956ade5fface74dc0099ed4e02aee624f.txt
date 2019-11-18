@@ -1,0 +1,25 @@
+The model
+
+I am going to run you through how I calculated the intrinsic value of T-Mobile US Inc ( NASDAQ:TMUS ) by estimating the company’s future cash flows and discounting them to their present value. I will use the discounted cash flows (DCF) model. It may sound complicated, but actually it is quite simple! Anyone interested in learning a bit more about intrinsic value should have a read of the Simply Wall St analysis model . If you are reading this and its not December 2017 then I highly recommend you check out the latest calculation for T-Mobile US by following the link below.
+
+We are going to use a two-stage DCF model, which, as the name states, takes into account two stages of growth. The first stage is generally a higher growth period which levels off heading towards the terminal value, captured in the second ‘steady growth’ period. To begin with we have to get estimates of the next five years of cash flows. For this I used the consensus of the analysts covering the stock, as you can see below. I then discount this to its value today and sum up the total to get the present value of these cash flows.
+
+5-year cash flow forecast 2017 2018 2019 2020 2021 Levered FCF ($, Millions) $2,762.22 $3,462.40 $4,262.72 $5,821.00 $6,066.00 Source Analyst x11 Analyst x15 Analyst x6 Analyst x1 Analyst x1 Present Value Discounted @ 8.49% $2,545.97 $2,941.48 $3,337.87 $4,201.21 $4,035.28 Present Value of 5-year Cash Flow (PVCF)= $17,062
+
+We now need to calculate the Terminal Value, which accounts for all the future cash flows after the five years. For a number of reasons a very conservative growth rate is used that cannot exceed that of the GDP. In this case I have used the 10-year government bond rate (2.5%). In the same way as with the 5-year ‘growth’ period, we discount this to today’s value at a cost of equity of 8.5%.
+
+Terminal Value (TV) = FCF 2021 × (1 + g) ÷ (r – g) = $6,066 × (1 + 2.5%) ÷ (8.5% – 2.5%) = $103,184 Present Value of Terminal Value (PVTV) = TV / (1 + r)5 = $103,184 / ( 1 + 8.5%)5 = $68,641
+
+The total value, or equity value, is then the sum of the present value of the cash flows, which in this case is $85,703. In the final step we divide the equity value by the number of shares outstanding. If the stock is an depositary receipt (represents a specified number of shares in a foreign corporation) or ADR then we use the equivalent number. This results in an intrinsic value of $103.01, which, compared to the current share price of $64.35, we find that T-Mobile US is quite good value at a 37.53% discount to what it is available for right now.
+
+Important assumptions
+
+I’d like to point out that the most important inputs to a discounted cash flow are the discount rate and of course the actual cash flows. If you don’t agree with my result, have a go at the calculation yourself and play with the assumptions. Because we are looking at T-Mobile US as potential shareholders, the cost of equity is used as the discount rate, rather than the cost of capital (or weighed average cost of capital, WACC) which accounts for debt. In this calculation I’ve used 8.5%, which is based on a levered beta of 0.8. This is derived from the Bottom-Up Beta method based on comparable companies, with an imposed limit between 0.8 and 2.0, which is a reasonable range for a stable business.
+
+Next Steps:
+
+Valuation is only one side of the coin in terms of building your investment thesis, and it shouldn’t be the only metric you look at when researching a company. What is the reason for the share price to differ from the intrinsic value? For TMUS, I’ve compiled three key aspects you should look at:
+
+1. Financial Health: Does TMUS have a healthy balance sheet? Take a look at our free balance sheet analysis with six simple checks on key factors like leverage and risk. 2. Future Earnings: How does TMUS’s growth rate compare to its peers and the wider market? Dig deeper into the analyst consensus number for the upcoming years by interacting with our free analyst growth expectation chart. 2. Other High Quality Alternatives: Are there other high quality stocks you could be holding instead of TMUS? Explore our interactive list of high quality stocks to get an idea of what else is out there you may be missing!
+
+PS. The Simply Wall St app conducts a discounted cash flow for every stock on the NASDAQ every 6 hours. If you want to find the calculation for other stocks just search here.

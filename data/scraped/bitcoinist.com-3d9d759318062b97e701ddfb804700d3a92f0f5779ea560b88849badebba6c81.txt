@@ -1,0 +1,33 @@
+News Cryptocurrency Investors Lose Major Tax Break Under New U.S. Tax Code
+
+The new U.S. tax code amends IRC Section 1031 (a)(1) regarding “like kind exchanges,” excluding all cryptocurrencies from a previous legal loophole and making all cryptocurrency trades a taxable event.
+
+On Friday morning, U.S. President Donald Trump signed a new tax bill into law, signalling the first major tax overhaul in the U.S. in over 30 years. And while you may or may not have high praise for the bill, one thing is certain: the new tax code is bad news for cryptocurrency investors. Starting Jan. 1st, 2018, all cryptocurrency trades will be a taxable event, including swapping one cryptocurrency for another.
+
+Closing the 1031 Loophole
+
+The recent overhaul amends a part of the tax code regarding exemptions for “like kind exchanges,” allowing investors to swap similar assets without triggering a tax event. These so-called “1031 exchanges” have long been used by traders to exchange property, such as art or real estate, without having to pay taxes on it.
+
+Since March 2014, the IRS has treated Bitcoin and other digital currencies as property for tax purposes. This makes them subject to capital gains tax, requiring taxes be paid whenever crypto is exchanged for fiat currency (ie. cash).
+
+Coins held for less than a year are subject to regular income tax, which can range anywhere from 10 to 37 percent, depending upon personal income levels. Coins held for longer than one year are subject to long-term capital gains tax, which caps at around 24 percent.
+
+However, it has never been clear whether a trade between two different cryptocurrencies qualifies as a “like kind exchange.” Up until this point, cryptocurrency trades have typically resided in this legal gray area, granting most traders a loophole for deferring taxes on short-term capital gains.
+
+However, the new amendment definitively narrows the 1031 exemption to only cover real estate swaps, excluding Bitcoin entirely. It specifically limits the scope of the law from previously covering “property” to now only covering “real property.” And as a digital asset, cryptocurrency is about as far from “real property” as one can get.
+
+The end result is that, starting next year, effectively all cryptocurrency trades will be taxed at the time of their execution, bringing an end to one of the most lucrative tax loopholes previously available to traders.
+
+Death, Taxes, and Cryptocurrency
+
+This change marks a significant blow for U.S. cryptocurrency investors. Although trades between fiat currency and crypto have previously been taxed, the vast majority of trading which occurs between separate cryptocurrencies has flown under the radar.
+
+Although traders are expected to pay taxes once they “cash out” or trade their coins for goods and services, swapping between cryptocurrencies has allowed investors to defer their tax obligation for short-term capital gains. Now investors will no longer be able to avoid income tax on these trades without holding onto a specific cryptocurrency for over a year.
+
+What remains to be seen is whether users will actually heed the law, as many U.S. investors already have an notoriously bad habit of avoiding taxes on their Bitcoin profits. From 2013 to 2015, the IRS discovered that fewer than 1,000 people in the U.S. had paid taxes on their bitcoins each year, prompting a controversial lawsuit against Coinbase, demanding they hand over all user transactions from those years.
+
+Tensions with the IRS will likely only get worse next year should Bitcoin investors continue to shirk their tax obligations. Gains of nearly $14,000 in Bitcoin this year alone will likely spell billions of dollars of missed tax revenue for the IRS should Americans choose to cheat the taxman again next spring.
+
+Do you think that the new amendment is fair towards Bitcoin users? What is your stance on taxing cryptocurrencies? Let us know in the comments below.
+
+Images courtesy of Bitcoinist archives.

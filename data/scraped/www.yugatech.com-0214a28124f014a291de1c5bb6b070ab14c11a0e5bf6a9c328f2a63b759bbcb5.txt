@@ -1,0 +1,153 @@
+In 2015, Samsung introduced the Galaxy A8. A year later, it released its successor called the Galaxy A8 (2016). The company, however, skipped 2017 and decided to release the 2018 model instead. To greet the New Year, here’s our review of the Samsung Galaxy A8 (2018).
+
+Before we get started, the Galaxy A8 (2018) is just one of the two smartphones that Samsung announced in December 2017. The other one is the bigger sibling, the Galaxy A8+ (2018). The two are basically twins except for a few differences.
+
+Design and Construction
+
+The Galaxy A8 (2018) took cues from the design of its flagship cousins such as the Galaxy S8 and Galaxy Note8, meaning it sports an 18.5:9 display with a slim top and bottom bezels. It has curved corners and rounded sides but thicker and not as sleek as the Galaxy S8.
+
+The front is dominated 5.6-inch FHD+ Super AMOLED display. Placed above it is the earpiece, sensor, and two cameras consisting of a 16MP main, and 8MP wide-angle.
+
+Placed on the left are the volume keys and the nano-SIM 1 card slot.
+
+On the right are the power/lock button and loudspeaker.
+
+Looking at the top we have the microphone, and another tray for the nano-SIM 2 card and microSD card slot, which is great for those who are not fond of hybrid card trays.
+
+Down at the bottom are the USB-C port, microphone, and 3.5mm audio port.
+
+Turn it on its back and you will see the 16MP main camera with an LED flash beside it. Below it is the horizontally-positioned fingerprint scanner. It feels weird at first since we’re used to the vertical scanner on the Galaxy S8, but so far it can scan our fingerprints well and its lower placement makes it easier to reach.
+
+In the hands, the Galaxy A8 (2018) feels thicker and heavier than the Galaxy S8. It’s also a smudge magnet but still feels premium thanks to the glass front and back (no mention of Gorilla Glass) which curves towards the edges and meets the metal frame in the middle for a seamless feel. In addition, it is IP68-certified meaning, it can be submerged under 1.5m of water for 30 minutes.
+
+Display and Multimedia
+
+The Galaxy A8 (2018) sports a 5.6-inch Super AMOLED panel with a resolution of 1080 × 2220 or equal to 441ppi. Samsung calls this the Infinity Display but doesn’t have the curved edges like the Galaxy S8 or Galaxy Note8. This leaves an impression that the device has thicker side bezels. The resolution is also fixed, unlike the Galaxy S8 that can go lower to HD+ (720 x 1480).
+
+Quality-wise, it’s vibrant, sharp, with punchy colors and wide-viewing angles. Users can choose between four different screen modes to suit their usage – Adaptive display, AMOLED cinema, AMOLED photo, and Basic, as well as adjust color balance. Sadly, the Video enhancer feature found in the Galaxy S8 is not available.
+
+When it comes to audio, the Galaxy A8 (2018) has the loudspeaker placed on the right side which is pretty uncommon, but not a hindrance when we’re listening to music. Quality is good for a smartphone as it’s loud and rich with a hint of bass. If you like to binge on movies or TV series, or just casually listen to tracks on Spotify, this one will suffice.
+
+Camera
+
+One of the main features of the Galaxy A8 (2018) is its cameras which consists of a 16MP PDAF f/1.7 rear and 16MP FF f/1.9 + 8MP f/1.9 front. This makes the Galaxy A8 (2018) Samsung’s first smartphone to sport dual front cameras.
+
+Features include Bixby Vision which can identify an object or location as well as extract or translate texts. It has Stickers, Pro mode, Panorama, Hyperlapse, Night mode, and Food. You can download a few more camera features from the Galaxy Apps.
+
+Images produced by the rear camera is quite good with plenty of details and accurate colors. The Phase Detect Autofocus is more than adequate for different shooting scenarios while the f/1.7 wide aperture helps gather more light in dim environments. Sadly, there’s no optical stabilization, but it’s not really a huge disadvantage.
+
+For the front cameras, the 16MP FF f/1.9 (standard angle) + 8MP f/1.9 (wide-angle) configuration makes the device a versatile selfie shooter. If you want an ordinary selfie you can use the main 16MP camera, but if you want to have a selfie with a group, you can simply switch to the 8MP wide-angle.
+
+The dual-front cameras also feature the Live Focus which adds blur to the subject’s background and lets you readjust the focus after taking the shot. Not only that, it also has a Beauty effect if you want to look better on your selfies, and screen flash for selfies in the dark. For a fixed-focus camera, images produced are sharp with vibrant colors and nicely implemented beauty and Live Focus effects. It can get smudgy though in dim environments.
+
+When it comes to video recording, the Galaxy A8 (2018) maxes out at 1080p at 30fps with video stabilization. Quality is okay but autofocus is jittery. Check out the sample video below.
+
+OS, UI, and Apps
+
+Running the software department is Android 7.1.1 with Samsung Experience 8.5. It’s a bit of a downer considering that Oreo is already available for many devices, but also expected considering that Samsung is still testing Oreo for the Galaxy S8/S8+.
+
+If you have handled a Galaxy S8/S8+ before, the experience and layout are pretty much similar. Icons are the same but are loaded with new wallpapers for you to use. There’s Smart stay which keeps the screen on while you’re looking at it, One-handed mode, Finger sensor gestures, Quick launch camera, Multi-window, and Device Maintenance. The Dual Messenger feature found on the Galaxy Note8 makes it way here as well, allowing you use two separate accounts for the same app.
+
+Bixby is present as well which can be accessed by swiping from the left of the home screen. It’s not the full package though, unlike the one found on the Galaxy S8 and Galaxy Note8. Voice apps and services are not available and are just limited to Bixby Home which shows you a summary of your day, weather, and news, Bixby Vision for the camera, and Bixby Reminder.
+
+When it comes to apps, it has Google apps pre-installed as well as Microsoft’s productivity suite like Word, Excel, PowerPoint, and one OneDrive. The rest are Samsung’s native apps like Samsung Health, S Voice, Galaxy Apps, Samsung Members, Samsung 321 and Smart Tutor.
+
+All in all, this leaves the device with 24.38GB of usable space out of the 32GB. It would have been nicer if Samsung equipped this with 64GB instead considering the price. On the bright side, the Galaxy A8 (2018) features a triple card slot, which lets you expand the memory with a microSD card without having to sacrifice dual-SIM functionality.
+
+Performance and Benchmarks
+
+The Galaxy A8 (2018) is powered by an Exynos 7885 octa-core chipset, consisting of 2.2GHz dual-core and 1.6GHz hexa-core processors and Mali-G71 GPU, coupled with 4GB of RAM. It scored 78,256 in AnTuTu which is better than most mid-range smartphones on the market.
+
+Performance is good as we never experienced any hang-ups, lags, crashes, or overheating. We played Mobile Legends, Arena of Valor, and Vainglory in their highest settings and the device was able to keep up. Warming can be felt at the center back but not too much to be a cause for concern. Check out the rest of the scores below:
+
+Samsung Galaxy A8 (2018) Samsung Galaxy A8+ (2018) AnTuTu 78,256 85,747 3DMark 725 (Sling Shot Extreme - OpenGL ES 3.1) 726 (Sling Shot Extreme - OpenGL ES 3.1) 746 (Sling Shot Extreme Unlimited - OpenGL ES 3.1) 749 (Sling Shot Extreme Unlimited - OpenGL ES 3.1) 460 (Sling Shot Extreme - Vulkan) 416 (Sling Shot Extreme - Vulkan) Geekbench 1,528 (Single-Core) 1,487 (Single-Core) 4,307 (Multi-Core) 4,367 (Multi-Core) 3,634 (RenderScript) 3,685 (RenderScript) PC Mark 5,179 (Work 2.0) 5,208 (Work 2.0) Vellamo 2,613 (Multicore) 2,705 (Multicore) 2,544 (Metal) 2,576 (Metal) 2,400 (Chrome) 5,220 (Chrome) AndroBench 299.55 MB/s (Read) 299.56 MB/s (Read) 103.99 MB/s (Write) 156.02 MB/s (Write)
+
+Connectivity and Call Quality
+
+Users won’t have about connectivity as the Galaxy A8 (2018) has everything covered from Dual-SIM 4G LTE Cat.11, WiFi 802.11 a/b/g/n/ac (2.4/5GHz), Bluetooth 5.0, ANT+, NFC, USB-C with OTG function, and GPS. It is also packed with a bunch of sensors including Gyroscope and Barometer.
+
+Mobile data is fast as long as the LTE signal is good, GPS works great on Google Maps, Waze, Grab, and Uber. Call quality is good thanks to noise-canceling.
+
+Battery Life
+
+The Galaxy A8 (2018) is equipped with a 3,000mAh battery which is an average capacity of today’s standard. This may seem small for some but we actually got good mileage, lasting us for a whole day and night with a little left in the morning. PC Mark rated its battery at an impressive 12 hours, performing better than the Galaxy S8 and Galaxy Note8 at 9 hours and 30 minutes.
+
+Our video loop test, on the other hand, which involves playing a 1080p clip on loop in Airplane mode at 50% brightness and volume with headset plugged in, yielded 18 hours and 30 minutes of playback which is good. We’re glad to know that Fast Charging is supported and we were able to replenish its battery in just 2 hours.
+
+Conclusion
+
+With the Galaxy A8 (2018), Samsung has successfully brought the design and features normally found in their premium offerings to the upper mid-range category. If we’re going to place it somewhere, it’s between mid-range and flagship. It has nice Infinity Display, good performance and cameras, water and dust-resistant body, and long battery life. At Php26,990, it’s more expensive than most mid-range devices, but if you can afford its asking price, you won’t be disappointed.
+
+The Samsung Galaxy A8 (2018) will be available in Gold and Black colors. It will launch in the Philippines in last week of January with a free 5,000mAh Capdase Battery Pack worth Php1,199.
+
+Samsung Galaxy A8 (2018) specs:
+
+5.6-inch Super AMOLED 18.5:9 display @ 2220×1080 pixels
+
+Exynos 7885 Octa-core (2.2GHz Dual + 1.6GHz Hexa) processor
+
+Mali-G71 GPU
+
+4GB RAM
+
+32GB internal storage
+
+expandable via microSD up to 256GB
+
+16MP PDAF camera f/1.7 rear camera w/ LED flash
+
+16MP FF f/1.9 + 8MP f/1.9 front cameras
+
+LTE Cat. 11
+
+WiFi 802.11 a/b/g/n/ac
+
+VHT80
+
+256QAM
+
+Bluetooth 5.0
+
+ANT+
+
+USB Type-C
+
+NFC
+
+MST
+
+GPS, GLONASS, BeiDou
+
+Gyroscope
+
+Android 7.1.1 Nougat
+
+3,000mAh battery w/ Fast Charging
+
+149.2 x 70.6 x 8.4 mm
+
+172g
+
+What we liked:
+
+* Premium build
+
+* Nice display
+
+* Good performance
+
+* Good cameras
+
+* Long battery life
+
+* Water and dust-resistance
+
+What we didn’t:
+
+* 32GB storage instead of 64GB
+
+* Incomplete Bixby features
+
+* Not yet on Android Oreo
+
+READ MORE:

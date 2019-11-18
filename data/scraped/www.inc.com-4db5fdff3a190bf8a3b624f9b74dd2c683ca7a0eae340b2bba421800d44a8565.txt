@@ -1,0 +1,43 @@
+Over the years, Google has embarked on countless quests, collected endless amounts of data, and spent millions trying to better understand its people. One of the company's most interesting initiatives, Project Aristotle, gathered several of Google's best and brightest to help the organization codify the secrets to team effectiveness.
+
+Specifically, Google wanted to know why some teams excelled while others fell behind.
+
+Before this study, like many other organizations, Google execs believed that building the best teams meant compiling the best people. It makes sense. The best engineer plus an MBA, throw in a PhD, and there you have it. The perfect team, right? In the words of Julia Rozovsky, Google's people analytics manager, "We were dead wrong."
+
+Selected to lead the efforts was Abeer Dubey, Google's director of people analytics (HR). Eager to find the perfect mixture of skills, backgrounds, and traits to engineer super-teams, Dubey recruited statisticians, organizational psychologists, sociologists, engineers, and researchers to help solve the riddle. Included in this all-star lineup was Rozovsky.
+
+Fast forward two years, and Project Aristotle has managed to study 180 Google teams, conduct 200-plus interviews, and analyze over 250 different team attributes. Unfortunately, though, there was still no clear pattern of characteristics that could be plugged into a dream-team generating algorithm.
+
+As described in an article in The New York Times, it wasn't until Google started considering some intangibles that things began to fall into place.
+
+"As they struggled to figure out what made a team successful, Rozovsky and her colleagues kept coming across research by psychologists and sociologists that focused on what are known as "group norms" - the traditions, behavioral standards, and unwritten rules that govern how teams function when they gather... Norms can be unspoken or openly acknowledged, but their influence is often profound."
+
+With a new lens and some added direction from a research study on collective intelligence (abilities that emerge out of collaboration) by a group of psychologists from Carnegie Mellon, MIT, and Union College, Project Aristotle's researchers went back to the drawing board to comb their data for unspoken customs. Specifically, any team behaviors that magnified the collective intelligence of the group.
+
+Through Google's Re:Work website, a resource that shares Google's research, ideas, and practices on people operations, Rozovsky outlined the five key characteristics of enhanced teams.
+
+1. Dependability.
+
+Team members get things done on time and meet expectations.
+
+2. Structure and clarity.
+
+High-performing teams have clear goals, and have well-defined roles within the group.
+
+3. Meaning.
+
+The work has personal significance to each member.
+
+4. Impact.
+
+The group believes their work is purposeful and positively impacts the greater good.
+
+Yes, that's four, not five. The last one stood out from the rest:
+
+5. Psychological Safety.
+
+We've all been in meetings and, due to the fear of seeming incompetent, have held back questions or ideas. I get it. It's unnerving to feel like you're in an environment where everything you do or say is under a microscope.
+
+But imagine a different setting. A situation in which everyone is safe to take risks, voice their opinions, and ask judgment-free questions. A culture where managers provide air cover and create safe zones so employees can let down their guard. That's psychological safety.
+
+I know, not the quantitative data that you were hoping for. However, Google found that teams with psychologically safe environments had employees who were less likely to leave, more likely to harness the power of diversity, and ultimately, who were more successful.

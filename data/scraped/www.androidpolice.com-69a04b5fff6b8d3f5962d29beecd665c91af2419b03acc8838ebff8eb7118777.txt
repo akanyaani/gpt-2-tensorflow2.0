@@ -1,0 +1,59 @@
+Last August, I published a list of the most and least popular smartphones and tablets used on Android Police. That post was surprisingly popular - and I've had repeated requests for a follow-up. Now that well over a year has passed, I think the time is right for a new installment, and one spanning a far greater time period than the month-long data set I used to compile the last version.
+
+This time, I'll be showing you which devices were the most popular across the whole of 2017. And, of course, I'll show you some of the outliers, to give you a sense of how some devices have fallen (or never grown) from the ranks.
+
+Methodology
+
+A quick note on methodology. This data is compiled using Google Analytics, which allows you to sort traffic by mobile device. For devices that have a different browser user agent for every SKU, I will combine those SKUs as best I can to provide a more accurate picture of that phone's popularity. (This is particularly an issue with Samsung devices.)
+
+Unfortunately, about 7% of our mobile device visitors don't register as a particular device, whether because of their browser or because the manufacturer of the phone left the field undefined. We don't believe this will materially impact the rankings, though. Without further delay, let's get to the data.
+
+The top 10 (but really 12) devices
+
+Last time I did a post like this, I also listed the top 12, not 10, devices browsing Android Police. The reason I did that is about to become obvious. Anyway, here they are, and this time I'm even going to provide the percentage-point share each device makes up of our mobile traffic.
+
+iPhone (7.37%)* Nexus 6P (5.36%) Pixel XL (5.09%) Pixel (4.07%) Galaxy S7 edge (3.86%) OnePlus 3/3T (3.07%) Galaxy S7 (3.02%) Nexus 5X (2.76%) iPad (2.61%)* Galaxy S8+ (2.23%) Galaxy S8 (1.91%) Galaxy Note5 (1.42%)
+
+*As you may know, Apple uses a single user agent for every model of iPhone it has ever made. This means that 7.37% includes ALL THE IPHONES, which obviously makes it a bit misleading to say the iPhone is the most popular device used to browse Android Police, unless you mean, once again, ALL THE IPHONES. Same goes for the iPad.
+
+In order to keep things interesting, I'm also going to show you the data for the month of December only, which should give you a sense of where things are trending as we head into the new year.
+
+iPhone (9.06%)* Pixel 2 XL (7.17%) Pixel XL (4.38%) Pixel 2 (3.89%) Pixel (3.78%) Galaxy S8 (3.42%) Galaxy S8+ (3.35%) Galaxy Note8 (2.89%) Galaxy S7 (2.88%) iPad (2.71%)* Galaxy S7 edge (2.68%) Nexus 6P (2.28%)
+
+The least popular, and oddities
+
+This section isn't so much about hard numbers as it is to look at some of the oddities and answer the inevitable "Hey, where's [X phone]?" question. We'll only be looking at the full 2017 data set here, but I think you'll find it interesting regardless.
+
+LG fans aren't the biggest fans of us
+
+The first LG phone in our annualized data doesn't appear until well past position 50 in the rankings on our chart, and it's the LG V20 (a measly 0.20% of all traffic). Next after that is the G6, about ten positions lower, followed by the... G4? I guess the G5 really was that bad - it doesn't show up until well past the 120 mark.
+
+Combining all of the V20's various model numbers, it does at least bubble up to somewhere around the top 30. The same goes for the G6. That still puts it well below its Samsung competition.
+
+And the V30? It doesn't even appear anywhere in the top 500. Yikes.
+
+Moto's budget fare still does OK
+
+While you may not have seen a single Moto device in our top lists, the Moto G4 sits somewhere around position 15 in our rankings, and the G5 Plus is in the top 30. The first Z device, the original 2016 Moto Z, sits just outside the top 30, with the original Z Play just behind it.
+
+HTC is not doing so hot
+
+The HTC 10 is the most popular HTC device on Android Police, not quite breaking into the top 50. The next most popular? The One... M8. Yeah. That's kind of sad.
+
+Your real question, of course, is where the U11 falls. It's not pretty: just around position number 150. Still better than the V30!
+
+Sony is a non-factor
+
+The most popular Sony Xperia device on Android Police was released in 2015 - well over two years ago. It's the Xperia Z5, and it's well shy of breaking into the top 100. Next are the Z5 Compact and XZ, and beyond that, you'll just find despair. To be fair, Android Police is a US-focused website, and Sony does absolutely nothing to market its smartphones here. Still, when you wonder why we aren't going out of our way to review the latest and greatest from Sony, there's your reason.
+
+Xiaomi is lurking
+
+A good handful of Xiaomi devices are in the top 100 visiting Android Police, with the Redmi Note 4 being the most popular, at around position 20 in our rankings. The Redmi Note 3, Redmi 3S, Mi 5, Redmi 4, Mi A1, and Mi Max also managed to make it in the 100 most popular devices on AP, with that list being in order of most to least used.
+
+Old Nexuses never die
+
+The number of you using old Nexus devices always baffles me. The Nexus 5 is still nearly in the top 15 devices on the site (and the Nexus 6 is), and we still received visits from a shocking number of 2013 Nexus 7s (more than we did from HTC 10s, I'll tell you that much). Perhaps a testament to the little tablet's popularity, we received about twice as many visitors with Nexus 7s last year as we did Nexus 9s. The only other Nexuses still lurking in the top 500 are the Nexus 4 and Nexus 10, with the latter still sitting around the 200th position.
+
+That's all for now
+
+I'm going to go ahead and call this our year-end post. So, with that, we here at Android Police wish you a happy new year, and look forward to bringing you lots of cool stuff in 2018.

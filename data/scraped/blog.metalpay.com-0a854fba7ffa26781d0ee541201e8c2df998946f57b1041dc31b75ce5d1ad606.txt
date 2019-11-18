@@ -1,0 +1,47 @@
+Dear community
+
+The end of the year calls for a short look back at 2017 and more importantly a look into what is coming up: 2018, the year we will be releasing our flagship product.
+
+It's been a busy year for Metal and crypto-currencies in general. We launched our first product called the Metal Vault which offers our token holders a friendly way of storing their Metal tokens and other currencies in a safe place. We have also been working non-stop on Metal Pay which we’ll tell you all about shortly in this blog post.
+
+So what do we have in store for the new year? Let's get right to it.
+
+Segregation of funds
+
+At Metal we believe being transparent towards investors and customers is key to running any successful business. That's why we've separated our Metal token funds into separate accounts according to the whitepaper. This allows the general public to view our Metal token movements.
+
+These are the current addresses:
+
+PoPP Pool: 0x5237d79cbfcdbcb097f1b80bbe1dd1051d8a119a
+
+Metal Operational Pool: 0x218c633956103ba25bf97fc20ec09d535752cca9
+
+Metal HR Pool: 0x9db04Cf94Ad99757dD01d471B1DE815FC15e6eE2
+
+Metal Foundation Pool: 0xf92909d2d198bd5acbae618de42f2bfcf0196286
+
+Metal Pay release
+
+The team is currently working hard on our flagship product, Metal "Pay". This app will allow our users to make payments with just a phone number while being rewarded to use the system.
+
+Have a look at one of our demo videos:
+
+Or check out this Siri integration:
+
+Development of the app is coming together nicely and we are in the process of finishing the integration with our U.S. banking partner. We are currently on track to release this app in Q1 of 2018.
+
+We are planning to release a first version of the app to a closed audience a few weeks prior to publicly launching the app. This will allow us to finetune the app and test drive the Proof of Processed Payments (PoPP) distribution algorithm while exposing it to a closed group of ethical hackers on our HackerOne bounty program.
+
+Website
+
+Many of you have contacted us, and we listened. The current website needs improvement, a lot of improvement. Which is why we've revamped our brand and website for the new year, more to come here...
+
+The release of this new website is expected Q1 2018, shortly before the Metal Pay release.
+
+Final words
+
+Last but not least. We wish everyone safe and happy holidays and a prosperous new year. Everyone at Metal is looking forward to 2018, we can't wait to reveal what's behind the curtain.
+
+Sincerely,
+
+The Metal Team 🤘

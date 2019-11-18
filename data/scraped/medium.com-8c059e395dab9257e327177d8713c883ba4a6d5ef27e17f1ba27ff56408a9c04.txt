@@ -1,0 +1,133 @@
+Background
+
+Text adventure games are video games in which the primary interaction occurs via text entered by and delivered to the player.
+
+Historically, text entry was provided via a physical keyboard, and text was delivered to the screen, but these games don’t necessarily require a keyboard or a screen, so long as text can be delivered to the player, and commands can be submitted by the player.
+
+Text Adventure Games deliver a description of a location or game scenario, then player interacts with the game by entering commands for the protagonist of the game to perform.
+
+Commands can be entered such as:
+
+TAKE CUSHION, DROP CUSHION, LIGHT FIRE, GO EAST, ENTER CABIN, INVENTORY, WEAR COAT, REMOVE SHOES, SLEEP
+
+This style of game was mainstream in the late 1970s through to the mid-80s but after the birth of graphical adventure games, the popularity sharply declined.
+
+Early text adventures were of a pure textual nature. You type text, you receive text.
+
+Adventureland by Scott Adams — Text Only Version
+
+There is a purity to this approach, but as hardware became more sophisticated, it became possible to package graphics alongside the text.
+
+Text Adventure games do not have to mean that a game is devoid of graphics. Later games had primitive static graphics (or static graphics with basic animations).
+
+The Hobbit by Melbourne House — Text Adventure with Graphics
+
+Later games had more sophisticated graphics, and animations.
+
+Create / Play
+
+Adventuron is a model-based adventure creation language and game engine. It uses the same approach used by Scott Adams, Quill, PAW, GAC, and other early adventure systems.
+
+The Quill (Use Manual)
+
+Adventuron’s actual game engine is designed to feel as if it is executing on an 8-bit computer such as a ZX Spectrum, C64 or Apple II.
+
+Development Environment
+
+If you have a PC with a browser, then you can start authoring games with Adventuron here.
+
+The context-sensitive code completions shown below are triggered using CONTROL + SPACEBAR.
+
+Adventuron uses a two panel web based IDE, the left panel to edit code, the right panel to test the adventure.
+
+You can also maximise the game-play panel to full screen by double clicking or double touching inside the text window
+
+Gameplay
+
+Adventuron is unashamedly anachronistic. Old-school text adventures used to feature a number of locations, paths between locations, objects in the gameworld, puzzles to be solved using textual inputs, and usually using items in your possession.
+
+A cliche example of a puzzle is, when faced with a locked door, you must have a key in your possession to unlock the door, and until the door is unlocked, you can’t enter a room, that has a another object to be used elsewhere. There can be dozens of overlapping puzzles.
+
+Adventuron introduces light programming concepts such as variables, conditional statements and instructions. Adventuron should be quite useful as a first programming language once a few tutorials are created.
+
+Getting Started With Adventuron
+
+Adventuron is text file based. For simplicity sake, the entire game logic is described in a single file, including all graphics. We call this file a source code file.
+
+A source code file is somewhat human readable, but it must be in a certain format in order for the computer to understand (or parse).
+
+Adventuron uses tables to set up the adventure game, the descriptions, the objects, the graphics and interesting events that can happen during the adventure.
+
+The core table used by Adventuron is the locations table. This table contains a list of all the locations in the game.
+
+Think of these tables as lines on a piece of graph paper with several columns. An Adventuron game MUST contain at least one location. So, how do we enter this table into Adventuron?
+
+In the snippet below, we define one location named “drive”, and we also set the start location of the adventure to the “drive” location. We also set the “start_location” to match the identifier of the “drive” location.
+
+Playing the Adventure
+
+If you have typed the adventure as shown here, then we have a valid adventure, so press the “play” icon at the top right of the editor half of the screen to start running the adventure game.
+
+Adventuron depends on a file being in the correct format, if not the header of the editor window will turn red, and the line number of the fault will be displayed.
+
+To play the adventure, type commands into the window on the right hand side. Here are some system commands that are supported without any additional code:
+
+northeast, east, southeast, south, southwest, west, northwest, north, up, down, enter, exit
+
+get item
+
+drop item
+
+wear item
+
+remove item
+
+inventory
+
+look
+
+load
+
+save
+
+quit
+
+score
+
+Currently, Getting and dropping of items will result in the game telling you that there is no object present to get or drop.
+
+“ Inventory ” will list objects you are carrying.
+
+” will list objects you are carrying. “ look ” will redescribe the current location.
+
+” will redescribe the current location. “ save ” will save the game to a textfile
+
+” will save the game to a textfile “ load ” will load a saved game to a textfile
+
+” will load a saved game to a textfile “ quit ” will quit the game then restart the game afresh (after confirmation).
+
+” will quit the game then restart the game afresh (after confirmation). “ wear ” and “ remove ” are usually intended for items of clothing. None has been configured for this game.
+
+” and “ ” are usually intended for items of clothing. None has been configured for this game. All directions (north, east, northeast, etc.) will results in a message informing the player that they cannot travel in this direction (as we configured only one location).
+
+Adventuron supports overriding each of these commands and adding new commands as required by the adventure.
+
+Adventure Game Loop
+
+The game loop executes using fixed logic and within this game loop, the game author can attach events or data to be associated with a lifecycle stage.
+
+That is, after text is entered, then the text that the user entered is checked against a number of fixed responses to text in certain patterns, then a number of actions (or conditional actions) can be executed.
+
+The following video outlines the editing process.
+
+How to create an adventure.
+
+Study the tutorial adventure. Press Ctrl+A on the tutorial adventure. This will select all text. Press the backspace or DEL key on the keyboard(to wipe out all text). Press Ctrl + Space in the empty space to make template blank adventure game. Create locations, objects, and event handlers for your adventure. Iterate, and use the embedded documentation.
+
+More Features
+
+Import Maps via Trizbort
+
+Adventuron supports importing map files via the excellent Trizbort mapping tool. At the moment, the import is one-way only, but later releases should support two way editing.
+
+Making New Feel Old

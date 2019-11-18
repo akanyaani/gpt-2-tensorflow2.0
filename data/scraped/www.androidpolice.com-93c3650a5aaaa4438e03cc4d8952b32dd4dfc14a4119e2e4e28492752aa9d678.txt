@@ -1,0 +1,5 @@
+For over a year, Google has been developing an operating system named 'Fuchsia,' designed to run across a wide array of devices. The company hasn't said anything publicly about it, but it is entirely open-source, so development on the project has been transparent. Simply put, we can see what Google is working on, but we don't know what it will actually be used for.
+
+According to Fuchsia's documentation, the Acer Switch Alpha 12 and Intel NUC are officially supported 'target' devices. This means that Fuchsia has been verified to work on those devices, and they are most likely the top devices used for testing. A page about installing Fuchsia on the Google Pixelbook was recently added, which explains the process of placing the laptop in developer mode and booting from a USB drive.
+
+Does this prove that Fuchsia will someday replace Chrome OS? Definitely not. However, it does mean that Google wants to make sure the OS works on high-end laptops, like the Pixelbook. Will Fuchsia end up as a stable operating system that runs across a wide array of computers/tablets/phones, or simply a Google pet project that is eventually abandoned? Only time will tell.

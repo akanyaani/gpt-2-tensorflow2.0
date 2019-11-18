@@ -1,0 +1,89 @@
+This tweet made me think.
+
+The whole thread is worth a read. I’m sure many developers who are excited by code sometimes resonate with these feelings.
+
+I promised a reply too lengthy for Twitter, and here it is.
+
+First, some context: I remember first getting excited about computers in the Christmas of around 1982 or 1983 when my sister (8 years my older) got a Commodore VIC-20. I remember being 4 or 5 years old and thinking I would likely use it “better” than her in her early teens.
+
+Every time I touched a computer from then on I got excited, but I didn’t really get into learning how they worked properly until I was about 11 or 12. By the age of 18 I already knew C well enough to top classes in my fresher year at University, and by the age of 28 I had worked in the civil service, academia, multiple small businesses, peculiar corners of the World (the Falkland Islands are lovely), and was running a company helping small startups figure out what this tech revolution was all about.
+
+I ended up CTO’ing for a few startups, and then in about 2014/2015 I realised I missed coding, resigned from my job, took a 30%-ish pay cut and went back to being a senior software engineer at a larger firm, where I remain.
+
+Each of the tweets Saron sends in that thread encapsulates some aspect of my career that to an outsider can look one way, but actually, something else is going on.
+
+Take for example:
+
+Interestingly, I can respond to this with a tweet I made myself just a little while back:
+
+Junior developers start with this expectation that if they just learn to code, they’ll be done and then get their hours and they’ll progress career wise. This is nonsense.
+
+Coding for a living is learning for a living. If you don’t like learning every single day, turn back now, or try and get a jump over into something less demanding from a learning perspective.
+
+The more you code, the more you realise there are whole mathematical, theoretical, engineering and creative universes you do not understand, will never get around to understanding and therefore there is no point in pretending you do, will or can understand.
+
+If you took me and another developer with a similar history, but the other party had spent their entire lives coding at banks, and put us in a pub together to have a chat, we’d have surprisingly little common ground.
+
+We could talk about language semantics a bit. I’d know a lot more about web and app facing stuff more than they do. They might know more about compliance and perhaps strategies more appropriate for Enterprise setups. I’m spending a lot of time working on event sourcing at the moment, so we’d have common ground there but we’d call things by different names.
+
+Add a game developer to our table, and we’re likely going to sit quietly for a while until we all remember we all like Rick & Morty.
+
+And that’s what I think you’re normally seeing when you see a self-deprecating senior. They don’t actually think they’re terrible, they just know their limitations and enjoy working within them, and have got past the point of bullshitting you into thinking they’re experts at everything.
+
+Next up in that thread:
+
+The least important thing about a piece of software is the code. Sorry, but it’s true, and the sooner everybody who comes to the career realises that, the more productive, happy and grounded they will be.
+
+Saying that code is the most important thing is like saying the most important part of a new building is the architect’s blueprints. You’re not going to get far without them, but there is a hell of a lot of other stuff an architect has to do to make sure clients, local citizens, authorities, other architects, etc. are all pleased with the building.
+
+Nobody won an architect’s prize for a good drawing, and a piece of code that serves a need nobody has or does it in a way that unwittingly leaks personal data or breaks machines is not going to win high praise.
+
+Language semantics are the equivalent of the language of an architect’s drawing. Just as how an architect passes drawings to construction workers to realise, we pass our code to interpreters and compilers.
+
+Just how some architects want to excel at civil engineering, some coders will get into the working pieces of languages.
+
+Just how pre-fabricated houses are good value for money for those who don’t care about architecture per se, you can go a long way with downloading or copying/pasting stuff and stitching it together.
+
+Ultimately you have a responsibility as a professional to realise that your code has audience expectations, and it has responsibilities to that audience and others, and that’s why it exists.
+
+That doesn’t mean you can’t be proud of how you met or exceeded those expectations or responsibilities by expressing those needs in code itself, but until you accept in your heart of hearts that your job is to serve them as primary concerns through the language of code, and the code itself is no important than ink and paper is to writing, you are going to find this a brutal career.
+
+I used to say software engineering is 80% communication and 20% writing code. I now think it’s more like 95%/5% when done well, it’s just that more of the communication can be done with other engineers through well designed and architected code.
+
+I came back to coding because it’s the best way I know to express myself whilst making a living at it. I can play a little piano badly, I’m a terrible artist, and whilst I enjoy writing it doesn’t pay the bills.
+
+Now, years ago, I had stacks of side projects lined up. Very few of them got worked on because real life gets in the way. Some of us just get more tired as we get older, some of us have families, I got ill without realising it and for the last two years have basically been having an issue that culminated in my losing the ability to walk (I’m mostly fine now, more here).
+
+The point is, experience tells us getting too excited about those big ideas might lead to frustration as we might not get to work on them.
+
+Don’t let that stop you being excited about those things. Go build as much as you possibly can.
+
+If you can and are willing, be not just productive, but prolific.
+
+Your energy will wane as you age. That’s OK. Your priorities in life will change. That’s OK. You will narrow your field of interest. That might be OK, it might not be, it’s normally best to keep your mind open to new fields especially in the first 30 years or so of your career.
+
+Do not confuse though, those people who have prioritised other aspects of their life for people who have given up on the potential of what a developer with a good idea and the energy and skill to execute it well can do. Just remember though, we all know the names of Gates and Zuckerberg because there are only two of them: the odds are long, the glory is great, and it’s yours if you want it.
+
+But, you know, it’s OK to not do that if you want to hang out with people, and in my personal experience, people are nicer to hang out with than computers. Think about that.
+
+I tell a story sometimes about an encounter I had a couple of years ago. I was doing STEM outreach for the Royal Society via Salford University. One morning I found myself doing an assembly at Manchester Islamic High School for Girls.
+
+Facing a room of 11–14 year old girls, most in head dress, some in burkas, I pulled up pictures of Ada Lovelace, Grace Hopper, Gates, Zuck and others. I told those girls about how I saw their potential:
+
+Few things you can choose to do in your life will allow you to have such an impact on the betterment of humanity, if you choose to better humanity with these skills.
+
+With the laptop or PC you likely already have at home and some knowledge, you can create experiences for an audience of billions at virtually no cost other than your time. Those experiences can educate, entertain or enhance. They can turn people into superhumans of virtual Worlds in a game or titans of industry inside a spreadsheet. You can build mental muscles that leverage our capability as a species.
+
+Writing code sits at a fascinating and beautiful intersection between the analytical world of Science and the expressive potential of the creative arts. It is professional, rewarding, and well-paid.
+
+If you learn to code, and you enjoy it, the limit of your expression is entirely of your own making.
+
+After giving an impassioned 20 minute speech on these lines, I sat down to listen to the next presenter: a woman from British Gas encouraging them to become boiler repair personnel so they could get their “own uniform and drive a van”. I sighed at my society, picked up my laptop and left.
+
+But I’m telling you now Saron, and all who feel as you do, that my thoughts remain unchanged and I’m now telling you these things.
+
+Yes, I self-deprecate, yes I am too busy to get excited by absolutely everything, and yes I do prioritise my health and a balance in life to throw myself into the abyss of creatively coding like a maniac.
+
+But do not ever mistake this for thinking we are signalling to you that you are naively making a mistake, that your excitement will eventually wane despite you not wanting it to, or that those of us with more experience than you right now think your enthusiasm is misplaced.
+
+Godspeed, and good luck.

@@ -1,0 +1,81 @@
+In the past fifty years, the car crash death rate has dropped by nearly 80 percent in the United States. And one of the reasons for that drop has to do with the “accident report forms” that police officers fill out when they respond to a wreck. Officers use these forms to document the weather conditions, to draw a diagram of the accident, and to identify the collision’s “primary cause.”
+
+For the more than 30,000 fatal car crashes that happen each year, information gathered on the side of the road goes from the accident report form into a federal database: the Fatality Analysis Reporting System.
+
+Anyone can use this database. Car companies, safety advocates, and regulators comb through it constantly, looking for patterns that help them understand how and why people die in car wrecks. In turn, this information helps designers and engineers create safer vehicles and roadways. The data informs all kinds of design decisions around car safety — everything from speed limits to mandatory seat belts.
+
+But this culture of heavily regulated, data-driven, auto-safety engineering did not always exist. In fact, for decades, automakers tried to keep data about car wrecks to themselves. They not only resisted making cars safer, they argued the very idea of a “safe car” was impossible.
+
+In the early- to mid-20th century, car ads didn’t emphasize a vehicle’s safety features. Instead, they talked about “styling” and aesthetic details. A Chrysler safety director once compared cars to “women’s hats,” saying “they have to have special attractiveness, and sometimes they even compromise with function.”
+
+Meanwhile, within 25 years of the first known fatal collision, car crashes had become the leading cause of accidental death in the United States. But most of those deaths were blamed on “the nut behind the wheel.” Public Service Announcements instructed people to watch out for other bad drivers on the road.
+
+In other words: cars don’t kill people — people kill people.
+
+“The whole notion that the machine could have some sort of impact on the likelihood of you surviving a car crash wasn’t even on the radar during the first half of the twentieth century,” says Amy Gangloff, a historian who studies auto safety.
+
+Forget seat belts and airbags — cars at this time had windshields made out of regular plate glass. If your head went through it, you could get stuck, with sharp shards of glass pressing into your neck.
+
+But before someone could come up with a safer car, someone had to come up with the idea that cars could be safer — someone like Hugh DeHaven.
+
+DeHaven flew with the Canadian Royal Flying Corps in World War One and suffered a terrible plane crash. His pancreas, kidneys, and gall bladder were all ruptured. Later, in the hospital, he concluded that a sharp knob on his safety belt had led to his stomach injuries. He started thinking that human beings could be more carefully packaged to minimize life-threatening injuries during collisions.
+
+DeHaven started by crash-testing objects, dropping eggs onto padding from higher and higher heights. He found an egg could survive a one-hundred-foot fall, if it landed on a three-inch thick rubber mat.
+
+Then he turned to human beings, tracking down the people behind actual newspaper headlines like “Girl Falls 10 Stories, Lives and Tells of It.” He learned that people are just like eggs. We can survive seemingly unsurvivable collisions, if the impact is spread out over time and space.
+
+This insight led DeHaven to the most prolific source of high-speed collisions: cars. He began calling hospitals, coroners, and police officers to compile data on car wrecks. Almost everyone thought he was nuts.
+
+DeHaven’s crazy theory was that what happened to people’s bodies in a car crash was a predictable product of the cars’ design. It seems so common sense now it’s hard to even register it. But at the time it was a revolutionary idea. And in the 1940s and 50s, DeHaven would prove it was true.
+
+In 1953, he partnered with the Indiana State Police for a year-long study — and with their photos and reports from doctors and coroners, he was able to isolate which parts of the car were the most dangerous in a crash. These were mainly things we don’t think of now, like hard non-padded dashboards and steel knobs with sharp edges that would end up stuck in people’s skulls.
+
+In particular, he noticed that non-collapsible steering columns would frequently impale drivers during a collision. The solution was the collapsible steering column, a technology that has saved 79,989 lives as of 2012, according to one government study. That’s more than anything except the seat belt.
+
+But collapsible steering columns wouldn’t become standard equipment until 1967, more than a decade after the results of DeHaven’s Indiana study were published. Because car companies just did not want to deal with his findings.
+
+“Car companies were very paranoid about having a discussion about safety in the 1950s. Because a discussion about safety was pretty much going to guarantee that people start thinking about the dangers of driving,” says Amy Gangloff.
+
+To force society to think about issues of cars and mortality would take more than academic research. It would take politics.
+
+A woman named Joan Claybrook would eventually be in charge of auto safety for the entire United States — but in 1965 she was just a political novice. She’d come to Washington D.C. for the first time as a fellow for the American Political Science Association. She worked for a Congressman from Atlanta, Georgia who’d recently read “Unsafe at Any Speed” by a car-safety obsessed attorney named Ralph Nader.
+
+The book took research by people like Hugh DeHaven and turned it into a scorching indictment of the auto industry. It showed car companies had actually patented a lot of important safety technologies — including the collapsible steering column — but they weren’t using them.
+
+Behind the scenes, Joan Claybrook worked with Ralph Nader on a bill to regulate the auto industry for the first time. This made the auto industry terrified. General Motors even hired an investigator to dig up dirt on Nader to discredit him. The investigators didn’t find anything, but news of their investigation leaked to the public and ended up making the car industry look terrible. Nader became a national hero. The car companies had effectively helped to energize an auto safety movement in the U.S.
+
+And that movement succeeded.
+
+In September of 1966, President Lyndon Johnson addressed more than 200 guests at the White House Rose Garden, including Ralph Nader and the president of General Motors. He spoke about cars in the language of public health, using words like “epidemic” and “highway disease.” He talked about how cars had killed more Americans than all the country’s wars.
+
+“In this age of space,” President Johnson remarked, “we are getting plenty of information about how to send men into space and how to bring them home. Yet we don’t know for certain whether more auto collisions are caused by faulty brakes, or by soft shoulders, or by drunk drivers, or even by the deer crossing a highway.”
+
+He then started signing bills like the Traffic Safety Act, which ensured safer cars and created what is known today as the National Highway Traffic Safety Administration. This agency enacted federally-mandated safety measures and set up crash databases. Remarkably, that bill to create a powerful government agency that would regulate some of America’s biggest companies, passed with nearly unanimous bipartisan support.
+
+Technologies that were mandated in the 1960s (like seat belts and collapsible steering columns) are still saving thousands of lives each year. But the car crash death rate has continued to drop in part because of smaller, subtler design changes. To understand how those changes happen, we have to go back to the government databases.
+
+Safety engineers like Matt Brumbelow, who works with the Insurance Institute for Highway Safety (IHS), can sift through the databases to spot new problems to solve. Then car manufacturers can set up crash test experiments, analyze the results, and adjust their designs to make safer vehicles. Brumbelow says the databases are incredibly important. “They’re really indispensable. Without real crash data we would just be guessing.”
+
+A few years back, the Centers for Disease Control put out a list of the greatest public health achievements of the 20th century. On the list are vaccines, fluoridated water, and motor vehicle safety. Decade after decade, cars keep getting safer because regulators, activists, and automobile engineers keep looking at how drivers get hurt and finding more things to improve. It’s a never-ending process that always begins with data.
+
+But it is not a universal process — it hasn’t happened in all industries. While the odds of dying in a car crash have dropped by 80% since the 1960s, the odds of dying from a firearm have gone up.
+
+In reading this, maybe you’ve been drawing parallels between car safety and gun safety. If so, you wouldn’t be alone. When pundits get together to talk about the latest mass shooting, the comparison often comes up. We have rules for who can drive, and drinking ages that promote vehicular safety, in addition to incremental design improvements to cars and roadways.
+
+Other pundits will rightly make the point that cars and guns are very different. One is designed to help a person get from point A to point B, and the other is specifically designed to injure or kill.
+
+But to people in the public health field, that’s beside the point. Guns are a major cause of death and injury. And whether or not those deaths and injuries are intentional, researchers want to know whether or not they’re preventable. Could a change in gun design, ownership laws, or something else cut down on the more than 20,000 gun suicides and more than 10,000 gun homicides that happen each year?
+
+Some experts think the first step could be to treat guns more like cars when it comes to research. For example, public health researcher Stephen Teret has called for creating something that does not currently exist: a comprehensive database of deaths, much like the “Fatality Analysis Reporting System” — but for guns instead of cars.
+
+“I want to be able to study gun deaths the same as we study heart disease,” says Teret, “the same as we study cancer, the same as we study motor vehicle deaths, so we can reduce those deaths.”
+
+In the 1980s, Teret used government crash data to look at airbags and child restraint laws. But then he shifted his focus to guns and the difference was stark. Instead of just downloading government data, he had to gather his own from coroners and police departments — much like Hugh DeHaven once had to do. It was hard, expensive, and some information (like specifics about the guns used in fatal shootings) he just couldn’t get. “There’s been a culture that’s built up around guns of not collecting information,” notes Teret, “whereas the exact opposite has occurred with regard to cars.”
+
+For every chapter in the history of auto safety there is an opposing chapter in the history of gun safety, generally written with the help of the National Rifle Association (NRA). Where advocates of auto safety sued car companies, advocates of gun rights have made it nearly impossible to sue gunmakers; Congress created a registry of drivers, and then made it illegal to create a registry of gun-owners. And for each of the hundreds of millions of dollars the federal government spends on auto safety research each year, gun violence research gets pennies.
+
+Stephen Teret knows all of this, but remains hopeful, in part thanks to a long history of public health improvements that were successful after initial periods of failure. He points out that it took more than 50 years to really reduce smoking in this country, for instance. And even the history of car safety, which seemed to move so fast in the 1960s, had decades where there were nothing but setbacks. Progress in public health just takes a really long time.
+
+“There’s hardly any examples where in public health where someone came up with an idea, everyone rallied around the flag saying that’s a wonderful idea, let’s implement it immediately. That’s not how it works,” Teret says.
+
+Instead, it’s a fight — to collect the data, to identify what we can change, and, finally, to make the many small, incremental modifications that eventually save tens of thousands of lives.

@@ -1,0 +1,41 @@
+In our previous post we looked at fuel efficiency solutions for industry, states, and organizations, and we started looking at how these solutions can be democratized to allow smaller players to get involved. We touched on emerging technologies that are offering new solutions for connecting fuel assets with management software to help make the process more automated and ubiquitous. Fuel reduction policies and fuel efficiency gains are great for reducing emissions related to the combustion of fossil fuels, but regardless of how much progress we make, we are still faced with residual CO2 emissions. It is tempting to stop there.
+
+Anyone who implements and achieves efficiency gains can feel that they have done their part, and it is true that all efforts in this direction must be praised. But we are still short of being environmentally sustainable and we are still short of our final goal, that being ‘climate neutral fuel’. This is where carbon mitigation comes into play. To make our reliance on fossil fuels sustainable, we have to reduce what we can and mitigate the rest.
+
+What are Carbon-Neutral Fuels
+
+Carbon-neutral fuels are a class of fuels or energy systems that produce no net greenhouse gas emissions. This means that their use does not add to the increase in atmospheric greenhouse gasses. These include certain synthetically derived fuels produced from sustainable or nuclear energy. Renewable energy sources such as wind turbines, solar panels, and hydroelectric power stations also produce carbon-neutral fuels as their use displaces fossil fuels.
+
+Synthesised carbon-neutral fuels result from a chemical reaction between carbon dioxide and hydrogen. The resultant ‘electrofuel’ stores the energy that was used during the production of hydrogen. The carbon element that is captured at exhausts can make carbon-neutral fuels carbon negative. Researchers are also looking at producing dimethyl ether from methanol, which can be used in place of diesel fuel as it can self-ignite under high pressure.
+
+Carbon-neutral fuels, however, are at a nascent stage of their development. Their applicability is limited and at best, they only address a small part of the fossil fuel problem. All efforts so far in carbon-neutral fuel aim to tackle fossil fuel replacement, but they do not do much do address the current emissions that result from their combustion.
+
+Climate Neutral Fuel — a Unique Solution
+
+At impactChoice, we take the carbon-neutral fuel idea to its next logical conclusion, where the final goal is environmental sustainability. Our Climate Neutral Fuel solution combines all the fuel reduction and efficiency aspects discussed in our previous post and then goes the last mile by adding carbon mitigation. This results in a true climate neutral fuel solution to the fossil fuels problem that will still persist for a long time into the future.
+
+We combine the benefits of advanced fuel catalysts and lubricants that improve fuel efficiency of combustion equipment assets, such as vehicles and generators, and onboard instrumentation that monitors the operational performance of that asset, with advanced analytics and logistics software to monitor and optimize their use. Which allows us to achieve our first goal which is to “Reduce as much as possible”.
+
+We also calculate the emissions associated with each asset and then use our Carbon Asset Management system to mitigate those emissions, which is where blockchain plays a significant role. This allows us to achieve our second goal, which is to “Mitigate the rest”.
+
+This combination allows us to achieve our final goal, which is “Climate Neutrality”.
+
+This is an excellent climate neutral solution for our clients in big industry and large corporates. But this is only one sector of the economy. So how do we take things a step further?
+
+The task at hand is to make all human activity that involves fossil fuel consumption sustainable. For our solution to scale to a level that would have a global impact, it has to be able to reach all sectors of our economies, from the largest fuel consuming companies and organizations, right down to the small businesses and even individuals. How do we get this out to the general populous, where the impact will be huge?
+
+When looking for solutions that will make a lasting impact, you have to take the latest technological advances into account. You have to look as far forward into the future as you can by looking at what is possible today. Two of the most impactful technologies that will transform the way we use energy are the Internet of Things (IoT), and Blockchain enabled distributed ledger technologies.
+
+Ubiquity, Automation and Universal Adoption via Smart IoT & Blockchain
+
+It is not far-fetched to imagine a world where all our economic assets will have devices attached to them that can communicate with each other and be managed with advanced logistics management software. The devices can measure and respond to changing conditions. With combustion engines, devices can be set to monitor fuel mixtures, fuel levels, and combustion efficiency.
+
+At industry scale, these devices can be software managed by a central controller or even fully automated with the use of smart contracts on blockchains. On the consumer level, these devices can communicate their findings and be managed through smartphone apps.
+
+When you achieve this level of fidelity in measurement, you can now add carbon mitigation at various stages throughout the fuel chain. Imagine a company with a fleet of cars, each one being able to report its daily fuel use results, and each one being able to be accounted for and directly purchase mitigation credits, or pool the results to a central server that can make periodical buys. The buys can be coordinated by smart contracts so the whole process is seamless.
+
+Achieving this level of definition also gives us the opportunity to add new levels of accountability to the process. Each fuel asset can add a periodic entry into a blockchain based immutable distributed ledger for all to see. As fuel is used and mitigated real time, the results can be made visible and live.
+
+Just as stock exchanges play a vital role in giving signals to the buyers and sellers in a market, this level of openness and transparency can encourage new natural asset producers to invest and enter the natural asset market.
+
+A Climate Neutral fuel solution is at hand. Implemented across all sectors of the economy at scale, it can make a huge impact on our environment.

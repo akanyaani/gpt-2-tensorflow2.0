@@ -1,0 +1,3 @@
+Custom and Dynamic miners' fees
+
+Transaction fees are calculated dynamically, allowing you to get the best value for money at all times. Alternatively, you can set and use your own fees, in all supported coins.

@@ -1,0 +1,77 @@
+Machine Bias Investigating Algorithmic Injustice
+
+The graphic content of some of the posts reprinted within this article may offend some readers. However, our belief is that readers cannot fully understand the importance of how hate speech is handled without seeing it unvarnished and unredacted.
+
+Facebook’s community standards prohibit violent threats against people based on their religious practices. So when ProPublica reader Holly West saw this graphic Facebook post declaring that “the only good Muslim is a fucking dead one,” she flagged it as hate speech using the social network’s reporting system.
+
+Warning: This image contains offensive material. Click to view.
+
+Facebook declared the photo to be acceptable. The company sent West an automated message stating: “We looked over the photo, and though it doesn’t go against one of our specific Community Standards, we understand that it may still be offensive to you and others.”
+
+But Facebook took down a terser anti-Muslim comment — a single line declaring “Death to the Muslims,” without an accompanying image — after users repeatedly reported it.
+
+Both posts were violations of Facebook’s policies against hate speech. But only one of them was caught by Facebook’s army of 7,500 censors — known as content reviewers — who decide whether to allow or remove posts flagged by its 2 billion users. After being contacted by ProPublica, Facebook also took down the one West complained about.
+
+Warning: This image contains offensive material. Click to view.
+
+Such inconsistent Facebook rulings are not unusual, ProPublica has found in an analysis of more than 900 posts submitted to us as part of a crowd-sourced investigation into how the world’s largest social network implements its hate-speech rules. Based on this small fraction of Facebook posts, its content reviewers often make different calls on items with similar content, and don’t always abide by the company’s complex guidelines. Even when they do follow the rules, racist or sexist language may survive scrutiny because it is not sufficiently derogatory or violent to meet Facebook’s definition of hate speech.
+
+We asked Facebook to explain its decisions on a sample of 49 items, sent in by people who maintained that content reviewers had erred, mostly by leaving hate speech up, or in a few instances by deleting legitimate expression. In 22 cases, Facebook said its reviewers had made a mistake. In 19, it defended the rulings. In six cases, Facebook said the content did violate its rules but its reviewers had not actually judged it one way or the other because users had not flagged it correctly, or the author had deleted it. In the other two cases, it said it didn’t have enough information to respond.
+
+See Comparisons What Does Facebook Consider Hate Speech? Our analysis shows that Facebook’s content reviewers often make different calls on whether to allow or delete items with similar content. See the inconsistencies.
+
+“We’re sorry for the mistakes we have made — they do not reflect the community we want to help build,” Facebook Vice President Justin Osofsky said in a statement. “We must do better.” He said Facebook will double the size of its safety and security team, which includes content reviewers and other employees, to 20,000 people in 2018, in an effort to enforce its rules better.
+
+He added that Facebook deletes about 66,000 posts reported as hate speech each week, but that not everything offensive qualifies as hate speech. “Our policies allow content that may be controversial and at times even distasteful, but it does not cross the line into hate speech,” he said. “This may include criticism of public figures, religions, professions, and political ideologies.”
+
+In several instances, Facebook ignored repeated requests by users to delete hateful content that violated its guidelines. At least a dozen people, as well as the Anti-Defamation League in 2012, lodged protests with Facebook to no avail about a page called Jewish Ritual Murder. However, after ProPublica asked Facebook about the page, it was taken down.
+
+Facebook’s guidelines are very literal in defining a hateful attack, which means that posts expressing bias against a specific group but lacking explicitly hostile or demeaning language often stay up, even if they use sarcasm, mockery or ridicule to convey the same message. Because Facebook tries to write policies that can be applied consistently across regions and cultures, its guidelines are sometimes blunter than it would like, a company spokesperson said.
+
+Consider this photo of a black man missing a tooth and wearing a Kentucky Fried Chicken bucket on his head. The caption states: ”Yeah, we needs to be spending dat money on food stamps wheres we can gets mo water melen an fried chicken.”
+
+Warning: This image contains offensive material. Click to view.
+
+ProPublica reader Angie Johnson reported the image to Facebook and was told it didn’t violate their rules. When we asked for clarification, Facebook said the image and text were okay because they didn’t include a specific attack on a protected group.
+
+By comparison, a ProPublica reader, who asked not to be named, shared with us a post about race in which she expressed exasperation with racial inequality in America by saying, “White people are the fucking most.” Her comment was taken down by Facebook soon after it was published.
+
+How Facebook handles such speech is important because hate groups use the world’s largest social network to attract followers and organize demonstrations. After the white supremacist rally in Charlottesville, Virginia, this summer, CEO Mark Zuckerberg pledged to step up monitoring of posts celebrating “hate crimes or acts of terrorism.” Yet some activists for civil rights and women’s rights end up in “Facebook jail,” while pages run by groups listed as hateful by the Southern Poverty Law Center are decked out with verification checkmarks and donation buttons.
+
+In June, ProPublica reported on the secret rules that Facebook’s content reviewers use to decide which groups are “protected” from hate speech. We revealed that the rules protected “white men” but not “black children” because “age,” unlike race and gender, was not a protected category. (In response to our article, Facebook added the category of “age” to its protected characteristics.) However, since subgroups are not protected, an attack on poor children, beautiful women, or Indian taxi cab drivers would still be considered acceptable.
+
+Facebook defines seven types of “attacks” that it considers hate speech: calls for exclusion, calls for violence, calls for segregation, degrading generalization, dismissing, cursing and slurs.
+
+For users who want to contest Facebook’s rulings, the company offers little recourse. Users can provide feedback on decisions they don’t like, but there is no formal appeals process.
+
+Of the hundreds of readers who submitted posts to ProPublica, only one said Facebook reversed a decision in response to feedback. Grammy-winning musician Janis Ian was banned from posting on Facebook for several days for violating community standards after she posted a photo of a man with a swastika tattooed on the back of his head — even though the text overlaid on the photo urged people to speak out against a Nazi rally. Facebook also removed the post.
+
+Warning: This image contains offensive material. Click to view.
+
+A group of her fans protested her punishment, and some reached out to their contacts in Silicon Valley. Shortly afterwards, the company reversed itself, restoring the post and Ian’s access. “A member of our team accidentally removed something you posted on Facebook,” it wrote to Ian. “This was a mistake, and we sincerely apologize for this error. We’ve since restored the content, and you should now be able to see it.”
+
+“Here’s the frustrating thing for me as someone who uses Facebook: when you try to find out what the community standards are, there’s no place to go. They change them willy-nilly whenever there’s controversy,” Ian said. “They’ve made themselves so inaccessible.”
+
+Without an appeals process, some Facebook users have banded together to flag the same offensive posts repeatedly, in the hope that a higher volume of reports will finally reach a sympathetic moderator. Annie Ramsey, a feminist activist, founded a group called “Double Standards” to mobilize members against disturbing speech about women. Members post egregious examples to the private group, such as this image of a woman in a shopping cart, as if she were merchandise.
+
+Warning: This image contains offensive material. Click to view.
+
+Facebook’s rules prohibit dehumanization and bullying. Ramsey’s group repeatedly complained about the image but was told it didn’t violate community standards.
+
+When we brought this example to Facebook, the company defended its decision. Although its rules prohibit content that depicts, celebrates or jokes about non-consensual sexual touching, Facebook said, this image did not contain enough context to demonstrate non-consensual sexual touching.
+
+Ramsey’s group had more luck with another picture of a woman in a shopping cart, this time with the caption, “Returned my defective sandwich-maker to Wal-Mart.” The group repeatedly flagged this post en masse, and eventually it got taken down. The difference may have been that the woman in this image was bloodied, suggesting she was the victim of a sexual assault. Facebook’s guidelines call for removing images that mock the victims of rape or non-consensual sexual touching, hate crimes or other serious physical injuries, the spokesperson said.
+
+Facebook said it takes steps to prevent mass reporting, a tactic used not only by “Double Standards” but by other advocacy groups, from influencing decisions. It uses automation to recognize duplicate reports, and caps the number of times it reviews a single post, according to a Facebook official.
+
+Members of Ramsey’s group have run afoul of Facebook’s rules for what they consider candid discussion of gender issues. Facebook took down a post by one member, Charro Sebring, which said, “Men really are trash.”
+
+Facebook defended its decision to remove what it called a “gender-based attack.”
+
+Warning: This image contains offensive material. Click to view.
+
+Facebook banned Ramsey herself from posting on Facebook for 30 days. Her offense was reposting a suggestive image on another Facebook user’s page of a sleeping woman and a string of comments calling for rape. Ramsey added the caption: “Women don’t make memes or comments like this #NameTheProblem”
+
+Facebook restored Ramsey’s post after ProPublica brought it to the company’s attention. The content as a whole didn’t violate the guidelines because the caption attached to the photo condemned sexual violence, the spokesperson said.
+
+Facebook’s about-face didn’t mollify Ramsey. “They give you a little place to provide ‘feedback’ about your experience,” she said. “I give feedback every time in capital letters: YOU’RE BANNING THE WRONG PEOPLE. It makes me want to shove my head into a wall.”

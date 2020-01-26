@@ -62,7 +62,7 @@ class Gpt2(tf.keras.Model):
         if past is None:
             pasts = [None] * self.num_layers
         else:
-            pasts = tf.unstack(past, axis=1)
+            pasts = past
 
         assert len(pasts) == self.num_layers
 

@@ -76,8 +76,8 @@ class SequenceGenerator:
                         bos=3,
                         eos=4,
                         temperature=1,
-                        top_k=0,
-                        top_p=0,
+                        top_k=8,
+                        top_p=8,
                         nucleus_sampling=True):
 
         if context == None:

@@ -3,8 +3,7 @@
 Originally implemented in tensorflow 1.14 by OapenAi :- ["openai/gpt-2"](https://github.com/openai/gpt-2). OpenAi GPT-2 Paper:-["Language Models are Unsupervised Multitask Learners"](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)
 
 
-**This repository has OpenAi GPT-2 pre-training implementation in tensorflow 2.0, I am also working on text -generation using this model, 
-I will push that code by mid of Jan 2020.**
+**This repository has OpenAi GPT-2 pre-training and sequence generation implementation in tensorflow 2.0, **
 
 
 **Requirements**

@@ -80,6 +80,12 @@ Start TensorBoard through the command line.
 $ tensorboard --logdir /log
 ```
 
+After pretraining your model, you can generate sequences by giving some context to model.
+
+```
+$ sequence_generator.ipynb
+```
+
 **References:**
 
 * ["Openai/gpt-2"](https://github.com/openai/gpt-2)

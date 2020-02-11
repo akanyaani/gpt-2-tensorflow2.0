@@ -81,6 +81,7 @@ $ tensorboard --logdir /log
 ```
 
 After pretraining your model, you can generate sequences by giving some context to model.
+Open this notebook and load the pretrained model and pass context to model it will return the generated sequence.
 
 ```
 $ sequence_generator.ipynb

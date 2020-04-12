@@ -61,7 +61,7 @@ Options:
   --max-seq-len INTEGER     Seq length  [default: 515]
   --vocab-size INTEGER      Vocab size  [default: 32000]
   --optimizer TEXT          optimizer type  [default: adam]
-  --batch-size INTEGER      optimizer type  [default: 8]
+  --batch-size INTEGER      batch size  [default: 8]
   --learning-rate FLOAT     learning rate  [default: 0.001]
   --distributed BOOLEAN     distributed training  [default: False]
   --help                    Show this message and exit.

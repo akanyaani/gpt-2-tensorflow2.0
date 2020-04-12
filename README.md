@@ -35,7 +35,7 @@ Options:
   --data-dir TEXT        training data path  [default: /data/scraped]
   --vocab-size INTEGER   byte pair vocab size  [default: 32000]
   --min-seq-len INTEGER  minimum sequence length  [default: 15]
-  --max-seq-len INTEGER  minimum sequence length  [default: 512]
+  --max-seq-len INTEGER  maximum sequence length  [default: 512]
   --help                 Show this message and exit.
   
   

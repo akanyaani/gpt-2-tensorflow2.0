@@ -13,7 +13,7 @@ from ftfy import fix_text
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 PROCESS_DATA_PATH = _ROOT + "/data/processed.txt"
-BPE_TSV_PATH = _ROOT + "/data/bpe_spm.tsv'"
+BPE_TSV_PATH = _ROOT + "/data/bpe_spm.tsv"
 BPE_MODEL_PATH = _ROOT + "/data/bpe_model"
 TF_RECORDS = _ROOT + "/data/tf_records/"
 BOS_ID = 3
@@ -98,6 +98,7 @@ def train(data_dir, vocab_size, min_seq_len, max_seq_len):
 	process_text(text_files)
 	train_byte_pair_encoding(vocab_size)
 	create_tf_records(min_seq_len, max_seq_len)
+	print("Pre-processing is done............")
 
 
 if __name__ == "__main__":

@@ -5,6 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
+data/
+!data/scraped/
 
 .DS_Store
 .idea/

@@ -1,8 +1,6 @@
 import glob
 import json
-
 import click
-
 from data_pipeline import input_fn
 from gpt2_model import *
 
@@ -17,7 +15,7 @@ MODEL_DIR = _ROOT + "/model"
 @click.option('--num-heads', type=int, default=8, show_default=True, help="Number of heads")
 @click.option('--dff', type=int, default=3072, show_default=True, help="Filter Size")
 @click.option('--max-seq-len', type=int, default=515, show_default=True, help="Seq length")
-@click.option('--vocab-size', type=int, default=32000, show_default=True, help="Vocab size")
+@click.option('--vocab-size', type=int, default=24512, show_default=True, help="Vocab size")
 @click.option('--optimizer', type=str, default="adam", show_default=True, help="optimizer type")
 @click.option('--batch-size', type=int, default=8, show_default=True, help="optimizer type")
 @click.option('--learning-rate', type=float, default=0.001, show_default=True, help="learning rate")
@@ -29,7 +27,7 @@ def train(num_layers, embedding_size, num_heads, dff, max_seq_len, vocab_size,
 	           "num_heads": num_heads, "dff": dff,
 	           "max_seq_len": max_seq_len, "vocab_size": vocab_size}
 
-	exp_name = "_".join(['{}_{}'.format(k, v) for k, v in par_map.items()])
+	# exp_name = "_".join(['{}_{}'.format(k, v) for k, v in par_map.items()])
 
 	if not os.path.exists(MODEL_DIR):
 		os.makedirs(MODEL_DIR)

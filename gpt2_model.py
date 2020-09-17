@@ -13,8 +13,7 @@ LOG_DIR = _ROOT + "/log"
 
 train_step_signature = [
 	tf.TensorSpec(shape=(None, None), dtype=tf.int32, name="Inputs"),
-	tf.TensorSpec(shape=(None, None), dtype=tf.int32, name="Targets"),
-	tf.TensorSpec(shape=(None), dtype=tf.int32, name="Step")
+	tf.TensorSpec(shape=(None, None), dtype=tf.int32, name="Targets")
 ]
 
 
@@ -69,7 +68,7 @@ class Gpt2(tf.keras.Model):
 
 	def call(self, x, training=True, past=None):
 		x = tf.cast(x, tf.int32)
-		batch, sequence = tf.shape(x)[0], tf.shape(x)[1]
+		# batch, sequence = tf.shape(x)[0], tf.shape(x)[1]
 		if past is None:
 			pasts = [None] * self.num_layers
 		else:
@@ -187,11 +186,10 @@ class Gpt2(tf.keras.Model):
 		return step, loss, perplexity
 
 	def _test_step(self, inputs, targets):
-		pred = self(inputs, training=False)
+		pred, _ = self(inputs, training=False)
 		loss = self.get_loss(targets, pred)
 		perplexity = self.get_perplexity(loss)
-		accuracy = self.get_padded_accuracy(targets, pred)
-		return loss, perplexity, accuracy
+		return loss, perplexity
 
 	@tf.function(input_signature=train_step_signature)
 	def train_step(self, inputs, targets):
@@ -204,7 +202,7 @@ class Gpt2(tf.keras.Model):
 	def _distributed_train_step(self, inputs, targets):
 		def step_fn(inp, tar):
 			with tf.GradientTape() as tape:
-				logits = self(inp, training=True)
+				logits, _ = self(inp, training=True)
 				cross_entropy = self.get_loss(tar, logits)
 				loss = tf.reduce_sum(cross_entropy) * (1.0 / self.btach_size)  # Divided By Global Batch Size
 
@@ -230,7 +228,7 @@ class Gpt2(tf.keras.Model):
 
 	def _distributed_test_step(self, inputs, targets):
 		def step_fn(inp, tar):
-			logits = self(inp, training=False)
+			logits, _ = self(inp, training=False)
 			cross_entropy = self.get_loss(tar, logits)
 			return cross_entropy
 
@@ -281,12 +279,12 @@ class Gpt2(tf.keras.Model):
 			for (_, (inputs, targets)) in enumerate(train_dataset):
 				step, loss, perplexity = train_func(inputs, targets)
 				if step % 100 == 0:
-					with self.train.writer.as_default():
+					with self.train_writer.as_default():
 						tf.summary.scalar("loss", loss, step=step)
 						tf.summary.scalar("perplexity", perplexity, step=step)
 
-					print('Step {} Train_Loss {:.4f} Train_Perplexity {:.4f}'.format(
-						step, loss, perplexity))
+					print('Step {}, Train_Loss {:.4f}, Train_Perplexity {:.4f}'.format(
+						step.numpy(), loss.numpy(), perplexity.numpy()))
 
 				if step == 0:
 					with self.train_writer.as_default():
@@ -295,7 +293,7 @@ class Gpt2(tf.keras.Model):
 							step=0,
 							profiler_outdir=LOG_DIR)
 
-				if step % 5000 == 0:
+				if step % 500 == 0:
 					losses = []
 					perplexities = []
 					for (test_step, (test_inputs, test_targets)) in enumerate(train_dataset):
@@ -308,30 +306,60 @@ class Gpt2(tf.keras.Model):
 
 					test_loss = np.mean(np.array(losses))
 					test_perplexity = np.mean(np.array(perplexities))
-					with self.test.writer.as_default():
+					print('Step {}, Test_Loss {:.4f}, Test_Perplexity {:.4f}'.format(
+						step.numpy(), test_loss, test_perplexity))
+
+					with self.test_writer.as_default():
 						tf.summary.scalar("loss", test_loss, step=step)
 						tf.summary.scalar("perplexity", test_perplexity, step=step)
 
 					ckpt_save_path = self.ckpt_manager.save()
-					print('Saving checkpoint for step {} at {}'.format(step,
+					print('Saving checkpoint for step {} at {}'.format(step.numpy(),
 					                                                   ckpt_save_path))
 		else:
 			with self.mirrored_strategy.scope():
+				train_func, test_func = self.get_train_test_function(graph_mode)
 				tf.summary.trace_on(graph=True, profiler=False)
-				for (step, (inputs)) in enumerate(train_dataset):
-					train_loss = self.distributed_train_step(inputs, step)
+				for (step, (inputs, targets)) in enumerate(train_dataset):
+					step, loss, perplexity = train_func(inputs, targets)
+
+					if step % 100 == 0:
+						with self.train_writer.as_default():
+							tf.summary.scalar("loss", loss, step=step)
+							tf.summary.scalar("perplexity", perplexity, step=step)
+
+						print('Step {}, Train_Loss {:.4f}, Train_Perplexity {:.4f}'.format(
+							step.numpy(), loss.numpy(), perplexity.numpy()))
+
 					if step == 0:
 						with self.train_writer.as_default():
 							tf.summary.trace_export(
 								name="gpt-2",
 								step=0,
 								profiler_outdir=LOG_DIR)
-					if step % 100 == 0:
-						print('Step {} Train_Loss {:.4f}'.format(
-							step, train_loss))
-					if step % 1000 == 0:
+
+					if step % 500 == 0:
+						losses = []
+						perplexities = []
+						for (test_step, (test_inputs, test_targets)) in enumerate(train_dataset):
+							test_loss, test_perplexity = test_func(test_inputs, test_targets)
+							losses.append(test_loss)
+							perplexities.append(test_perplexity)
+
+							if test_step == 100:
+								break
+
+						test_loss = np.mean(np.array(losses))
+						test_perplexity = np.mean(np.array(perplexities))
+						print('Step {}, Test_Loss {:.4f}, Test_Perplexity {:.4f}'.format(
+							step.numpy(), test_loss, test_perplexity))
+
+						with self.test_writer.as_default():
+							tf.summary.scalar("loss", test_loss, step=step)
+							tf.summary.scalar("perplexity", test_perplexity, step=step)
+
 						ckpt_save_path = self.ckpt_manager.save()
-						print('Saving checkpoint for step {} at {}'.format(step,
+						print('Saving checkpoint for step {} at {}'.format(step.numpy(),
 						                                                   ckpt_save_path))
 
 

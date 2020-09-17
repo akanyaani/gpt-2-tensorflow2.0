@@ -279,12 +279,10 @@ class Gpt2(tf.keras.Model):
 			for (_, (inputs, targets)) in enumerate(train_dataset):
 				step, loss, perplexity = train_func(inputs, targets)
 				if step % 100 == 0:
-					with self.train_writer.as_default():
-						tf.summary.scalar("loss", loss, step=step)
-						tf.summary.scalar("perplexity", perplexity, step=step)
-
-					print('Step {}, Train_Loss {:.4f}, Train_Perplexity {:.4f}'.format(
-						step.numpy(), loss.numpy(), perplexity.numpy()))
+					self.log_summary(self.train_writer,
+					                 step.numpy(),
+					                 loss.numpy(),
+					                 perplexity.numpy())
 
 				if step == 0:
 					with self.train_writer.as_default():
@@ -306,12 +304,12 @@ class Gpt2(tf.keras.Model):
 
 					test_loss = np.mean(np.array(losses))
 					test_perplexity = np.mean(np.array(perplexities))
-					print('Step {}, Test_Loss {:.4f}, Test_Perplexity {:.4f}'.format(
-						step.numpy(), test_loss, test_perplexity))
 
-					with self.test_writer.as_default():
-						tf.summary.scalar("loss", test_loss, step=step)
-						tf.summary.scalar("perplexity", test_perplexity, step=step)
+					self.log_summary(self.test_writer,
+					                 step.numpy(),
+					                 test_loss,
+					                 test_perplexity,
+					                 result_type="Test")
 
 					ckpt_save_path = self.ckpt_manager.save()
 					print('Saving checkpoint for step {} at {}'.format(step.numpy(),
@@ -324,12 +322,10 @@ class Gpt2(tf.keras.Model):
 					step, loss, perplexity = train_func(inputs, targets)
 
 					if step % 100 == 0:
-						with self.train_writer.as_default():
-							tf.summary.scalar("loss", loss, step=step)
-							tf.summary.scalar("perplexity", perplexity, step=step)
-
-						print('Step {}, Train_Loss {:.4f}, Train_Perplexity {:.4f}'.format(
-							step.numpy(), loss.numpy(), perplexity.numpy()))
+						self.log_summary(self.train_writer,
+						                 step,
+						                 loss,
+						                 perplexity)
 
 					if step == 0:
 						with self.train_writer.as_default():
@@ -351,16 +347,24 @@ class Gpt2(tf.keras.Model):
 
 						test_loss = np.mean(np.array(losses))
 						test_perplexity = np.mean(np.array(perplexities))
-						print('Step {}, Test_Loss {:.4f}, Test_Perplexity {:.4f}'.format(
-							step.numpy(), test_loss, test_perplexity))
 
-						with self.test_writer.as_default():
-							tf.summary.scalar("loss", test_loss, step=step)
-							tf.summary.scalar("perplexity", test_perplexity, step=step)
+						self.log_summary(self.test_writer,
+						                 step,
+						                 test_loss,
+						                 test_perplexity,
+						                 result_type="Test")
 
 						ckpt_save_path = self.ckpt_manager.save()
 						print('Saving checkpoint for step {} at {}'.format(step.numpy(),
 						                                                   ckpt_save_path))
+
+	@staticmethod
+	def log_summary(tf_writer, step, loss, perplexity, result_type="Train"):
+		print(result_type + ':- Step {}, Loss {:.4f}, Perplexity {:.4f}'.format(
+			step, loss, perplexity))
+		with tf_writer.as_default():
+			tf.summary.scalar("loss", loss, step=step)
+			tf.summary.scalar("perplexity", perplexity, step=step)
 
 
 class OutputLayer(tf.keras.layers.Layer):

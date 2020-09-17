@@ -14,7 +14,7 @@ def train():
 
     model = Gpt2(num_layers, embedding_size, num_heads, dff, max_seq_len, vocab_size,
                  optimizer=optimizer, learning_rate=learning_rate)
-    model.creat_optimizer()
+    model.create_optimizer()
     model.create_checkpoint_manager(MODEL_DIR)
     model.create_summary_writer(LOG_DIR)
     print("Training Done................")

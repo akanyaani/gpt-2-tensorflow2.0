@@ -95,6 +95,7 @@ def create_tf_records(min_seq_len, max_seq_len, per_file_limit=50000):
 def train(data_dir, vocab_size, min_seq_len, max_seq_len):
 	# text_files = glob.glob((_ROOT + data_dir + "/*.txt"))
 	text_files = glob.glob((data_dir + "/*.txt"))
+	# print(text_files)
 	process_text(text_files)
 	train_byte_pair_encoding(vocab_size)
 	create_tf_records(min_seq_len, max_seq_len)

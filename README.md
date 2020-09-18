@@ -72,7 +72,7 @@ Options:
 
 Distributed training on multiple gpu.
 ```
->> python train_gpt2.py --num-layers=8 --embedding-size=768 --batch-size=32 --distributed=Ture
+>> python train_gpt2.py --num-layers=8 --embedding-size=768 --batch-size=32 --distributed=True
 ```
 
 Start TensorBoard through the command line.

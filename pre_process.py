@@ -89,7 +89,7 @@ def create_tf_records(min_seq_len, max_seq_len, per_file_limit=50000):
 
 @click.command()
 @click.option('--data-dir', type=str, default="./data/scraped", show_default=True, help="training data path")
-@click.option('--vocab-size', type=int, default=32000, show_default=True, help="byte pair vocab size")
+@click.option('--vocab-size', type=int, default=24512, show_default=True, help="byte pair vocab size")
 @click.option('--min-seq-len', type=int, default=15, show_default=True, help="minimum sequence length")
 @click.option('--max-seq-len', type=int, default=512, show_default=True, help="minimum sequence length")
 def train(data_dir, vocab_size, min_seq_len, max_seq_len):

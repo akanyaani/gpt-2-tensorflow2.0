@@ -68,7 +68,7 @@ class Gpt2(tf.keras.Model):
 
 	def call(self, x, training=True, past=None):
 		x = tf.cast(x, tf.int32)
-		self.btach_size, self.sequence = tf.shape(x)[0], tf.shape(x)[1]
+		# self.batch_size, self.sequence = tf.shape(x)[0], tf.shape(x)[1]
 		if past is None:
 			pasts = [None] * self.num_layers
 		else:
@@ -275,6 +275,7 @@ class Gpt2(tf.keras.Model):
 
 	def fit(self, train_dataset, graph_mode):
 		if self.mirrored_strategy is None:
+			train_dataset, test_dataset = train_dataset
 			train_func, test_func = self.get_train_test_function(graph_mode)
 			tf.summary.trace_on(graph=True, profiler=False)
 			for (_, (inputs, targets)) in enumerate(train_dataset):
@@ -295,7 +296,7 @@ class Gpt2(tf.keras.Model):
 				if step % 500 == 0:
 					losses = []
 					perplexities = []
-					for (test_step, (test_inputs, test_targets)) in enumerate(train_dataset):
+					for (test_step, (test_inputs, test_targets)) in enumerate(test_dataset):
 						test_loss, test_perplexity = test_func(test_inputs, test_targets)
 						losses.append(test_loss)
 						perplexities.append(test_perplexity)
@@ -317,6 +318,7 @@ class Gpt2(tf.keras.Model):
 					                                                   ckpt_save_path))
 		else:
 			with self.mirrored_strategy.scope():
+				train_dataset, test_dataset = train_dataset
 				train_func, test_func = self.get_distributed_train_test_function(graph_mode)
 				tf.summary.trace_on(graph=True, profiler=False)
 				for (step, (inputs, targets)) in enumerate(train_dataset):
@@ -338,7 +340,7 @@ class Gpt2(tf.keras.Model):
 					if step % 500 == 0:
 						losses = []
 						perplexities = []
-						for (test_step, (test_inputs, test_targets)) in enumerate(train_dataset):
+						for (test_step, (test_inputs, test_targets)) in enumerate(test_dataset):
 							test_loss, test_perplexity = test_func(test_inputs, test_targets)
 							losses.append(test_loss)
 							perplexities.append(test_perplexity)

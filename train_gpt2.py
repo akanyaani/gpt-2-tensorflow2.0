@@ -38,11 +38,20 @@ def train(num_layers, embedding_size, num_heads, dff, max_seq_len, vocab_size,
 		json.dump(par_map, f)
 
 	tf_records = glob.glob((_ROOT + "/data/tf_records/*.tfrecord"))
-	dist_dataset = input_fn(tf_records, batch_size=batch_size)
+	train_percent = int(len(tf_records) * (85 / 100))
+
+	print("No. of tf records:- ", len(tf_records))
+	train_tf_records = tf_records[:train_percent]
+	test_tf_records = tf_records[train_percent:]
+
+	train_dataset = input_fn(train_tf_records, batch_size=batch_size)
+	test_dataset = input_fn(test_tf_records, batch_size=batch_size)
+
 	if distributed:
-		# dist_dataset = input_fn(tf_records, batch_size=batch_size)
 		mirrored_strategy = tf.distribute.MirroredStrategy()
-		dist_dataset = mirrored_strategy.experimental_distribute_dataset(dist_dataset)
+		train_dataset = mirrored_strategy.experimental_distribute_dataset(train_dataset)
+		test_dataset = mirrored_strategy.experimental_distribute_dataset(test_dataset)
+
 		with mirrored_strategy.scope():
 
 			model = Gpt2(num_layers, embedding_size, num_heads, dff, max_seq_len, vocab_size,
@@ -52,16 +61,15 @@ def train(num_layers, embedding_size, num_heads, dff, max_seq_len, vocab_size,
 			model.create_summary_writer(LOG_DIR)
 
 		model.mirrored_strategy = mirrored_strategy
-		model.fit(dist_dataset, graph_mode)
 	else:
-		dataset = input_fn(tf_records, batch_size=batch_size)
 		model = Gpt2(num_layers, embedding_size, num_heads, dff, max_seq_len, vocab_size,
 		             optimizer=optimizer, learning_rate=learning_rate)
 		model.create_optimizer()
 		model.create_checkpoint_manager(MODEL_DIR)
 		model.create_summary_writer(LOG_DIR)
-		model.fit(dataset, graph_mode)
-		print("Training Done................")
+
+	model.fit([train_dataset, test_dataset], graph_mode)
+	print("Training Done................")
 
 
 if __name__ == "__main__":

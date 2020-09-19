@@ -60,7 +60,7 @@ def serialize_example(inputs, targets):
 	return example_proto.SerializeToString()
 
 
-def create_tf_records(min_seq_len, max_seq_len, per_file_limit=50000):
+def create_tf_records(min_seq_len, max_seq_len, per_file_limit=5000):
 	print("Creating TF Records...............")
 	s = spm.SentencePieceProcessor()
 	s.Load(BPE_MODEL_PATH + ".model")

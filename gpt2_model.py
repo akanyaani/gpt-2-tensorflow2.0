@@ -264,12 +264,12 @@ class Gpt2(tf.keras.Model):
 	def get_distributed_train_test_function(self, graph_mode=False):
 		if graph_mode:
 			print("Running in graph mode.............")
-			test_fuc = self._distributed_train_step
-			train_fuc = self._distributed_test_step
-		else:
-			print("Running in eager mode.............")
 			test_fuc = self.distributed_train_step
 			train_fuc = self.distributed_test_step
+		else:
+			print("Running in eager mode.............")
+			test_fuc = self._distributed_train_step
+			train_fuc = self._distributed_test_step
 		return train_fuc, test_fuc
 
 	def fit(self, train_dataset, graph_mode):

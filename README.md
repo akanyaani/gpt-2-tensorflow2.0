@@ -69,8 +69,11 @@ Options:
   
 >> python train_gpt2.py \
   --num-layers=8 \
+  --num-heads=8 \
+  --dff=3072 \
   --embedding-size=768 \
   --batch-size=32 \
+  --learning-rate=5e-5
   --graph-mode=True
 ```
 
@@ -78,8 +81,11 @@ Distributed training on multiple gpu.
 ```
 >> python train_gpt2.py \
   --num-layers=8 \
+  --num-heads=8 \
+  --dff=3072 \
   --embedding-size=768 \
   --batch-size=32 \
+  --learning-rate=5e-5 \
   --distributed=True \
   --graph-mode=True
 ```

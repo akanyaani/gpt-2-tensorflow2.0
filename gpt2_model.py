@@ -68,7 +68,7 @@ class Gpt2(tf.keras.Model):
 
 	def call(self, x, training=True, past=None):
 		x = tf.cast(x, tf.int32)
-		# batch, sequence = tf.shape(x)[0], tf.shape(x)[1]
+		self.batch, self.sequence = tf.shape(x)[0], tf.shape(x)[1]
 		if past is None:
 			pasts = [None] * self.num_layers
 		else:

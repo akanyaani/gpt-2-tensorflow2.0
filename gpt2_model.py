@@ -68,7 +68,7 @@ class Gpt2(tf.keras.Model):
 
 	def call(self, x, training=True, past=None):
 		x = tf.cast(x, tf.int32)
-		self.batch, self.sequence = tf.shape(x)[0], tf.shape(x)[1]
+		self.btach_size, self.sequence = tf.shape(x)[0], tf.shape(x)[1]
 		if past is None:
 			pasts = [None] * self.num_layers
 		else:
@@ -205,7 +205,7 @@ class Gpt2(tf.keras.Model):
 			with tf.GradientTape() as tape:
 				logits, _ = self(inp, training=True)
 				cross_entropy = self.get_loss(tar, logits)
-				loss = tf.reduce_sum(cross_entropy) * (1.0 / self.btach_size)  # Divided By Global Batch Size
+				loss = tf.reduce_sum(cross_entropy) * (1.0 / 32.0)  # Divided By Global Batch Size
 
 			with tf.name_scope("gradients"):
 				gradients = tape.gradient(loss, self.trainable_variables)

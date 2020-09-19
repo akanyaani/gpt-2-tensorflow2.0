@@ -41,7 +41,7 @@ def train(num_layers, embedding_size, num_heads, dff, max_seq_len, vocab_size,
 	dist_dataset = input_fn(tf_records, batch_size=batch_size)
 	if distributed:
 		# dist_dataset = input_fn(tf_records, batch_size=batch_size)
-		mirrored_strategy = tf.distribute.MirroredStrategy(devices=["/gpu:0", "/gpu:1"])
+		mirrored_strategy = tf.distribute.MirroredStrategy()
 		dist_dataset = mirrored_strategy.experimental_distribute_dataset(dist_dataset)
 		with mirrored_strategy.scope():
 

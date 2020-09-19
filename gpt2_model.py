@@ -200,7 +200,6 @@ class Gpt2(tf.keras.Model):
 		return self._test_step(inputs, targets)
 
 	def _distributed_train_step(self, inputs, targets):
-		print(inputs)
 
 		def step_fn(inp, tar):
 			with tf.GradientTape() as tape:
@@ -266,12 +265,12 @@ class Gpt2(tf.keras.Model):
 	def get_distributed_train_test_function(self, graph_mode=False):
 		if graph_mode:
 			print("Running in graph mode.............")
-			test_fuc = self.distributed_train_step
-			train_fuc = self.distributed_test_step
+			train_fuc = self.distributed_train_step
+			test_fuc = self.distributed_test_step
 		else:
 			print("Running in eager mode.............")
-			test_fuc = self._distributed_train_step
-			train_fuc = self._distributed_test_step
+			train_fuc = self._distributed_train_step
+			test_fuc = self._distributed_test_step
 		return train_fuc, test_fuc
 
 	def fit(self, train_dataset, graph_mode):

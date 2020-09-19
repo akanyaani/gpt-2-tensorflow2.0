@@ -33,7 +33,7 @@ $ python pre_process.py --help
 
 Options:
   --data-dir TEXT        training data path  [default: /data/scraped]
-  --vocab-size INTEGER   byte pair vocab size  [default: 32000]
+  --vocab-size INTEGER   byte pair vocab size  [default: 24512]
   --min-seq-len INTEGER  minimum sequence length  [default: 15]
   --max-seq-len INTEGER  maximum sequence length  [default: 512]
   --help                 Show this message and exit.
@@ -59,7 +59,7 @@ Options:
   --num-heads INTEGER       Number of heads  [default: 8]
   --dff INTEGER             Filter Size  [default: 3072]
   --max-seq-len INTEGER     Seq length  [default: 515]
-  --vocab-size INTEGER      Vocab size  [default: 32000]
+  --vocab-size INTEGER      Vocab size  [default: 24512]
   --optimizer TEXT          optimizer type  [default: adam]
   --batch-size INTEGER      batch size  [default: 8]
   --learning-rate FLOAT     learning rate  [default: 0.001]

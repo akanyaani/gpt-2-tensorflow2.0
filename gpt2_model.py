@@ -67,7 +67,7 @@ class Gpt2(tf.keras.Model):
 			tf.TensorSpec(shape=(None, None), dtype=tf.int32)]
 
 	def call(self, x, training=True, past=None):
-		#x = tf.cast(x, tf.int32)
+		x = tf.cast(x, tf.int32)
 		# batch, sequence = tf.shape(x)[0], tf.shape(x)[1]
 		if past is None:
 			pasts = [None] * self.num_layers
@@ -201,6 +201,7 @@ class Gpt2(tf.keras.Model):
 
 	def _distributed_train_step(self, inputs, targets):
 		print(inputs)
+
 		def step_fn(inp, tar):
 			with tf.GradientTape() as tape:
 				logits, _ = self(inp, training=True)
@@ -317,7 +318,7 @@ class Gpt2(tf.keras.Model):
 					                                                   ckpt_save_path))
 		else:
 			with self.mirrored_strategy.scope():
-				train_func, test_func = self.get_train_test_function(graph_mode)
+				train_func, test_func = self.get_distributed_train_test_function(graph_mode)
 				tf.summary.trace_on(graph=True, profiler=False)
 				for (step, (inputs, targets)) in enumerate(train_dataset):
 					step, loss, perplexity = train_func(inputs, targets)

@@ -102,6 +102,13 @@ Open this notebook and load the pretrained model and pass context to model it wi
 ```
 $ sequence_generator.ipynb
 ```
+TO DO
+```
+1. Parallel Preprocessing.
+2. Shared weights across layers.
+3. Factorized embedding.
+4. Fine-Tuning wrapper.
+```
 
 **References:**
 

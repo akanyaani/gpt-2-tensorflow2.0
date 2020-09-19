@@ -67,12 +67,21 @@ Options:
   --help                    Show this message and exit.
   
   
->> python train_gpt2.py --num-layers=8 --embedding-size=768 --batch-size=32
+>> python train_gpt2.py \
+  --num-layers=8 \
+  --embedding-size=768 \
+  --batch-size=32 \
+  --graph-mode=True
 ```
 
 Distributed training on multiple gpu.
 ```
->> python train_gpt2.py --num-layers=8 --embedding-size=768 --batch-size=32 --distributed=True
+>> python train_gpt2.py \
+  --num-layers=8 \
+  --embedding-size=768 \
+  --batch-size=32 \
+  --distributed=True \
+  --graph-mode=True
 ```
 
 Start TensorBoard through the command line.

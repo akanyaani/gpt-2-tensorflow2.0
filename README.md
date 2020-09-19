@@ -14,7 +14,7 @@ Originally implemented in tensorflow 1.14 by OapenAi :- ["openai/gpt-2"](https:/
 *  tqdm==4.32.1
 *  Click==7.0
 *  sentencepiece==0.1.83
-*  tensorflow-gpu==2.0.0
+*  tensorflow-gpu==2.3.0
 *  numpy==1.16.4
 
 **Setup**

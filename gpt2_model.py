@@ -200,6 +200,7 @@ class Gpt2(tf.keras.Model):
 		return self._test_step(inputs, targets)
 
 	def _distributed_train_step(self, inputs, targets):
+		print(inputs)
 		def step_fn(inp, tar):
 			with tf.GradientTape() as tape:
 				logits, _ = self(inp, training=True)

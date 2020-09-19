@@ -61,6 +61,7 @@ def train(num_layers, embedding_size, num_heads, dff, max_seq_len, vocab_size,
 			model.create_summary_writer(LOG_DIR)
 
 		model.mirrored_strategy = mirrored_strategy
+		model.global_batch_size = tf.cast(batch_size, tf.float32)
 	else:
 		model = Gpt2(num_layers, embedding_size, num_heads, dff, max_seq_len, vocab_size,
 		             optimizer=optimizer, learning_rate=learning_rate)

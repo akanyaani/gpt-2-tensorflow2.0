@@ -63,6 +63,7 @@ Options:
   --optimizer TEXT          optimizer type  [default: adam]
   --batch-size INTEGER      batch size  [default: 8]
   --learning-rate FLOAT     learning rate  [default: 0.001]
+  --graph-mode BOOLEAN      TF run mode  [default: False]
   --distributed BOOLEAN     distributed training  [default: False]
   --help                    Show this message and exit.
   

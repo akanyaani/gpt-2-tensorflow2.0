@@ -22,9 +22,9 @@ EOS_ID = 4
 
 def process_text(text_files):
 	print("Pre-processing the text data.....")
-	file_writer = open(PROCESS_DATA_PATH, "w")
+	file_writer = open(PROCESS_DATA_PATH, "w", encoding="utf-8")
 	for file_name in tqdm.tqdm(text_files):
-		fr = open(file_name, 'r')
+		fr = open(file_name, 'r',encoding="utf-8")
 		file_writer.writelines([fix_text(line, normalization='NFKC') for line in fr.readlines()])
 		fr.close
 	file_writer.close()
@@ -33,11 +33,11 @@ def process_text(text_files):
 def train_byte_pair_encoding(vocab_size):
 	print("Training BytePair encoding......")
 	token_dict = Counter()
-	with open(PROCESS_DATA_PATH, 'r') as fr:
+	with open(PROCESS_DATA_PATH, 'r', encoding="utf-8") as fr:
 		for line in tqdm.tqdm(fr):
 			token_dict.update(line.lower().split())
 
-	with open(BPE_TSV_PATH, 'w', newline='') as f_output:
+	with open(BPE_TSV_PATH, 'w', newline='', encoding="utf-8") as f_output:
 		tsv_output = csv.writer(f_output, delimiter='\t')
 		for word in token_dict:
 			tsv_output.writerow([word, token_dict[word]])
@@ -69,7 +69,7 @@ def create_tf_records(min_seq_len, max_seq_len, per_file_limit=5000):
 	filename = TF_RECORDS + str(datetime.datetime.now().timestamp()) + ".tfrecord"
 	tf_writer = tf.io.TFRecordWriter(filename)
 	doc_counts = 0
-	with open(PROCESS_DATA_PATH, 'r') as f:
+	with open(PROCESS_DATA_PATH, 'r', encoding="utf-8") as f:
 		for line in tqdm.tqdm(f):
 			encoded_id = s.encode_as_ids(line)
 			if max_seq_len > len(encoded_id) > min_seq_len:

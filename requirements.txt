@@ -1,4 +1,4 @@
-setuptools==41.0.1
+setuptools==65.5.1
 ftfy==5.6
 tqdm==4.32.1
 Click==7.0
